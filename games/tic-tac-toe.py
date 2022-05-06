@@ -5,7 +5,7 @@ from tkinter import font
 tic_tac_toe = Tk()
 tic_tac_toe.geometry("130x150")
 
-images = {' ': PhotoImage(file='empty.gif'), 'o': PhotoImage(file='o.gif'), 'x':PhotoImage(file='x.gif')} #images dictionary 안에 이미지 3개 empty, o, x
+images = {' ': PhotoImage(file='empty.gif'), 'O': PhotoImage(file='o.gif'), 'X':PhotoImage(file='x.gif')} #images dictionary 안에 이미지 3개 empty, o, x
 
 class Cell(Label):
     token = ' '
@@ -16,19 +16,20 @@ class Cell(Label):
 
     def getToken(self):
         return self.token
-    
-    def getTokenimage(self):
-        return self.token
 
-
-    def onClick(self):
+        #클릭하면 이 함수 호출
+    def onClick(self, Cell):
         if self.token == ' ':
             self.token = 'O'
+            self["image"] = images['O']
         elif self.token == 'O':
             self.token = 'X'
+            self["image"] = images['X']
         else:
             self.token = ' '
+            self["image"] = images[' ']
 
+    
     def flip(self,event):
         pass
 
@@ -38,6 +39,9 @@ cells = [[Cell(),Cell(),Cell()],
         [Cell(),Cell(),Cell()],
         [Cell(),Cell(),Cell()]]
 
+for r in range(0,3):
+    for c in range(0,3):
+        cells[r][c].bind("<Button-1>",cells[r][c].onClick)
 
 def initScreen():
 
@@ -53,7 +57,6 @@ def initScreen():
     resultText = Label(frameResult, text="Result Text", font=resultFont )
     resultText.pack(anchor='center',fill='both')
 
-    
 
 initScreen()
 tic_tac_toe.mainloop()
