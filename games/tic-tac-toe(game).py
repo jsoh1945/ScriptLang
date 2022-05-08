@@ -17,18 +17,31 @@ class Cell(Label):
         return self.token
 
     def flip(self, event):
+        global game_finished
+        global resultText
+        global index
         global i
-        if self.token == ' ':
-            i += 1
-            self.token = Token[1 + i % 2]
-            if i == 9:
-                print("비겼습니다. 게임 종료")
-            print(currentToken[2 - i % 2],"차례")
+        if game_finished:
+            return
+        else:
+            if self.token == ' ':
+                i += 1
+                self.token = Token[1 + i % 2]
+                index = 1+i%2
+                resultText["text"] = statusLabel[index]
+                if i == 9:
+                    resultText["text"] = statusLabel[3]
+                    #print("비겼습니다. 게임 종료")          
+                    game_finished = True
+                #print(currentToken[2 - i % 2],"차례")
 
-            self["image"] = images[self.token]
+                self["image"] = images[self.token]
 
-        if isWin(currentToken[1 + i%2]):
-            print(currentToken[1 + i%2],"승리!!!!!")
+            if isWin(currentToken[1 + i%2]):
+                resultText["text"] = statusLabel[4+(i%2)]
+                #print(currentToken[1 + i%2],"승리!!!!!")
+                game_finished = True
+                return 0
 
 def isWin(mark): # 돌 3개가 같게 됐는지 검사하는 조건. 같으면 True 반환
     return (cells[0][0].getToken() + cells[0][1].getToken() + cells[0][2].getToken() == mark * 3) or \
@@ -40,6 +53,7 @@ def isWin(mark): # 돌 3개가 같게 됐는지 검사하는 조건. 같으면 T
            (cells[0][0].getToken() + cells[1][1].getToken() + cells[2][2].getToken() == mark * 3) or \
            (cells[2][0].getToken() + cells[1][1].getToken() + cells[0][2].getToken() == mark * 3)
 
+game_finished = False           # 게임이 끝났는지 알려주는 bool변수
 i = 0                           # 돌을 놓은 횟수. 초기값 0
 Token = [' ', 'O', 'X']         # 돌 상태값
 currentToken = [' ', 'O', 'X']  # 다음 놓을 차례
@@ -47,17 +61,24 @@ cells = [[Cell(),Cell(),Cell()],
         [Cell(),Cell(),Cell()],
         [Cell(),Cell(),Cell()]]
 
-statusLabel = ['Playing game', 'O차례', 'X차례', '비겼습니다. 게임종료', 'X Win!!!', 'O Win!!!']
-index = 0     # statusLabel의 초기값 : Playing Game
+statusLabel = [' ','X차례', 'O차례', '비겼습니다. 게임종료', 'O Win!!!', 'X Win!!!']
+index = 1     # statusLabel의 초기값 : Playing Game
 
 for r in range(0, 3):
     for c in range(0, 3):
         cells[r][c].bind("<Button-1>", cells[r][c].flip)
 
+#수정할 수 있도록 global 변수로 빼둠
+resultFont = font.Font(tic_tac_toe, size=8, weight='bold', family='바탕체')
+frameResult = Frame(tic_tac_toe, background='#00ff00')
+resultText = Label(frameResult, text=statusLabel[index], font=resultFont)
+
 def printText(index):
+    global resultText
+    global frameResult
+    global resultFont
     frameResult = Frame(tic_tac_toe, background='#00ff00')
-    frameResult.pack(side='bottom', fill='x')
-    resultFont = font.Font(tic_tac_toe, size=10, weight='bold', family='바탕체')
+    frameResult.pack(side='bottom', fill='x')   
     resultText = Label(frameResult, text=statusLabel[index], font=resultFont)
     resultText.pack(anchor='center', fill='both')
 
@@ -65,12 +86,7 @@ def initScreen():
     for r in range(0, 3):
         for c in range(0, 3):
             cells[r][c].place(x=r * 45, y=c * 45)
-    printText(index) #아래 주석 부분을 따로 printText 함수로 구현하는 것으로 수정한 상태. (개선 필요)
-    # frameResult = Frame(tic_tac_toe, background='#00ff00')
-    # frameResult.pack(side='bottom', fill='x')
-    # resultFont = font.Font(tic_tac_toe, size=10, weight='bold', family='바탕체')
-    # resultText = Label(frameResult, text=statusLabel[index], font=resultFont)
-    # resultText.pack(anchor='center', fill='both')
+    printText(index)
 
-initScreen()
+initScreen()   
 tic_tac_toe.mainloop()
