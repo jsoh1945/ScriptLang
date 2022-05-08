@@ -31,15 +31,11 @@ class Cell(Label):
                 resultText["text"] = statusLabel[index]
                 if i == 9:
                     resultText["text"] = statusLabel[3]
-                    #print("비겼습니다. 게임 종료")          
                     game_finished = True
-                #print(currentToken[2 - i % 2],"차례")
-
                 self["image"] = images[self.token]
 
             if isWin(currentToken[1 + i%2]):
                 resultText["text"] = statusLabel[4+(i%2)]
-                #print(currentToken[1 + i%2],"승리!!!!!")
                 game_finished = True
                 return 0
 
