@@ -26,15 +26,15 @@ class Cell(Label):
         else:
             if self.token == ' ':
                 i += 1
-                self.token = Token[1 + i % 2]
-                index = 1+i%2
+                index = 1 + i % 2
+                self.token = Token[index]
                 resultText["text"] = statusLabel[index]
                 if i == 9:
                     resultText["text"] = statusLabel[3]
                     game_finished = True
                 self["image"] = images[self.token]
 
-            if isWin(currentToken[1 + i%2]):
+            if isWin(currentToken[index]):
                 resultText["text"] = statusLabel[4+(i%2)]
                 game_finished = True
                 return 0
@@ -58,7 +58,7 @@ cells = [[Cell(),Cell(),Cell()],
         [Cell(),Cell(),Cell()]]
 
 statusLabel = [' ','X차례', 'O차례', '비겼습니다. 게임종료', 'O Win!!!', 'X Win!!!']
-index = 1     # statusLabel의 초기값 : Playing Game
+index = 1     # statusLabel의 인덱스
 
 for r in range(0, 3):
     for c in range(0, 3):
