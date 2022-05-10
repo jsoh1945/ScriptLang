@@ -20,10 +20,10 @@ class Cell(Canvas):
         self.bind('<Button-1>',self.clicked)
 
     def getCol(self):
-        return self.row
+        return self.col
 
     def getRow(self):
-        return self.col
+        return self.row
 
     def clicked(self,event):
         nextcolor = 'red' if self.color != 'red' else 'yellow'
