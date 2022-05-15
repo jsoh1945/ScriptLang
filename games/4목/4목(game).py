@@ -40,10 +40,12 @@ class Cell(Canvas):
             return
 
         else:
+            #오류
+            #self.row = isPossibleInsert(self.col)
             if self.color == 'white':
                 TurnIndex += 1
                 self.setColor(Turn[TurnIndex % 2] )
-                print(isPossibleInsert(self.row,self.col))
+
 
 
 
