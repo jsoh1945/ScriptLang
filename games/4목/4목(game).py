@@ -9,8 +9,6 @@ frame1.pack()
 frame2 = Frame(window)
 frame2.pack()
 
-
-
 class Cell(Canvas):
     def __init__(self, parent, col, row, width=20, height=20):
         Canvas.__init__(self, parent, width=width, height=height,\
@@ -26,12 +24,6 @@ class Cell(Canvas):
 
     def getRow(self):
         return self.row
-
-    def setCol(self,col):
-        self.col = col
-
-    def setRow(self,row):
-        self.row=row
 
     def getColor(self):
         return self.color
