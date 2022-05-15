@@ -45,7 +45,7 @@ class Cell(Canvas):
             if self.color == 'white':
                 TurnIndex += 1
                 self.setColor(Turn[TurnIndex % 2] )
-
+                print(getPossibleRow(self.col))
 
 
 
@@ -56,39 +56,42 @@ class Cell(Canvas):
         self.create_oval(4, 4, 20, 20, fill=self.color, tags='oval')
 
 
+#돌이 들어갈 수 있는 열 반환
+def getPossibleRow(column_index):
+    for row_index in range(5):
+        if cells[row_index][column_index].getColor() == 'white':
+            return row_index
+
+
 
 def isWin(color):
     #수평
     for column_index in range(7 - 3):
         for row_index in range(6):
-            if cells[row_index][column_index] == color and cells[row_index][column_index + 1] == color and \
-                    cells[row_index][column_index + 2] == color and cells[row_index][column_index + 3] == color:
+            if cells[row_index][column_index].getColor() == color and cells[row_index][column_index + 1].getColor() == color and \
+                    cells[row_index][column_index + 2].getColor() == color and cells[row_index][column_index + 3].getColor() == color:
                 return True
     #수직
     for column_index in range(7):
         for row_index in range(6 - 3):
-            if cells[row_index][column_index] == color and cells[row_index + 1][column_index] == color and \
-                    cells[row_index + 2][column_index] == color and cells[row_index + 3][column_index] == color:
+            if cells[row_index][column_index].getColor() == color and cells[row_index + 1][column_index].getColor() == color and \
+                    cells[row_index + 2][column_index].getColor() == color and cells[row_index + 3][column_index].getColor() == color:
                 return True
     #대각선 /
     for column_index in range(7 - 3):
         for row_index in range(6 - 3):
-            if cells[row_index][column_index] == color and cells[row_index + 1][column_index + 1] == color and \
-                    cells[row_index + 2][column_index + 2] == color and cells[row_index + 3][column_index + 3] == color:
+            if cells[row_index][column_index].getColor() == color and cells[row_index + 1][column_index + 1].getColor() == color and \
+                    cells[row_index + 2][column_index + 2].getColor() == color and cells[row_index + 3][column_index + 3].getColor() == color:
                 return True
     #대각선 \
     for column_index in range(7 - 3):
         for row_index in range(3, 6):
-            if cells[row_index][column_index] == color and cells[row_index - 1][column_index + 1] == color and \
-                    cells[row_index - 2][column_index + 2] == color and cells[row_index - 3][column_index + 3] == color:
+            if cells[row_index][column_index].getColor() == color and cells[row_index - 1][column_index + 1].getColor() == color and \
+                    cells[row_index - 2][column_index + 2].getColor() == color and cells[row_index - 3][column_index + 3].getColor() == color:
                 return True
 
 
-#돌이 들어갈 수 있는 열 반환
-def getPossibleRow(columnIndex):
-    for row_index in range(6):
-        if grid[row_index][column_index] == 'white':
-            return row_index
+
 
 
 def Change():   # 하단 상태창 수정
@@ -106,7 +109,7 @@ def Change():   # 하단 상태창 수정
 
 
 Turn = ['red', 'yellow', 'None'] #None : 게임 끝일때.
-TurnIndex = 0
+TurnIndex = 1
 currentToken = ['white', 'red', 'yellow']         # 돌 상태값
 
 game_finished = False           # 게임이 끝났는지 알려주는 bool변수
