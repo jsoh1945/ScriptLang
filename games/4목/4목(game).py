@@ -1,3 +1,4 @@
+from mimetypes import init
 from tkinter import *
 
 window = Tk() #Create a window
@@ -35,15 +36,18 @@ class Cell(Canvas):
         global Turn
         global statusLabel
         global cells
+        global gameEnd
 
         if TurnIndex == 42: #돌이 다 차서 종료
             Change(2)
+            gameEnd = 1
             return
         else:
-            TurnIndex += 1
-            cells[getPossibleRow(self.col)][self.col].setColor(Turn[TurnIndex % 2])
-            if isWin(Turn[TurnIndex % 2]):
-                Change(1 + TurnIndex % 2)
+            if gameEnd == 0:
+                TurnIndex += 1
+                cells[getPossibleRow(self.col)][self.col].setColor(Turn[TurnIndex % 2])
+                if isWin(Turn[TurnIndex % 2]):
+                    Change(1 + TurnIndex % 2)
 
     def setColor(self, color):
         self.delete('oval')
@@ -58,36 +62,57 @@ def getPossibleRow(column_index):
             return row_index
 
 def isWin(color):
+    global gameEnd
     #수평
     for row_index in range(6):
         for column_index in range(7 - 3):
             if cells[row_index][column_index].getColor() == color and cells[row_index][column_index + 1].getColor() == color and \
                     cells[row_index][column_index + 2].getColor() == color and cells[row_index][column_index + 3].getColor() == color:
+                gameEnd = 1
                 return True
     #수직
     for row_index in range(6 - 3):
         for column_index in range(7):
             if cells[row_index][column_index].getColor() == color and cells[row_index + 1][column_index].getColor() == color and \
                     cells[row_index + 2][column_index].getColor() == color and cells[row_index + 3][column_index].getColor() == color:
+                gameEnd = 1
                 return True
     #대각선 /
     for row_index in range(6 - 3):
         for column_index in range(7 - 3):
             if cells[row_index][column_index].getColor() == color and cells[row_index + 1][column_index + 1].getColor() == color and \
                     cells[row_index + 2][column_index + 2].getColor() == color and cells[row_index + 3][column_index + 3].getColor() == color:
+                gameEnd = 1
                 return True
     #대각선 \
     for row_index in range(3, 6):
         for column_index in range(7 - 3):
             if cells[row_index][column_index].getColor() == color and cells[row_index - 1][column_index + 1].getColor() == color and \
                     cells[row_index - 2][column_index + 2].getColor() == color and cells[row_index - 3][column_index + 3].getColor() == color:
+                gameEnd = 1
                 return True
 
 
 def Change(Index):   # 하단 상태창 수정
-    #global statusIndex
+    global statusLabel
     global statusButton
     statusButton["text"] = statusLabel[Index]
+
+def buttonChange():
+    global statusIndex
+    global gameEnd
+    if statusButton["text"] == '새로 시작':
+        Initialize()
+        statusIndex = 0
+        gameEnd = 0
+        return
+
+    if statusButton["text"] == 'Red Win' or statusButton["text"] == 'Yellow Win':
+        Initialize()
+        statusButton["text"] = statusLabel[0]
+        statusIndex = 0
+        gameEnd = 0
+        return
 
 
 def Initialize():   # 새로시작시 모든 값초기화
@@ -103,10 +128,11 @@ TurnIndex = 1
 currentToken = ['white', 'red', 'yellow']         # 돌 상태값
 statusLabel = ['새로 시작', 'Red Win', 'Yellow Win']
 statusIndex = 0 #아래 버튼의 문구 변경하는 index
+gameEnd = 0 #게임이 끝나면 1, 진행중이면 0
 
 cells = [[Cell(frame1, row=r, col=c) for c in range(7)] for r in range(6)]
 
-statusButton = Button(frame2, text=statusLabel[0], command=Change)
+statusButton = Button(frame2, text=statusLabel[0], command=buttonChange)
 statusButton.pack()
 
 for r in range(6):
