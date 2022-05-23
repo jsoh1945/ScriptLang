@@ -57,7 +57,8 @@ class Hangman:
         
         if '*' not in self.stars:
             canvas.delete("word")
-            canvas.create_text(200,190,text="You Win! Press Enter to restart", tags='hangman')
+            canvas.create_text(200,190,text="정답: "+self.word, tags='hangman')
+            canvas.create_text(200,210,text="You Win! Press Enter to restart", tags='hangman')
             gamefinished =  True
 
 
