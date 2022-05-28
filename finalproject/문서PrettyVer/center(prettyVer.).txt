@@ -1,0 +1,4559 @@
+C:\python\python.exe D:/2022과제/스언어/팀플/ScriptLang/finalproject/Center.py
+XML loading complete
+<?xml version="1.0" ?>
+<results>
+	<currentCount>284</currentCount>
+	<data>
+		<item>
+			<col name="lat">37.567817</col>
+			<col name="phoneNumber">02-2260-7114</col>
+			<col name="centerType">중앙/권역</col>
+			<col name="lng">127.004501</col>
+			<col name="centerName">코로나19 중앙 예방접종센터</col>
+			<col name="id">1</col>
+			<col name="org">국립중앙의료원</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">04562</col>
+			<col name="facilityName">국립중앙의료원 D동</col>
+			<col name="createdAt">2021-03-03 07:00:52</col>
+			<col name="updatedAt">2021-07-16 04:55:08</col>
+			<col name="address">서울특별시 중구 을지로 39길 29</col>
+		</item>
+		<item>
+			<col name="facilityName">천안시 실내배드민턴장 1층</col>
+			<col name="id">2</col>
+			<col name="org">순천향대 천안병원</col>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">천안시 동남구</col>
+			<col name="zipCode">31212</col>
+			<col name="address">충청남도 천안시 동남구 천안대로 357</col>
+			<col name="createdAt">2021-03-03 07:00:52</col>
+			<col name="updatedAt">2021-07-16 04:55:08</col>
+			<col name="centerType">중앙/권역</col>
+			<col name="lat">36.779887</col>
+			<col name="phoneNumber"/>
+			<col name="centerName">코로나19 중부권역 예방접종센터</col>
+			<col name="lng">127.164717</col>
+		</item>
+		<item>
+			<col name="centerType">중앙/권역</col>
+			<col name="lat">35.139465</col>
+			<col name="phoneNumber">062-220-3739</col>
+			<col name="centerName">코로나19 호남권역 예방접종센터</col>
+			<col name="lng">126.925563</col>
+			<col name="facilityName">조선대학교병원 의성관 5층</col>
+			<col name="id">3</col>
+			<col name="org">조선대병원</col>
+			<col name="sido">광주광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">61452</col>
+			<col name="address">광주광역시 동구 필문대로 365</col>
+			<col name="createdAt">2021-03-03 07:00:52</col>
+			<col name="updatedAt">2021-07-16 04:55:08</col>
+		</item>
+		<item>
+			<col name="address">경상남도 양산시 물금읍 금오로 20</col>
+			<col name="createdAt">2021-03-03 07:00:53</col>
+			<col name="updatedAt">2021-07-16 04:55:08</col>
+			<col name="centerType">중앙/권역</col>
+			<col name="lat">35.3239</col>
+			<col name="phoneNumber">055-360-6701</col>
+			<col name="centerName">코로나19 영남권역 예방접종센터</col>
+			<col name="lng">129.009337</col>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">양산시</col>
+			<col name="zipCode">50612</col>
+			<col name="facilityName">양산 부산대병원 기숙사동 1층</col>
+			<col name="id">4</col>
+			<col name="org">양산 부산대병원</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.869985</col>
+			<col name="phoneNumber">053-661-3955</col>
+			<col name="centerName">코로나19 대구광역시 중구 예방접종센터</col>
+			<col name="lng">128.583716</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">41931</col>
+			<col name="facilityName">계명대학교 대구동산병원 별관</col>
+			<col name="id">5</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="address">대구시 중구 달성로 56</col>
+			<col name="createdAt">2021-03-03 07:00:53</col>
+			<col name="updatedAt">2021-07-16 04:55:09</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-03-15 00:03:43</col>
+			<col name="updatedAt">2021-07-16 04:55:09</col>
+			<col name="address">서울특별시 성동구 고산자로 270</col>
+			<col name="lat">37.563457</col>
+			<col name="phoneNumber">02-2286-5084</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.036981</col>
+			<col name="centerName">코로나19 서울특별시 성동구 예방접종센터</col>
+			<col name="id">6</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">성동구</col>
+			<col name="zipCode">04750</col>
+			<col name="facilityName">성동구청 대강당(3층)</col>
+		</item>
+		<item>
+			<col name="facilityName">부산시민공원 시민사랑채</col>
+			<col name="id">7</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">부산진구</col>
+			<col name="zipCode">47197</col>
+			<col name="address">부산 부산진구 시민공원로 73</col>
+			<col name="createdAt">2021-03-15 00:03:43</col>
+			<col name="updatedAt">2021-07-16 04:55:09</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.170182</col>
+			<col name="phoneNumber">051-605-8633</col>
+			<col name="centerName">코로나19 부산광역시 부산진구 예방접종센터</col>
+			<col name="lng">129.059301</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.429571</col>
+			<col name="phoneNumber">032-749-8121</col>
+			<col name="centerName">코로나19 인천광역시 연수구 예방접종센터</col>
+			<col name="lng">126.703271</col>
+			<col name="sigungu">연수구</col>
+			<col name="zipCode">21908</col>
+			<col name="facilityName">선학경기장 선학체육관</col>
+			<col name="id">8</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="address">인천광역시 연수구 경원대로 526</col>
+			<col name="createdAt">2021-03-15 00:03:43</col>
+			<col name="updatedAt">2021-07-16 04:55:10</col>
+		</item>
+		<item>
+			<col name="sigungu">서구</col>
+			<col name="zipCode">62048</col>
+			<col name="facilityName">빛고을체육관</col>
+			<col name="id">9</col>
+			<col name="org"/>
+			<col name="sido">광주광역시</col>
+			<col name="address">광주광역시 서구 금화로 278</col>
+			<col name="createdAt">2021-03-15 00:03:43</col>
+			<col name="updatedAt">2021-07-16 04:55:10</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.135361</col>
+			<col name="phoneNumber">062-371-8731</col>
+			<col name="centerName">코로나19 광주광역시 서구 예방접종센터</col>
+			<col name="lng">126.8771731</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="address">대전광역시 유성구 유성대로 978</col>
+			<col name="createdAt">2021-03-15 00:03:44</col>
+			<col name="phoneNumber">042-611-2498</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.378512</col>
+			<col name="centerName">코로나19 대전광역시 유성구 예방접종센터</col>
+			<col name="lng">127.344399</col>
+			<col name="org"/>
+			<col name="sido">대전광역시</col>
+			<col name="sigungu">유성구</col>
+			<col name="zipCode">34128</col>
+			<col name="facilityName">유성종합스포츠센터</col>
+			<col name="id">10</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.562451</col>
+			<col name="phoneNumber">052-290-4941</col>
+			<col name="centerName">코로나19 울산광역시 중구 예방접종센터</col>
+			<col name="lng">129.350436</col>
+			<col name="facilityName">동천체육관</col>
+			<col name="id">11</col>
+			<col name="org"/>
+			<col name="sido">울산광역시</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">44497</col>
+			<col name="address">울산시 중구 염포로 85</col>
+			<col name="createdAt">2021-03-15 00:03:44</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 세종특별자치시 예방접종센터</col>
+			<col name="lng">127.245248</col>
+			<col name="facilityName">남세종종합청소년센터</col>
+			<col name="id">12</col>
+			<col name="org"/>
+			<col name="sido">세종특별자치시</col>
+			<col name="sigungu"/>
+			<col name="zipCode">30099</col>
+			<col name="address">세종특별자치시 달빛1로 227</col>
+			<col name="createdAt">2021-03-15 00:07:52</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.519427</col>
+			<col name="phoneNumber">044-301-2868</col>
+		</item>
+		<item>
+			<col name="address">경기도 수원시 영통구 월드컵로 206</col>
+			<col name="createdAt">2021-03-15 00:07:52</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.279932</col>
+			<col name="phoneNumber">031-228-3737</col>
+			<col name="centerName">코로나19 경기도 수원시 예방접종센터</col>
+			<col name="lng">127.045439</col>
+			<col name="zipCode">16499</col>
+			<col name="facilityName">아주대 실내체육관</col>
+			<col name="id">13</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">수원시 영통구</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 고양시 일산동구 예방접종센터</col>
+			<col name="lng">126.768889</col>
+			<col name="facilityName">고양꽃전시관</col>
+			<col name="id">14</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">고양시 일산동구</col>
+			<col name="zipCode">10400</col>
+			<col name="address">경기도 고양시 일산동구 호수로 595</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.653775</col>
+			<col name="phoneNumber">031-8075-4830</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="address">강원도 원주시 서원대로 279</col>
+			<col name="lat">37.338561</col>
+			<col name="phoneNumber">033-737-4012</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.940763</col>
+			<col name="centerName">코로나19 강원도 원주시 예방접종센터</col>
+			<col name="id">15</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">원주시</col>
+			<col name="zipCode">26447</col>
+			<col name="facilityName">치악체육관</col>
+		</item>
+		<item>
+			<col name="id">16</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">청주시 상당구</col>
+			<col name="zipCode">28806</col>
+			<col name="facilityName">상당구청 스포츠센터</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:11</col>
+			<col name="address">충청북도 청주시 상당구 남일면 단재로 466</col>
+			<col name="lat">36.589755</col>
+			<col name="phoneNumber">043-201-4394</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.505123</col>
+			<col name="centerName">코로나19 충청북도 청주시 예방접종센터</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.817161</col>
+			<col name="phoneNumber">041-521-3013</col>
+			<col name="centerName">코로나19 충청남도 천안시 서북구 예방접종센터</col>
+			<col name="lng">127.112761</col>
+			<col name="facilityName">천안시 실내테니스장</col>
+			<col name="id">17</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">천안시 서북구</col>
+			<col name="zipCode">31157</col>
+			<col name="address">충남 천안시 서북구 번영로 208</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라북도 전주시 예방접종센터</col>
+			<col name="lng">127.124525</col>
+			<col name="facilityName">화산체육관</col>
+			<col name="id">18</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">전주시 완산구</col>
+			<col name="zipCode">54984</col>
+			<col name="address">전주시 완산구 백제대로 310</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.821042</col>
+			<col name="phoneNumber">063-281-6621</col>
+		</item>
+		<item>
+			<col name="facilityName">목포실내체육관</col>
+			<col name="id">19</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">목포시</col>
+			<col name="zipCode">58608</col>
+			<col name="address">전남 목포시 대양로 286</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.825289</col>
+			<col name="phoneNumber">063-270-8939</col>
+			<col name="centerName">코로나19 전라남도 목포시 예방접종센터</col>
+			<col name="lng">126.406585</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.008538</col>
+			<col name="phoneNumber">054-270-4959</col>
+			<col name="centerName">코로나19 경상북도 포항시 남구 예방접종센터</col>
+			<col name="lng">129.360825</col>
+			<col name="facilityName">포항종합운동장 실내체육관</col>
+			<col name="id">20</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">포항시 남구</col>
+			<col name="zipCode">37832</col>
+			<col name="address">경북 포항시 남구 희망대로 810</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+		</item>
+		<item>
+			<col name="address">경남 창원시 마산회원구 삼호로 63</col>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.222011</col>
+			<col name="phoneNumber">055-225-7671</col>
+			<col name="centerName">코로나19 경상남도 창원시 마산구 예방접종센터</col>
+			<col name="lng">128.579527</col>
+			<col name="sigungu">창원시 마산회원구</col>
+			<col name="zipCode">51323</col>
+			<col name="facilityName">마산체육관</col>
+			<col name="id">21</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-03-15 00:07:53</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+			<col name="address">제주시 서광로2길 24</col>
+			<col name="lat">33.497436</col>
+			<col name="phoneNumber">064-728-4028</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.515526</col>
+			<col name="centerName">코로나19 제주특별자치도 제주시 예방접종센터</col>
+			<col name="id">22</col>
+			<col name="org"/>
+			<col name="sido">제주특별자치도</col>
+			<col name="sigungu">제주시</col>
+			<col name="zipCode">63189</col>
+			<col name="facilityName">한라체육관</col>
+		</item>
+		<item>
+			<col name="facilityName">중랑문화체육관</col>
+			<col name="id">23</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">중랑구</col>
+			<col name="zipCode">02261</col>
+			<col name="address">서울특별시 중랑구 사가정로72길47</col>
+			<col name="createdAt">2021-03-30 08:50:56</col>
+			<col name="updatedAt">2021-07-16 04:55:12</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5793205</col>
+			<col name="phoneNumber">02-2094-0275</col>
+			<col name="centerName">코로나19 서울특별시 중랑구 예방접종센터</col>
+			<col name="lng">127.0957285</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 성북구 예방접종센터</col>
+			<col name="lng">127.016749</col>
+			<col name="sigungu">성북구</col>
+			<col name="zipCode">02848</col>
+			<col name="facilityName">성북아트홀(구청4층)</col>
+			<col name="id">24</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="address">서울특별시 성북구 보문로 168</col>
+			<col name="createdAt">2021-03-30 08:50:56</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5894</col>
+			<col name="phoneNumber">02-2241-4305</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 노원구 노원로22길 1</col>
+			<col name="createdAt">2021-03-30 08:50:56</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6481759</col>
+			<col name="phoneNumber">02-2116-3084</col>
+			<col name="centerName">코로나19 서울특별시 노원구 예방접종센터</col>
+			<col name="lng">127.0707093</col>
+			<col name="facilityName">노원구민체육센터</col>
+			<col name="id">25</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">노원구</col>
+			<col name="zipCode">01741</col>
+		</item>
+		<item>
+			<col name="facilityName">은평문화 예술회관</col>
+			<col name="id">26</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">은평구</col>
+			<col name="zipCode">03381</col>
+			<col name="address">서울특별시 은평구 녹번로 16</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6037201</col>
+			<col name="phoneNumber">02-351-6187</col>
+			<col name="centerName">코로나19 서울특별시 은평구 예방접종센터</col>
+			<col name="lng">126.9279226</col>
+		</item>
+		<item>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">동작구</col>
+			<col name="zipCode">06989</col>
+			<col name="facilityName">사당종합체육관</col>
+			<col name="id">27</col>
+			<col name="org"/>
+			<col name="address">서울특별시 동작구 사당로27길 232</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4928063</col>
+			<col name="phoneNumber">02-820-1965</col>
+			<col name="centerName">코로나19 서울특별시 동작구 예방접종센터</col>
+			<col name="lng">126.9697426</col>
+		</item>
+		<item>
+			<col name="sigungu">송파구</col>
+			<col name="zipCode">05771</col>
+			<col name="facilityName">송파구 체육문화회관</col>
+			<col name="id">28</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="address">서울특별시 송파구 양산로15</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4907262</col>
+			<col name="phoneNumber">02-2147-2131</col>
+			<col name="centerName">코로나19 서울특별시 송파구 예방접종센터</col>
+			<col name="lng">127.1428442</col>
+		</item>
+		<item>
+			<col name="sigungu">남구</col>
+			<col name="zipCode">48563</col>
+			<col name="facilityName">남구국민체육센터</col>
+			<col name="id">29</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="address">부산광역시 남구 백운포로 110</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1038048</col>
+			<col name="phoneNumber">051-607-3725</col>
+			<col name="centerName">코로나19 부산광역시 남구 예방접종센터</col>
+			<col name="lng">129.1080682</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 인천광역시 서구 예방접종센터</col>
+			<col name="lng">126.6666173</col>
+			<col name="facilityName">인천아시아드주경기장</col>
+			<col name="id">30</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">서구</col>
+			<col name="zipCode">22717</col>
+			<col name="address">인천광역시 서구 봉수대로 806</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:13</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5476153</col>
+			<col name="phoneNumber">032-560-5053</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 광주광역시 남구 예방접종센터</col>
+			<col name="lng">126.9087287</col>
+			<col name="sido">광주광역시</col>
+			<col name="sigungu">남구</col>
+			<col name="zipCode">61711</col>
+			<col name="facilityName">남구다목적체육관</col>
+			<col name="id">31</col>
+			<col name="org"/>
+			<col name="address">광주광역시 남구 화산로 110</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:14</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1141618</col>
+			<col name="phoneNumber">062-607-4336</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5228599</col>
+			<col name="phoneNumber">052-226-2399</col>
+			<col name="centerName">코로나19 울산광역시 남구 예방접종센터</col>
+			<col name="lng">129.3379882</col>
+			<col name="facilityName">남구국민체육센터</col>
+			<col name="id">32</col>
+			<col name="org"/>
+			<col name="sido">울산광역시</col>
+			<col name="sigungu">남구</col>
+			<col name="zipCode">44766</col>
+			<col name="address">울산광역시 남구 여천로 38</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:14</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4094673</col>
+			<col name="phoneNumber">031-729-8582</col>
+			<col name="centerName">코로나19 경기도 성남시 분당구 예방접종센터</col>
+			<col name="lng">127.1197616</col>
+			<col name="sigungu">성남시 분당구</col>
+			<col name="zipCode">13495</col>
+			<col name="facilityName">탄천종합운동장 체육회관 이벤트홀</col>
+			<col name="id">33</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="address">경기도 성남시 분당구 탄천로 215</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:14</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.404476</col>
+			<col name="phoneNumber">031-8045-4843</col>
+			<col name="centerName">코로나19 경기도 안양시 동안구 예방접종센터</col>
+			<col name="lng">126.9491998</col>
+			<col name="facilityName">실내빙상장 앞</col>
+			<col name="id">34</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">안양시 동안구</col>
+			<col name="zipCode">13918</col>
+			<col name="address">경기도 안양시 동안구 평촌대로 389</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:14</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6053844</col>
+			<col name="phoneNumber">031-590-2598</col>
+			<col name="centerName">코로나19 경기도 남양주시 예방접종센터</col>
+			<col name="lng">127.1767155</col>
+			<col name="sido">경기도</col>
+			<col name="sigungu">남양주시</col>
+			<col name="zipCode">12244</col>
+			<col name="facilityName">남양주 체육문화센터</col>
+			<col name="id">35</col>
+			<col name="org"/>
+			<col name="address">경기도 남양주시 다산 지금로 91</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:14</col>
+		</item>
+		<item>
+			<col name="facilityName">강릉실내롤러스케이트장</col>
+			<col name="id">36</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">강릉시</col>
+			<col name="zipCode">25474</col>
+			<col name="address">강원도 강릉시 종합운동장길 72-25</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7725668</col>
+			<col name="phoneNumber">033-660-2401</col>
+			<col name="centerName">코로나19 강원도 강릉시 예방접종센터</col>
+			<col name="lng">128.8929531</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.8813604</col>
+			<col name="phoneNumber">033-245-5970</col>
+			<col name="centerName">코로나19 강원도 춘천시 예방접종센터</col>
+			<col name="lng">127.7185339</col>
+			<col name="facilityName">봄내체육관</col>
+			<col name="id">37</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">춘천시</col>
+			<col name="zipCode">24243</col>
+			<col name="address">강원도 춘천시 평화로 25</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+		</item>
+		<item>
+			<col name="id">38</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">삼척시</col>
+			<col name="zipCode">25909</col>
+			<col name="facilityName">삼척체육관</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+			<col name="address">강원도 삼척시 교동 243-13</col>
+			<col name="lat">37.4564581</col>
+			<col name="phoneNumber">033-570-4669</col>
+			<col name="centerType">지역</col>
+			<col name="lng">129.1720754</col>
+			<col name="centerName">코로나19 강원도 삼척시 예방접종센터</col>
+		</item>
+		<item>
+			<col name="id">39</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">충주시</col>
+			<col name="zipCode">27371</col>
+			<col name="facilityName">충주체육관</col>
+			<col name="createdAt">2021-03-30 08:50:57</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+			<col name="address">충청북도 충주시 예성로 266</col>
+			<col name="lat">36.9816923</col>
+			<col name="phoneNumber">043-850-0002</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.9365796</col>
+			<col name="centerName">코로나19 충청북도 충주시 예방접종센터</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.9307354</col>
+			<col name="phoneNumber">043-871-4392</col>
+			<col name="centerName">코로나19 충청북도 음성군 예방접종센터</col>
+			<col name="lng">127.6843934</col>
+			<col name="zipCode">27704</col>
+			<col name="facilityName">음성실내체육관</col>
+			<col name="id">40</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">음성군</col>
+			<col name="address">충청북도 음성군 설성로 47</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.7702519</col>
+			<col name="phoneNumber">041-537-3413</col>
+			<col name="centerName">코로나19 충청남도 아산시 예방접종센터</col>
+			<col name="lng">127.0220209</col>
+			<col name="facilityName">이순신종합운동장 복합스포츠센터</col>
+			<col name="id">41</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">아산시</col>
+			<col name="zipCode">31528</col>
+			<col name="address">충청남도 아산시 남부로 370-24</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.1952048</col>
+			<col name="phoneNumber">041-746-8032</col>
+			<col name="centerName">코로나19 충청남도 논산시 예방접종센터</col>
+			<col name="lng">127.104313</col>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">논산시</col>
+			<col name="zipCode">32993</col>
+			<col name="facilityName">시민운동장</col>
+			<col name="id">42</col>
+			<col name="org"/>
+			<col name="address">충청남도 논산시 체육로 110</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:15</col>
+		</item>
+		<item>
+			<col name="lat">35.9627736</col>
+			<col name="phoneNumber">063-460-0024</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.7460261</col>
+			<col name="centerName">코로나19 전라북도 군산시 예방접종센터</col>
+			<col name="id">43</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">군산시</col>
+			<col name="zipCode">54078</col>
+			<col name="facilityName">월명종합경기장 월명체육관</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:16</col>
+			<col name="address">전라북도 군산시 번영로 281</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:16</col>
+			<col name="address">전라북도 정읍시 서부로 9</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="phoneNumber">063-539-6103</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5695705</col>
+			<col name="centerName">코로나19 전라북도 정읍시 예방접종센터</col>
+			<col name="lng">126.8442138</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">정읍시</col>
+			<col name="zipCode">56158</col>
+			<col name="facilityName">정읍실내체육관</col>
+			<col name="id">44</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:16</col>
+			<col name="address">전라북도 남원시 충정로 341</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="phoneNumber">063-620-7939</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.4305186</col>
+			<col name="centerName">코로나19 전라북도 남원시 예방접종센터</col>
+			<col name="lng">127.4021114</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">남원시</col>
+			<col name="zipCode">55766</col>
+			<col name="facilityName">춘향골 체육관</col>
+			<col name="id">45</col>
+		</item>
+		<item>
+			<col name="phoneNumber">061-659-4269</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.7610227</col>
+			<col name="centerName">코로나19 전라남도 여수시 예방접종센터</col>
+			<col name="lng">127.6679095</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">여수시</col>
+			<col name="zipCode">59676</col>
+			<col name="facilityName">흥국체육관</col>
+			<col name="id">46</col>
+			<col name="updatedAt">2021-07-16 04:55:17</col>
+			<col name="address">전라남도 여수시 선소로 93</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.9668203</col>
+			<col name="phoneNumber">061-749-3588</col>
+			<col name="centerName">코로나19 전라남도 순천시 예방접종센터</col>
+			<col name="lng">127.4840561</col>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">순천시</col>
+			<col name="zipCode">57922</col>
+			<col name="facilityName">순천대학교 국제문화컨벤션관</col>
+			<col name="id">47</col>
+			<col name="org"/>
+			<col name="address">전라남도 순천시 중앙로 235</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:17</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2079236</col>
+			<col name="phoneNumber">055-749-6616</col>
+			<col name="centerName">코로나19 경상남도 진주시 예방접종센터</col>
+			<col name="lng">128.1252806</col>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">진주시</col>
+			<col name="zipCode">52733</col>
+			<col name="facilityName">진주종합실내체육관(초전동)</col>
+			<col name="id">48</col>
+			<col name="org"/>
+			<col name="address">경상남도 진주시 남강로 1655</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:17</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상남도 통영시 예방접종센터</col>
+			<col name="lng">128.4289365</col>
+			<col name="facilityName">충무체육관</col>
+			<col name="id">49</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">통영시</col>
+			<col name="zipCode">53047</col>
+			<col name="address">경상남도 통영시 북문2길 34</col>
+			<col name="createdAt">2021-03-30 08:50:58</col>
+			<col name="updatedAt">2021-07-16 04:55:17</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.8510954</col>
+			<col name="phoneNumber">055-650-6053</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 중구 예방접종센터 </col>
+			<col name="lng">127.014916</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">04569</col>
+			<col name="facilityName">충무스포츠센터</col>
+			<col name="id">50</col>
+			<col name="org"/>
+			<col name="address">서울특별시 중구퇴계로 387</col>
+			<col name="createdAt">2021-04-07 08:43:42</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.566055</col>
+			<col name="phoneNumber">02-3396-4503</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 부산광역시 금정구  예방접종센터 </col>
+			<col name="lng">129.093772</col>
+			<col name="facilityName">금정문화회관 생활문화관</col>
+			<col name="id">51</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">금정구</col>
+			<col name="zipCode">46251</col>
+			<col name="address">부산광역시 금정구 체육공원로 7</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.245876</col>
+			<col name="phoneNumber">051-519-5798</col>
+		</item>
+		<item>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">북구</col>
+			<col name="zipCode">46547</col>
+			<col name="facilityName">북구문화예술회관</col>
+			<col name="id">52</col>
+			<col name="org"/>
+			<col name="address">부산광역시 북구 금곡대로 46번길 50</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2134804</col>
+			<col name="phoneNumber">051-309-7023</col>
+			<col name="centerName">코로나19 부산광역시 북구  예방접종센터 </col>
+			<col name="lng">129.0054594</col>
+		</item>
+		<item>
+			<col name="facilityName">삼산월드체육관</col>
+			<col name="id">53</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">부평구</col>
+			<col name="zipCode">21343</col>
+			<col name="address">인천광역시 부평구 체육관로 60</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5077049</col>
+			<col name="phoneNumber">032-509-8251</col>
+			<col name="centerName">코로나19 인천광역시 부평구 예방접종센터 </col>
+			<col name="lng">126.7378965</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 대구광역시 동구 예방접종센터 </col>
+			<col name="lng">128.6522348</col>
+			<col name="facilityName">아양아트센터</col>
+			<col name="id">54</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">41179</col>
+			<col name="address">대구광역시 동구 효동로2길 24</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8794015</col>
+			<col name="phoneNumber">053-662-3236</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 대구광역시 달서구 예방접종센터 </col>
+			<col name="lng">128.4953904</col>
+			<col name="zipCode">42718</col>
+			<col name="facilityName">성서산업단지 다목적체육관</col>
+			<col name="id">55</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">달서구</col>
+			<col name="address">대구광역시 달서구 성서공단로22길 25</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8328886</col>
+			<col name="phoneNumber">053-667-2225</col>
+		</item>
+		<item>
+			<col name="address">울산광역시 북구 산업로 1020</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:18</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.584287</col>
+			<col name="phoneNumber">052-241-8241</col>
+			<col name="centerName">코로나19 울산광역시 북구 예방접종센터 </col>
+			<col name="lng">129.3604209</col>
+			<col name="sido">울산광역시</col>
+			<col name="sigungu">북구</col>
+			<col name="zipCode">44248</col>
+			<col name="facilityName">오토밸리복지센터</col>
+			<col name="id">56</col>
+			<col name="org"/>
+		</item>
+		<item>
+			<col name="facilityName">올림픽기념관 체육관</col>
+			<col name="id">57</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">안산시 단원구</col>
+			<col name="zipCode">15335</col>
+			<col name="address">경기 안산시 단원구 적금로202</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:19</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3263283</col>
+			<col name="phoneNumber">031-369-1702</col>
+			<col name="centerName">코로나19 경기도 안산시 단원구 예방접종센터 </col>
+			<col name="lng">126.8274303</col>
+		</item>
+		<item>
+			<col name="facilityName">용인미르스타디움</col>
+			<col name="id">58</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">용인시 처인구</col>
+			<col name="zipCode">16997</col>
+			<col name="address">경기 용인시 처인구 동백죽전대로 61</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:19</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2498203</col>
+			<col name="phoneNumber">031-324-2716</col>
+			<col name="centerName">코로나19 경기도 용인시 처인구 예방접종센터 </col>
+			<col name="lng">127.1651803</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 화성시 예방접종센터 </col>
+			<col name="lng">127.0511977</col>
+			<col name="facilityName">동탄나래울 종합사회복지관</col>
+			<col name="id">59</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">화성시</col>
+			<col name="zipCode">18427</col>
+			<col name="address">경기 화성시 여울로2길 33</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:19</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.205272</col>
+			<col name="phoneNumber">031-5189-6936</col>
+		</item>
+		<item>
+			<col name="sigungu">시흥시</col>
+			<col name="zipCode">15055</col>
+			<col name="facilityName">정왕평생학습관</col>
+			<col name="id">60</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="address">경기 시흥시 정왕대로 233번길 21</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:19</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3478839</col>
+			<col name="phoneNumber">031-310-5851</col>
+			<col name="centerName">코로나19 경기도 시흥시 예방접종센터 </col>
+			<col name="lng">126.7405209</col>
+		</item>
+		<item>
+			<col name="id">61</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">서산시</col>
+			<col name="zipCode">31963</col>
+			<col name="facilityName">서산시민체육관</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+			<col name="address">충남 서산시 안견로 661</col>
+			<col name="lat">36.7977904</col>
+			<col name="phoneNumber">041-661-8245</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.4362312</col>
+			<col name="centerName">코로나19 충청남도 서산시 예방접종센터 </col>
+		</item>
+		<item>
+			<col name="sigungu">광양시</col>
+			<col name="zipCode">57728</col>
+			<col name="facilityName">광양실내체육관</col>
+			<col name="id">62</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="address">전남 광양시 광양읍 매천로 695-20</col>
+			<col name="createdAt">2021-04-07 08:43:43</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.9828346</col>
+			<col name="phoneNumber">061-797-3789</col>
+			<col name="centerName">코로나19 전라남도 광양시 예방접종센터 </col>
+			<col name="lng">127.575275</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라남도 구례군 예방접종센터 </col>
+			<col name="lng">127.468087</col>
+			<col name="zipCode">57635</col>
+			<col name="facilityName">구례실내체육관</col>
+			<col name="id">63</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">구례군</col>
+			<col name="address">전남 구례군 구례읍 서시천로 76-11</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.215724</col>
+			<col name="phoneNumber">061-780-2012</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.5705646</col>
+			<col name="phoneNumber">061-531-3752</col>
+			<col name="centerName">코로나19 전라남도 해남군 예방접종센터 </col>
+			<col name="lng">126.6120737</col>
+			<col name="facilityName">건강누리센터</col>
+			<col name="id">64</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">해남군</col>
+			<col name="zipCode">59038</col>
+			<col name="address">전남 해남군 해남로 46</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+		</item>
+		<item>
+			<col name="sigungu">영광군</col>
+			<col name="zipCode">57035</col>
+			<col name="facilityName">영광스포티움 실내보조체육관</col>
+			<col name="id">65</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="address">전남 영광군 영광읍 월현로 170</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2884948</col>
+			<col name="phoneNumber">061-350-5562</col>
+			<col name="centerName">코로나19 전라남도 영광군 예방접종센터 </col>
+			<col name="lng">126.4958382</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+			<col name="address">경북 포항시 북구 새천년대로1460</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="phoneNumber">054-270-4132</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.0778995</col>
+			<col name="centerName">코로나19 경상북도 포항시 북구 예방접종센터 </col>
+			<col name="lng">129.4066286</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">포항시 북구</col>
+			<col name="zipCode">37598</col>
+			<col name="facilityName">양덕한마음체육관</col>
+			<col name="id">66</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.5598062</col>
+			<col name="phoneNumber">054-840-5950</col>
+			<col name="centerName">코로나19 경상북도 안동시 예방접종센터 </col>
+			<col name="lng">128.7281196</col>
+			<col name="facilityName">안동체육관 실내보조경기장</col>
+			<col name="id">67</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">안동시</col>
+			<col name="zipCode">36709</col>
+			<col name="address">경북 안동시 육사로 205</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.967746</col>
+			<col name="phoneNumber">054-339-7781</col>
+			<col name="centerName">코로나19 경상북도 영천시 예방접종센터 </col>
+			<col name="lng">128.923695</col>
+			<col name="zipCode">38839</col>
+			<col name="facilityName">영천 생활체육관</col>
+			<col name="id">68</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">영천시</col>
+			<col name="address">경북 영천시 운동장로 55</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:20</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.729026</col>
+			<col name="phoneNumber">054-950-7950</col>
+			<col name="centerName">코로나19 경상북도 고령군 예방접종센터 </col>
+			<col name="lng">128.2628</col>
+			<col name="zipCode">40136</col>
+			<col name="facilityName">주산체육관</col>
+			<col name="id">69</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">고령군</col>
+			<col name="address">경북 고령군 대가야읍 주산순환길 91</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:21</col>
+		</item>
+		<item>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">칠곡군</col>
+			<col name="zipCode">39872</col>
+			<col name="facilityName">교육문화회관 사회교육관</col>
+			<col name="id">70</col>
+			<col name="org"/>
+			<col name="address">경북 칠곡군 왜관읍 관문로 1길 32</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:21</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.9919529</col>
+			<col name="phoneNumber">054-979-8255</col>
+			<col name="centerName">코로나19 경상북도 칠곡군 예방접종센터 </col>
+			<col name="lng">128.4171652</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4970218</col>
+			<col name="phoneNumber">02-860-3304 </col>
+			<col name="centerName">코로나19 서울특별시 구로구 예방접종센터</col>
+			<col name="lng">126.8894459</col>
+			<col name="facilityName">구로구민회관</col>
+			<col name="id">71</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">구로구</col>
+			<col name="zipCode">08301</col>
+			<col name="address">서울특별시 구로구 가마산로25길 21</col>
+			<col name="createdAt">2021-04-07 08:43:44</col>
+			<col name="updatedAt">2021-07-16 04:55:21</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 용산구 녹사평대로 150</col>
+			<col name="createdAt">2021-04-14 08:23:56</col>
+			<col name="updatedAt">2021-07-16 04:55:21</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.532527</col>
+			<col name="phoneNumber">02-2199-8200</col>
+			<col name="centerName">코로나19 서울특별시 용산구 예방접종센터</col>
+			<col name="lng">126.99049</col>
+			<col name="facilityName">용산구 종합행정타운 전시실</col>
+			<col name="id">72</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">용산구</col>
+			<col name="zipCode">04390</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:21</col>
+			<col name="address">서울특별시 광진구 뚝섬로52길 66</col>
+			<col name="lat">37.5290609</col>
+			<col name="phoneNumber">02-450-7102</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.078078</col>
+			<col name="centerName">코로나19 서울특별시 광진구 예방접종센터</col>
+			<col name="id">73</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">광진구</col>
+			<col name="zipCode">05110</col>
+			<col name="facilityName">자양체육관</col>
+		</item>
+		<item>
+			<col name="sigungu">강북구</col>
+			<col name="zipCode">01036</col>
+			<col name="facilityName">강북구 문화예술회관</col>
+			<col name="id">74</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="address">서울특별시 강북구 삼각산로 85</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:22</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6408544</col>
+			<col name="phoneNumber">02-901-6328</col>
+			<col name="centerName">코로나19 서울특별시 강북구 예방접종센터</col>
+			<col name="lng">127.0133421</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6581175</col>
+			<col name="phoneNumber">02-2091-2102</col>
+			<col name="centerName">코로나19 서울특별시 도봉구 예방접종센터</col>
+			<col name="lng">127.0507056</col>
+			<col name="facilityName">창동문화체육센터</col>
+			<col name="id">75</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">도봉구</col>
+			<col name="zipCode">01412</col>
+			<col name="address">서울특별시 도봉구 노해로69길 132</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:22</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 양천구 예방접종센터</col>
+			<col name="lng">126.8637671</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">양천구</col>
+			<col name="zipCode">08094</col>
+			<col name="facilityName">해누리타운</col>
+			<col name="id">76</col>
+			<col name="org"/>
+			<col name="address">서울특별시 양천구 목동동로 81</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:22</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5160346</col>
+			<col name="phoneNumber">02-2620-3058</col>
+		</item>
+		<item>
+			<col name="lat">37.561253</col>
+			<col name="phoneNumber">02-2600-6119</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.8640385</col>
+			<col name="centerName">코로나19 서울특별시 강서구 예방접종센터</col>
+			<col name="id">77</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강서구</col>
+			<col name="zipCode">07531</col>
+			<col name="facilityName">(舊) 염강초등학교</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:22</col>
+			<col name="address">서울특별시 강서구 허준로 221-22(가양동)</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 금천구 예방접종센터</col>
+			<col name="lng">126.8961165</col>
+			<col name="sigungu">금천구</col>
+			<col name="zipCode">08608</col>
+			<col name="facilityName">금나래문화체육센터</col>
+			<col name="id">78</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="address">서울특별시 금천구 독산동 1148</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4589429</col>
+			<col name="phoneNumber">02-2627-2692</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 영등포구 예방접종센터</col>
+			<col name="lng">126.9002927</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">영등포구</col>
+			<col name="zipCode">07258</col>
+			<col name="facilityName">영등포 아트홀</col>
+			<col name="id">79</col>
+			<col name="org"/>
+			<col name="address">서울특별시 영등포구 국회대로 596</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5259976</col>
+			<col name="phoneNumber">02-2670-3316</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 관악구 낙성대로3길 37</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4730839</col>
+			<col name="phoneNumber">02-879-5154</col>
+			<col name="centerName">코로나19 서울특별시 관악구 예방접종센터</col>
+			<col name="lng">126.9603185</col>
+			<col name="facilityName">관악구민종합체육센터</col>
+			<col name="id">80</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">관악구</col>
+			<col name="zipCode">08799</col>
+		</item>
+		<item>
+			<col name="zipCode">05314</col>
+			<col name="facilityName">강동구민회관</col>
+			<col name="id">81</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강동구</col>
+			<col name="address">서울특별시 강동구 상암로 168</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5457344</col>
+			<col name="phoneNumber">02-3425-5093</col>
+			<col name="centerName">코로나19 서울특별시 강동구 예방접종센터</col>
+			<col name="lng">127.1412375</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 서초구 예방접종센터</col>
+			<col name="lng">127.03598</col>
+			<col name="facilityName">서초문화예술회관</col>
+			<col name="id">82</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">서초구</col>
+			<col name="zipCode">06749</col>
+			<col name="address">서울특별시 서초구 강남대로 201</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4818405</col>
+			<col name="phoneNumber">02-2155-6142</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 종로구 예방접종센터</col>
+			<col name="lng">127.0144451</col>
+			<col name="facilityName">종로구민회관</col>
+			<col name="id">83</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">종로구</col>
+			<col name="zipCode">03104</col>
+			<col name="address">서울특별시 종로구 지봉로5길 7-5</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.573459</col>
+			<col name="phoneNumber">02-2148-1312</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 동대문구 답십리로 210-3</col>
+			<col name="createdAt">2021-04-14 08:23:57</col>
+			<col name="updatedAt">2021-07-16 04:55:23</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5723256</col>
+			<col name="phoneNumber">02-2127-4025</col>
+			<col name="centerName">코로나19 서울특별시 동대문구 예방접종센터</col>
+			<col name="lng">127.0640118</col>
+			<col name="facilityName">동대문구체육관</col>
+			<col name="id">84</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">동대문구</col>
+			<col name="zipCode">02609</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 서대문구 예방접종센터</col>
+			<col name="lng">126.9554383</col>
+			<col name="facilityName">북아현문화체육센터</col>
+			<col name="id">85</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">서대문구</col>
+			<col name="zipCode">03770</col>
+			<col name="address">서울특별시 서대문구 북아현로 51</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5618398</col>
+			<col name="phoneNumber">02-330-1065</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 마포구 예방접종센터</col>
+			<col name="lng">126.8969649</col>
+			<col name="facilityName">마포구민체육센터</col>
+			<col name="id">86</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">마포구</col>
+			<col name="zipCode">03954</col>
+			<col name="address">서울특별시 마포구 월드컵로25길 190</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5567653</col>
+			<col name="phoneNumber">02-3153-6332</col>
+		</item>
+		<item>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강남구</col>
+			<col name="zipCode">135-230</col>
+			<col name="facilityName">일원에코센터</col>
+			<col name="id">87</col>
+			<col name="org"/>
+			<col name="address">서울특별시 강남구 일원동 4-12</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.495249</col>
+			<col name="phoneNumber">02-3423-5162</col>
+			<col name="centerName">코로나19 서울특별시 강남구 예방접종센터</col>
+			<col name="lng">127.0891754</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 대구광역시 북구 예방접종센터</col>
+			<col name="lng">128.5868043</col>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">북구</col>
+			<col name="zipCode">41594</col>
+			<col name="facilityName">대구복합스포츠타운 시민체육관</col>
+			<col name="id">88</col>
+			<col name="org"/>
+			<col name="address">대구광역시 북구 고성로 191 (고성동3가)</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8829254</col>
+			<col name="phoneNumber">053-665-0697</col>
+		</item>
+		<item>
+			<col name="zipCode">41759</col>
+			<col name="facilityName">서구국민체육센터</col>
+			<col name="id">89</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">서구</col>
+			<col name="address">대구광역시 서구 문화로 72 (이현동)</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8733951</col>
+			<col name="phoneNumber">053-663-3222</col>
+			<col name="centerName">코로나19 대구광역시 서구 예방접종센터</col>
+			<col name="lng">128.5409908</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4843624</col>
+			<col name="phoneNumber">032-770-5774</col>
+			<col name="centerName">코로나19 인천광역시 동구 예방접종센터</col>
+			<col name="lng">126.6476567</col>
+			<col name="facilityName">송림체육관</col>
+			<col name="id">90</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">22534</col>
+			<col name="address">인천광역시 동구 염전로 30</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:24</col>
+		</item>
+		<item>
+			<col name="lat">37.7453664</col>
+			<col name="phoneNumber">032-930-4045</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.4745728</col>
+			<col name="centerName">코로나19 인천광역시 강화군 예방접종센터</col>
+			<col name="id">91</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">강화군</col>
+			<col name="zipCode">23028</col>
+			<col name="facilityName">강화문예회관</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:25</col>
+			<col name="address">인천광역시 강화군 강화읍 고비고개로19번길 12</col>
+		</item>
+		<item>
+			<col name="facilityName">동구문화센터</col>
+			<col name="id">92</col>
+			<col name="org"/>
+			<col name="sido">광주광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">61498</col>
+			<col name="address">광주광역시 동구 남문로 646, 4층</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:25</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.128599</col>
+			<col name="phoneNumber">062-608-3394</col>
+			<col name="centerName">코로나19 광주광역시 동구 예방접종센터</col>
+			<col name="lng">126.9309327</col>
+		</item>
+		<item>
+			<col name="facilityName">전남대학교 스포츠센터</col>
+			<col name="id">93</col>
+			<col name="org"/>
+			<col name="sido">광주광역시</col>
+			<col name="sigungu">북구</col>
+			<col name="zipCode">61186</col>
+			<col name="address">광주광역시 북구 우치로 91, 전남대학교</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:25</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1753518</col>
+			<col name="phoneNumber">062-410-8118</col>
+			<col name="centerName">코로나19 광주광역시 북구 예방접종센터</col>
+			<col name="lng">126.9119772</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 광주광역시 광산구 예방접종센터</col>
+			<col name="lng">126.849672</col>
+			<col name="org"/>
+			<col name="sido">광주광역시</col>
+			<col name="sigungu">광산구</col>
+			<col name="zipCode">62284</col>
+			<col name="facilityName">광주보훈병원 재활체육관</col>
+			<col name="id">94</col>
+			<col name="updatedAt">2021-07-16 04:55:25</col>
+			<col name="address">광주광역시 광산구 첨단월봉로 99, 광주보훈병원</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="phoneNumber">062-960-6862</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2079032</col>
+		</item>
+		<item>
+			<col name="zipCode">34593</col>
+			<col name="facilityName">동구 국민체육센터</col>
+			<col name="id">95</col>
+			<col name="org"/>
+			<col name="sido">대전광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="address">대전광역시 동구 가양로 9</col>
+			<col name="createdAt">2021-04-14 08:23:58</col>
+			<col name="updatedAt">2021-07-16 04:55:25</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.339464</col>
+			<col name="phoneNumber">042-251-4953</col>
+			<col name="centerName">코로나19 대전광역시 동구 예방접종센터</col>
+			<col name="lng">127.4381621</col>
+		</item>
+		<item>
+			<col name="zipCode">35021</col>
+			<col name="facilityName">한밭체육관</col>
+			<col name="id">96</col>
+			<col name="org"/>
+			<col name="sido">대전광역시</col>
+			<col name="sigungu">중구</col>
+			<col name="address">대전광역시 중구 대종로 373(부사동)</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:26</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.315542</col>
+			<col name="phoneNumber">042-288-8012</col>
+			<col name="centerName">코로나19 대전광역시 중구 예방접종센터</col>
+			<col name="lng">127.429163</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 대전광역시 서구 예방접종센터</col>
+			<col name="lng">127.3678805</col>
+			<col name="facilityName">도솔다목적체육관</col>
+			<col name="id">97</col>
+			<col name="org"/>
+			<col name="sido">대전광역시</col>
+			<col name="sigungu">서구</col>
+			<col name="zipCode">35344</col>
+			<col name="address">대전광역시 서구 배재로197번길 41(도마동)</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:26</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.324631</col>
+			<col name="phoneNumber">042-288-2611</col>
+		</item>
+		<item>
+			<col name="zipCode">34411</col>
+			<col name="facilityName">청소년어울림센터</col>
+			<col name="id">98</col>
+			<col name="org"/>
+			<col name="sido">대전광역시</col>
+			<col name="sigungu">대덕구</col>
+			<col name="address">대전광역시 대덕구 쌍청당로 25</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:26</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.3642759</col>
+			<col name="phoneNumber">042-608-5431</col>
+			<col name="centerName">코로나19 대전광역시 대덕구 예방접종센터</col>
+			<col name="lng">127.4342936</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 울산광역시 동구 예방접종센터</col>
+			<col name="lng">129.4220994</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">44020</col>
+			<col name="facilityName">전하체육센터</col>
+			<col name="id">99</col>
+			<col name="org"/>
+			<col name="sido">울산광역시</col>
+			<col name="address">울산광역시 동구 봉수로 285</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:26</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5120985</col>
+			<col name="phoneNumber">052-209-4101</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5744221</col>
+			<col name="phoneNumber">052-204-2743</col>
+			<col name="centerName">코로나19 울산광역시 울주군 예방접종센터</col>
+			<col name="lng">129.2449145</col>
+			<col name="facilityName">울주군 국민체육센터</col>
+			<col name="id">100</col>
+			<col name="org"/>
+			<col name="sido">울산광역시</col>
+			<col name="sigungu">울주군</col>
+			<col name="zipCode">44920</col>
+			<col name="address">울산광역시 울주군 범서읍 구영로 101-16</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:26</col>
+		</item>
+		<item>
+			<col name="address">경기도 광명시 오리로 703(하안동)</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4634416</col>
+			<col name="phoneNumber">02-2680-0959</col>
+			<col name="centerName">코로나19 경기도 광명시 예방접종센터</col>
+			<col name="lng">126.8706918</col>
+			<col name="sido">경기도</col>
+			<col name="sigungu">광명시</col>
+			<col name="zipCode">14259</col>
+			<col name="facilityName">광명시민체육관</col>
+			<col name="id">101</col>
+			<col name="org"/>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 의정부시 예방접종센터</col>
+			<col name="lng">127.0473647</col>
+			<col name="zipCode">480-010</col>
+			<col name="facilityName">의정부역 앞 시민공원</col>
+			<col name="id">102</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">의정부시</col>
+			<col name="address">경기도 의정부시 의정부동 161-10</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7370107</col>
+			<col name="phoneNumber">031-870-6547</col>
+		</item>
+		<item>
+			<col name="id">103</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">평택시</col>
+			<col name="zipCode">17731</col>
+			<col name="facilityName">이충문화체육센터</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="address">경기도 평택시 장안웃길 149</col>
+			<col name="lat">37.0660579</col>
+			<col name="phoneNumber">031-8024-7242</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.07071</col>
+			<col name="centerName">코로나19 경기도 평택시 송탄 예방접종센터</col>
+		</item>
+		<item>
+			<col name="address">경기도 이천시 부발읍 중부대로 1696</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2880067</col>
+			<col name="phoneNumber">031-645-3401</col>
+			<col name="centerName">코로나19 경기도 이천시 예방접종센터</col>
+			<col name="lng">127.4970639</col>
+			<col name="sigungu">이천시</col>
+			<col name="zipCode">17321</col>
+			<col name="facilityName">이천시종합운동장 배드민턴장</col>
+			<col name="id">104</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+		</item>
+		<item>
+			<col name="id">105</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">여주시</col>
+			<col name="zipCode">12625</col>
+			<col name="facilityName">여주시 실내체육관</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="address">경기도 여주시 영릉로 123</col>
+			<col name="lat">37.2936663</col>
+			<col name="phoneNumber">031-887-3277</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.6233793</col>
+			<col name="centerName">코로나19 경기도 여주시 예방접종센터</col>
+		</item>
+		<item>
+			<col name="address">경기도 파주시 시민회관길 33</col>
+			<col name="createdAt">2021-04-14 08:23:59</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7592755</col>
+			<col name="phoneNumber">031-940-5597</col>
+			<col name="centerName">코로나19 경기도 파주시 예방접종센터</col>
+			<col name="lng">126.7806728</col>
+			<col name="sido">경기도</col>
+			<col name="sigungu">파주시</col>
+			<col name="zipCode">10932</col>
+			<col name="facilityName">시민회관 대공연장</col>
+			<col name="id">106</col>
+			<col name="org"/>
+		</item>
+		<item>
+			<col name="address">경기도 부천시 석천로 293</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5133367</col>
+			<col name="phoneNumber">032-625-4493</col>
+			<col name="centerName">코로나19 경기도 부천시 예방접종센터</col>
+			<col name="lng">126.7630523</col>
+			<col name="zipCode">14509</col>
+			<col name="facilityName">부천체육관</col>
+			<col name="id">107</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">부천시</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:27</col>
+			<col name="address">경기도 양평군 양평읍 마유산로 11</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="phoneNumber">031-770-3944</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4968223</col>
+			<col name="centerName">코로나19 경기도 양평군 예방접종센터</col>
+			<col name="lng">127.4856578</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">양평군</col>
+			<col name="zipCode">12546</col>
+			<col name="facilityName">물맑은실내체육관</col>
+			<col name="id">108</col>
+		</item>
+		<item>
+			<col name="zipCode">12912</col>
+			<col name="facilityName">하남종합운동장 제2체육관</col>
+			<col name="id">109</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">하남시</col>
+			<col name="address">경기도 하남시 아리수로 600</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5672704</col>
+			<col name="phoneNumber">031-790-5923</col>
+			<col name="centerName">코로나19 경기도 하남시 예방접종센터</col>
+			<col name="lng">127.1916928</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3419045</col>
+			<col name="phoneNumber">031-345-2071</col>
+			<col name="centerName">코로나19 경기도 의왕시 예방접종센터</col>
+			<col name="lng">126.9718585</col>
+			<col name="facilityName">의왕시청소년수련관 다목적체육관</col>
+			<col name="id">110</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">의왕시</col>
+			<col name="zipCode">16077</col>
+			<col name="address">경기도 의왕시 문화공원로 33</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 김포시 예방접종센터</col>
+			<col name="lng">126.7180147</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">김포시</col>
+			<col name="zipCode">10110</col>
+			<col name="facilityName">김포시민회관 실내체육관</col>
+			<col name="id">111</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+			<col name="address">경기도 김포시 사우중로26</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="phoneNumber">031-5186-8300</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6170586</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 광주시 예방접종센터</col>
+			<col name="lng">127.2586309</col>
+			<col name="sido">경기도</col>
+			<col name="sigungu">광주시</col>
+			<col name="zipCode">12794</col>
+			<col name="facilityName">시민체육관</col>
+			<col name="id">112</col>
+			<col name="org"/>
+			<col name="address">경기도 광주시 오포읍 청석로 85</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3956313</col>
+			<col name="phoneNumber">031-760-8755</col>
+		</item>
+		<item>
+			<col name="facilityName">안양아트센터</col>
+			<col name="id">113</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">안양시 만안구</col>
+			<col name="zipCode">14093</col>
+			<col name="address">경기도 안양시 만안구 문예로36번길 16</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3846631</col>
+			<col name="phoneNumber">031-8045-3110</col>
+			<col name="centerName">코로나19 경기도 안양시 만안구 예방접종센터</col>
+			<col name="lng">126.9312877</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:28</col>
+			<col name="address">경기도 군포시 산본로 267</col>
+			<col name="lat">37.3547732</col>
+			<col name="phoneNumber">031-389-4940</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.9364681</col>
+			<col name="centerName">코로나19 경기도 군포시 예방접종센터</col>
+			<col name="id">114</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">군포시</col>
+			<col name="zipCode">15862</col>
+			<col name="facilityName">시민체육광장</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 포천시 예방접종센터</col>
+			<col name="lng">127.2007227</col>
+			<col name="zipCode">11154</col>
+			<col name="facilityName">포천종합운동장</col>
+			<col name="id">115</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">포천시</col>
+			<col name="address">경기도 포천시 군내면 호국로 1518</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.8880065</col>
+			<col name="phoneNumber">031-538-3611</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 구리시 예방접종센터</col>
+			<col name="lng">127.145882</col>
+			<col name="facilityName">인창도서관대강당</col>
+			<col name="id">116</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">구리시</col>
+			<col name="zipCode">11922</col>
+			<col name="address">경기도 구리시 건원대로34번길 90</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6052822</col>
+			<col name="phoneNumber">031-550-8666</col>
+		</item>
+		<item>
+			<col name="sido">경기도</col>
+			<col name="sigungu">고양시 덕양구</col>
+			<col name="zipCode">10471</col>
+			<col name="facilityName">고양어울림누리 체육관</col>
+			<col name="id">117</col>
+			<col name="org"/>
+			<col name="address">경기도 고양시 덕양구 어울림로 33</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6490151</col>
+			<col name="phoneNumber">031-8075-4825</col>
+			<col name="centerName">코로나19 경기도 고양시 덕양구 예방접종센터</col>
+			<col name="lng">126.8334159</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5176483</col>
+			<col name="phoneNumber">033-539-8346</col>
+			<col name="centerName">코로나19 강원도 동해시 예방접종센터</col>
+			<col name="lng">129.0993805</col>
+			<col name="facilityName">동해체육관</col>
+			<col name="id">118</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">동해시</col>
+			<col name="zipCode">25750</col>
+			<col name="address">강원도 동해시 덕골길 10</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+		</item>
+		<item>
+			<col name="address">강원도 태백시 고원로 203</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.1719567</col>
+			<col name="phoneNumber">033-550-3121</col>
+			<col name="centerName">코로나19 강원도 태백시 예방접종센터</col>
+			<col name="lng">128.9880281</col>
+			<col name="facilityName">문화예술회관</col>
+			<col name="id">119</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">태백시</col>
+			<col name="zipCode">26009</col>
+		</item>
+		<item>
+			<col name="address">강원도 속초시 동해대로 4229</col>
+			<col name="createdAt">2021-04-14 08:24:00</col>
+			<col name="updatedAt">2021-07-16 04:55:29</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.1966101</col>
+			<col name="phoneNumber">033-639-2131</col>
+			<col name="centerName">코로나19 강원도 속초시 예방접종센터</col>
+			<col name="lng">128.577105</col>
+			<col name="sigungu">속초시</col>
+			<col name="zipCode">24855</col>
+			<col name="facilityName">속초시생활체육관</col>
+			<col name="id">120</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 강원도 영월군 예방접종센터</col>
+			<col name="lng">128.4648632</col>
+			<col name="facilityName">스포츠파크 실내체육관</col>
+			<col name="id">121</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">영월군</col>
+			<col name="zipCode">26237</col>
+			<col name="address">강원도 영월군 영월읍 제방안길 100</col>
+			<col name="createdAt">2021-04-14 08:24:01</col>
+			<col name="updatedAt">2021-07-16 04:55:30</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.1769504</col>
+			<col name="phoneNumber">033-370-2517</col>
+		</item>
+		<item>
+			<col name="address">강원 평창군 평창읍 산책길 38</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:30</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3587642</col>
+			<col name="phoneNumber">033-330-4835</col>
+			<col name="centerName">코로나19 강원도 평창군 예방접종센터</col>
+			<col name="lng">128.3926594</col>
+			<col name="sido">강원도</col>
+			<col name="sigungu">평창군</col>
+			<col name="zipCode">25377</col>
+			<col name="facilityName">평창읍 생활체육관</col>
+			<col name="id">122</col>
+			<col name="org"/>
+		</item>
+		<item>
+			<col name="address">강원도 정선군 정선읍 애산로 60</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:30</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3770887</col>
+			<col name="phoneNumber">033-560-4024</col>
+			<col name="centerName">코로나19 강원도 정선군 예방접종센터</col>
+			<col name="lng">128.6747185</col>
+			<col name="facilityName">정선종합경기장 실내체육관</col>
+			<col name="id">123</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">정선군</col>
+			<col name="zipCode">26125</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 강원도 인제군 예방접종센터</col>
+			<col name="lng">128.165326</col>
+			<col name="sigungu">인제군</col>
+			<col name="zipCode">24624</col>
+			<col name="facilityName">인제체육관</col>
+			<col name="id">124</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="address">강원도 인제군 인제읍 비봉로44번길 113</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:30</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.0586312</col>
+			<col name="phoneNumber">033-460-2513</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 충청북도 고성군 예방접종센터</col>
+			<col name="lng">128.467108</col>
+			<col name="facilityName">고성생활체육관</col>
+			<col name="id">125</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">고성군</col>
+			<col name="zipCode">24728</col>
+			<col name="address">강원도 고성군 간성읍 수성로 87</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.3763599</col>
+			<col name="phoneNumber">033-680-3957</col>
+		</item>
+		<item>
+			<col name="lat">36.6365136</col>
+			<col name="phoneNumber">043-201-3253</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.4734123</col>
+			<col name="centerName">코로나19 충청북도 청주시 서원구 예방접종센터</col>
+			<col name="id">126</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">청주시 서원구</col>
+			<col name="zipCode">28559</col>
+			<col name="facilityName">청주체육관</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="address">충청북도 청주시 서원구 사직대로 229</col>
+		</item>
+		<item>
+			<col name="phoneNumber">043-641-3902</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.1308774</col>
+			<col name="centerName">코로나19 충청북도 제천시 예방접종센터</col>
+			<col name="lng">128.215994</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">제천시</col>
+			<col name="zipCode">27182</col>
+			<col name="facilityName">제천체육관</col>
+			<col name="id">127</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="address">충청북도 제천시 숭의로 85(화산동)</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="address">충청북도 옥천군 옥천읍 관성로 53</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="phoneNumber">043-730-2192</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.3023913</col>
+			<col name="centerName">코로나19 충청북도 옥천군 예방접종센터</col>
+			<col name="lng">127.5754856</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">옥천군</col>
+			<col name="zipCode">29039</col>
+			<col name="facilityName">옥천체육센터</col>
+			<col name="id">128</col>
+		</item>
+		<item>
+			<col name="address">충청남도 공주시 고마나루길 51-14</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.4625653</col>
+			<col name="phoneNumber">041-840-8791</col>
+			<col name="centerName">코로나19 충청남도 공주시 예방접종센터</col>
+			<col name="lng">127.1068865</col>
+			<col name="facilityName">백제체육관</col>
+			<col name="id">129</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">공주시</col>
+			<col name="zipCode">32535</col>
+		</item>
+		<item>
+			<col name="id">130</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">보령시</col>
+			<col name="zipCode">33494</col>
+			<col name="facilityName">보령종합체육관</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="address">충청남도 보령시 보령남로 339</col>
+			<col name="lat">36.3150123</col>
+			<col name="phoneNumber">041-930-5901</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.6037814</col>
+			<col name="centerName">코로나19 충청남도 보령시 예방접종센터</col>
+		</item>
+		<item>
+			<col name="address">충청남도 부여군 규암면 호수로 82</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:31</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.2787095</col>
+			<col name="phoneNumber">041-830-8682</col>
+			<col name="centerName">코로나19 충청남도 부여군 예방접종센터</col>
+			<col name="lng">126.8630546</col>
+			<col name="facilityName">부여국민체육센터</col>
+			<col name="id">131</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">부여군</col>
+			<col name="zipCode">33117</col>
+		</item>
+		<item>
+			<col name="phoneNumber">041-950-4046</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.0593861</col>
+			<col name="centerName">코로나19 충청남도 서천군 예방접종센터</col>
+			<col name="lng">126.6646855</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">서천군</col>
+			<col name="zipCode">33651</col>
+			<col name="facilityName">서천국민체육센터</col>
+			<col name="id">132</col>
+			<col name="updatedAt">2021-07-16 04:55:32</col>
+			<col name="address">충청남도 서천군 마서면 마서로 400</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+		</item>
+		<item>
+			<col name="zipCode">32438</col>
+			<col name="facilityName">윤봉길체육관</col>
+			<col name="id">133</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">예산군</col>
+			<col name="address">충청남도 예산군 예산읍 예산로 352</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="updatedAt">2021-07-16 04:55:32</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.67701</col>
+			<col name="phoneNumber">041-339-6082</col>
+			<col name="centerName">코로나19 충청남도 예산군 예방접종센터</col>
+			<col name="lng">126.8601305</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:32</col>
+			<col name="address">충청남도 태안군 태안읍 백화로 200</col>
+			<col name="createdAt">2021-04-14 08:34:37</col>
+			<col name="phoneNumber">041-671-5349</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.7548093</col>
+			<col name="centerName">코로나19 충청남도 태안군 예방접종센터</col>
+			<col name="lng">126.3127186</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">태안군</col>
+			<col name="zipCode">32140</col>
+			<col name="facilityName">태안군민체육관</col>
+			<col name="id">134</col>
+		</item>
+		<item>
+			<col name="facilityName">익산실내체육관</col>
+			<col name="id">135</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">익산시</col>
+			<col name="zipCode">54582</col>
+			<col name="address">전라북도 익산시 무왕로 1397</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:32</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.9697223</col>
+			<col name="phoneNumber">063-859-7481</col>
+			<col name="centerName">코로나19 전라북도 익산시 예방접종센터</col>
+			<col name="lng">127.007237</col>
+		</item>
+		<item>
+			<col name="sigungu">당진시</col>
+			<col name="zipCode">31732</col>
+			<col name="facilityName">송악문화스포츠센터</col>
+			<col name="id">136</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="address">충청남도 당진시 송악읍 틀모시로 830</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:32</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.9071524</col>
+			<col name="phoneNumber">041-360-6120</col>
+			<col name="centerName">코로나19 충청남도 당진시 예방접종센터</col>
+			<col name="lng">126.6910655</col>
+		</item>
+		<item>
+			<col name="address">전라북도 진안군 진안읍 우화2길 35번지</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.7887905</col>
+			<col name="phoneNumber">063-430-8503</col>
+			<col name="centerName">코로나19 전라북도 진안군 예방접종센터</col>
+			<col name="lng">127.4297061</col>
+			<col name="facilityName">전통문화전수관</col>
+			<col name="id">137</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">진안군</col>
+			<col name="zipCode">55432</col>
+		</item>
+		<item>
+			<col name="zipCode">56450</col>
+			<col name="facilityName">청소년수련관체육관</col>
+			<col name="id">138</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">고창군</col>
+			<col name="address">전라북도 고창군 고창읍 운동장길 36</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.4336323</col>
+			<col name="phoneNumber">063-560-8564</col>
+			<col name="centerName">코로나19 전라북도 고창군 예방접종센터</col>
+			<col name="lng">126.7231654</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라남도 나주시 예방접종센터</col>
+			<col name="lng">126.7193446</col>
+			<col name="facilityName">나주종합스포츠파크(다목적체육관)</col>
+			<col name="id">139</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">나주시</col>
+			<col name="zipCode">58253</col>
+			<col name="address">전라남도 나주시 영산강변로 99(송월동)</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0120317</col>
+			<col name="phoneNumber">061-339-2157</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라남도 담양군 예방접종센터</col>
+			<col name="lng">126.9855713</col>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">담양군</col>
+			<col name="zipCode">57344</col>
+			<col name="facilityName">담양문화회관</col>
+			<col name="id">140</col>
+			<col name="org"/>
+			<col name="address">전라남도 담양군 담양읍 지침6길 29</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.3163146</col>
+			<col name="phoneNumber">061-380-3961</col>
+		</item>
+		<item>
+			<col name="address">전라남도 곡성군 곡성읍 곡성로 855</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.281329</col>
+			<col name="phoneNumber">061-380-8981</col>
+			<col name="centerName">코로나19 전라남도 곡성군 예방접종센터</col>
+			<col name="lng">127.298185</col>
+			<col name="facilityName">곡성문화체육관</col>
+			<col name="id">141</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">곡성군</col>
+			<col name="zipCode">57535</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라남도 고흥군 예방접종센터</col>
+			<col name="lng">127.300194</col>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">고흥군</col>
+			<col name="zipCode">59536</col>
+			<col name="facilityName">팔영체육관</col>
+			<col name="id">142</col>
+			<col name="org"/>
+			<col name="address">전라남도 고흥군 고흥읍 고흥로 1892-67</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.6155045</col>
+			<col name="phoneNumber">061-830-6626</col>
+		</item>
+		<item>
+			<col name="lat">34.7721583</col>
+			<col name="phoneNumber">061-850-5683</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.0945875</col>
+			<col name="centerName">코로나19 전라남도 보성군 예방접종센터</col>
+			<col name="id">143</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">보성군</col>
+			<col name="zipCode">59451</col>
+			<col name="facilityName">다향체육관</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:33</col>
+			<col name="address">전라남도 보성군 보성읍 용문길 18</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.6699466</col>
+			<col name="phoneNumber">061-860-6476</col>
+			<col name="centerName">코로나19 전라남도 장흥군 예방접종센터</col>
+			<col name="lng">126.8924111</col>
+			<col name="zipCode">59333</col>
+			<col name="facilityName">장흥군 실내체육관</col>
+			<col name="id">144</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">장흥군</col>
+			<col name="address">전라남도 장흥군 장흥읍 읍성로 5-28</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:34</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라남도 화순군 예방접종센터</col>
+			<col name="lng">126.9686133</col>
+			<col name="zipCode">58149</col>
+			<col name="facilityName">이용대체육관</col>
+			<col name="id">145</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">화순군</col>
+			<col name="address">전라남도 화순군 화순읍 학포로 2698</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="updatedAt">2021-07-16 04:55:34</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0501241</col>
+			<col name="phoneNumber">061-379-5992</col>
+		</item>
+		<item>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">강진군</col>
+			<col name="zipCode">59223</col>
+			<col name="facilityName">제2실내체육관</col>
+			<col name="id">146</col>
+			<col name="updatedAt">2021-07-16 04:55:34</col>
+			<col name="address">전라남도 강진군 강진읍 종합운동장길 60</col>
+			<col name="createdAt">2021-04-14 08:34:38</col>
+			<col name="phoneNumber">061-430-3595</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.6470779</col>
+			<col name="centerName">코로나19 전라남도 강진군 예방접종센터</col>
+			<col name="lng">126.7823691</col>
+		</item>
+		<item>
+			<col name="address">전라남도 영암군 영암읍 영암로 1527</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:34</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.7948384</col>
+			<col name="phoneNumber">061-470-6578</col>
+			<col name="centerName">코로나19 전라남도 영암군 예방접종센터</col>
+			<col name="lng">126.6970437</col>
+			<col name="facilityName">영암실내체육관</col>
+			<col name="id">147</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">영암군</col>
+			<col name="zipCode">58418</col>
+		</item>
+		<item>
+			<col name="facilityName">무안종합스포츠파크 실내체육관</col>
+			<col name="id">148</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">무안군</col>
+			<col name="zipCode">58517</col>
+			<col name="address">전라남도 무안군 현경면 공항로 345</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0035628</col>
+			<col name="phoneNumber">061-450-5110</col>
+			<col name="centerName">코로나19 전라남도 무안군 예방접종센터</col>
+			<col name="lng">126.4474876</col>
+		</item>
+		<item>
+			<col name="sigungu">함평군</col>
+			<col name="zipCode">57145</col>
+			<col name="facilityName">문화체육센터</col>
+			<col name="id">149</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="address">전라남도 함평군 대동면 함장로 1377</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0616145</col>
+			<col name="phoneNumber">061-320-2419</col>
+			<col name="centerName">코로나19 전라남도 함평군 예방접종센터</col>
+			<col name="lng">126.5440217</col>
+		</item>
+		<item>
+			<col name="lat">35.3044189</col>
+			<col name="phoneNumber">061-390-8332</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.7857486</col>
+			<col name="centerName">코로나19 전라남도 장성군 예방접종센터</col>
+			<col name="id">150</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">장성군</col>
+			<col name="zipCode">57220</col>
+			<col name="facilityName">군민회관</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="address">전라남도 장성군 장성읍 청운7길 10</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.31595</col>
+			<col name="phoneNumber">061-550-6761</col>
+			<col name="centerName">코로나19 전라남도 완도군 예방접종센터</col>
+			<col name="lng">126.7416771</col>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">완도군</col>
+			<col name="zipCode">59109</col>
+			<col name="facilityName">농어민문화체육센터</col>
+			<col name="id">151</col>
+			<col name="org"/>
+			<col name="address">전라남도 완도군 완도읍 개포로 111</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+		</item>
+		<item>
+			<col name="address">전라남도 진도군 진도읍 공설운동장길 57</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.4774916</col>
+			<col name="phoneNumber">061-540-6043</col>
+			<col name="centerName">코로나19 전라남도 진도군 예방접종센터</col>
+			<col name="lng">126.2790744</col>
+			<col name="facilityName">진도군 실내체육관</col>
+			<col name="id">152</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">진도군</col>
+			<col name="zipCode">58927</col>
+		</item>
+		<item>
+			<col name="address">전라남도 신안군 압해읍 복룡로 120</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.8746659</col>
+			<col name="phoneNumber">061-240-8816</col>
+			<col name="centerName">코로나19 전라남도 신안군 예방접종센터</col>
+			<col name="lng">126.3123805</col>
+			<col name="facilityName">신안군민체육관</col>
+			<col name="id">153</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">신안군</col>
+			<col name="zipCode">58821</col>
+		</item>
+		<item>
+			<col name="facilityName">경주실내체육관</col>
+			<col name="id">154</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">경주시</col>
+			<col name="zipCode">38089</col>
+			<col name="address">경상북도 경주시 황성공원로 29</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:35</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8606452</col>
+			<col name="phoneNumber">054-760-2721</col>
+			<col name="centerName">코로나19 경상북도 경주시 예방접종센터</col>
+			<col name="lng">129.2090805</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.5944296</col>
+			<col name="phoneNumber">054-550-8278</col>
+			<col name="centerName">코로나19 경상북도 문경시 예방접종센터</col>
+			<col name="lng">128.1855802</col>
+			<col name="sigungu">문경시</col>
+			<col name="zipCode">36975</col>
+			<col name="facilityName">온누리스포츠센터</col>
+			<col name="id">155</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="address">경상북도 문경시 점고길21</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:36</col>
+		</item>
+		<item>
+			<col name="phoneNumber">053-810-6317</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8211171</col>
+			<col name="centerName">코로나19 경상북도 경산시 예방접종센터</col>
+			<col name="lng">128.7437733</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">경산시</col>
+			<col name="zipCode">38637</col>
+			<col name="facilityName">경산실내체육관</col>
+			<col name="id">156</col>
+			<col name="updatedAt">2021-07-16 04:55:36</col>
+			<col name="address">경상북도 경산시 남매로 100</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상북도 의성군 예방접종센터</col>
+			<col name="lng">128.7024706</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">의성군</col>
+			<col name="zipCode">37331</col>
+			<col name="facilityName">의성실내체육관</col>
+			<col name="id">157</col>
+			<col name="updatedAt">2021-07-16 04:55:36</col>
+			<col name="address">경상북도 의성군 의성읍 충효로 88</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="phoneNumber">054-830-6678</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.3552754</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.4310215</col>
+			<col name="phoneNumber">054-870-7220</col>
+			<col name="centerName">코로나19 경상북도 청송군 예방접종센터</col>
+			<col name="lng">129.0526302</col>
+			<col name="zipCode">37433</col>
+			<col name="facilityName">청송군보건의료원</col>
+			<col name="id">158</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">청송군</col>
+			<col name="address">경상북도 청송군 청송읍 의료원길 19</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:36</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:36</col>
+			<col name="address">경상북도 봉화군 봉화읍 내성로 4길 6-44 </col>
+			<col name="lat">36.8882148</col>
+			<col name="phoneNumber">054-679-6741</col>
+			<col name="centerType">지역</col>
+			<col name="lng">128.7427865</col>
+			<col name="centerName">코로나19 경상북도 봉화군 예방접종센터</col>
+			<col name="id">159</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">봉화군</col>
+			<col name="zipCode">36238</col>
+			<col name="facilityName">봉화군민회관</col>
+		</item>
+		<item>
+			<col name="address">경상남도 창원시 성산구 비음로 97</col>
+			<col name="createdAt">2021-04-14 08:34:39</col>
+			<col name="updatedAt">2021-07-16 04:55:37</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2237902</col>
+			<col name="phoneNumber">055-225-5713</col>
+			<col name="centerName">코로나19 경상남도 창원시 예방접종센터</col>
+			<col name="lng">128.7071027</col>
+			<col name="facilityName">창원축구센터 체육관</col>
+			<col name="id">160</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">창원시 성산구</col>
+			<col name="zipCode">51460</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:37</col>
+			<col name="address">경상남도 사천시 용현면 시청로77</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="phoneNumber">055-831-3624</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0034774</col>
+			<col name="centerName">코로나19 경상남도 사천시 예방접종센터</col>
+			<col name="lng">128.0638649</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">사천시</col>
+			<col name="zipCode">52539</col>
+			<col name="facilityName">민방위교육장</col>
+			<col name="id">161</col>
+		</item>
+		<item>
+			<col name="phoneNumber">055-350-0487</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2347747</col>
+			<col name="centerName">코로나19 경상남도 김해시 예방접종센터</col>
+			<col name="lng">128.8736651</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">김해시</col>
+			<col name="zipCode">50918</col>
+			<col name="facilityName">문화체육관</col>
+			<col name="id">162</col>
+			<col name="updatedAt">2021-07-16 04:55:37</col>
+			<col name="address">경상남도 김해시 가야의길 98-19</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상남도 밀양시 예방접종센터</col>
+			<col name="lng">128.7573635</col>
+			<col name="facilityName">밀양문화체육회관</col>
+			<col name="id">163</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">밀양시</col>
+			<col name="zipCode">50436</col>
+			<col name="address">경상남도 밀양시 삼문송림길 25</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:37</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.4884187</col>
+			<col name="phoneNumber">055-359-6101</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.8821216</col>
+			<col name="phoneNumber">055-639-6155</col>
+			<col name="centerName">코로나19 경상남도 거제시 예방접종센터</col>
+			<col name="lng">128.6171268</col>
+			<col name="facilityName">거제시체육관</col>
+			<col name="id">164</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">거제시</col>
+			<col name="zipCode">53257</col>
+			<col name="address">경상남도 거제시 계룡로11길 35</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:37</col>
+		</item>
+		<item>
+			<col name="facilityName">양산시 종합운동장 실내체육관</col>
+			<col name="id">165</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">양산시</col>
+			<col name="zipCode">50619</col>
+			<col name="address">경상남도 양산시 양산대로 849</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.3462487</col>
+			<col name="phoneNumber">055-392-8721</col>
+			<col name="centerName">코로나19 경상남도 양산시 예방접종센터</col>
+			<col name="lng">129.032825</col>
+		</item>
+		<item>
+			<col name="phoneNumber">055-570-2872</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.3156506</col>
+			<col name="centerName">코로나19 경상남도 의령군 예방접종센터</col>
+			<col name="lng">128.2570849</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">의령군</col>
+			<col name="zipCode">52151</col>
+			<col name="facilityName">국민체육센터</col>
+			<col name="id">166</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+			<col name="address">경상남도 의령군 의령읍 의병로8길 44</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+		</item>
+		<item>
+			<col name="facilityName">함안체육관</col>
+			<col name="id">167</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">함안군</col>
+			<col name="zipCode">52036</col>
+			<col name="address">경상남도 함안군 가야읍 함안대로 619-4</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2804082</col>
+			<col name="phoneNumber">055-580-3335</col>
+			<col name="centerName">코로나19 경상남도 함안군 예방접종센터</col>
+			<col name="lng">128.3975962</col>
+		</item>
+		<item>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">창녕군</col>
+			<col name="zipCode">50317</col>
+			<col name="facilityName">창녕문화예술회관</col>
+			<col name="id">168</col>
+			<col name="org"/>
+			<col name="address">경상남도 창녕군 창녕읍 우포2로 1189-25</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5447364</col>
+			<col name="phoneNumber">055-530-6277</col>
+			<col name="centerName">코로나19 경상남도 창녕군 예방접종센터</col>
+			<col name="lng">128.4902054</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.97859</col>
+			<col name="phoneNumber">055-670-4080</col>
+			<col name="centerName">코로나19 경상남도 고성군 예방접종센터</col>
+			<col name="lng">128.3103261</col>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">고성군</col>
+			<col name="zipCode">52931</col>
+			<col name="facilityName">고성군 실내체육관</col>
+			<col name="id">169</col>
+			<col name="org"/>
+			<col name="address">경상남도 고성군 고성읍 송학고분로 179</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상남도 남해군 예방접종센터</col>
+			<col name="lng">127.899595</col>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">남해군</col>
+			<col name="zipCode">52413</col>
+			<col name="facilityName">남해문화센터</col>
+			<col name="id">170</col>
+			<col name="org"/>
+			<col name="address">경상남도 남해군 남해읍 선소로12</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:38</col>
+			<col name="centerType">지역</col>
+			<col name="lat">34.8453176</col>
+			<col name="phoneNumber">055-860-8776</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.066775</col>
+			<col name="phoneNumber">055-880-6912</col>
+			<col name="centerName">코로나19 경상남도 하동군 예방접종센터</col>
+			<col name="lng">127.7529875</col>
+			<col name="zipCode">52333</col>
+			<col name="facilityName">하동군보건소</col>
+			<col name="id">171</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">하동군</col>
+			<col name="address">경상남도 하동군 군청로31</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+		</item>
+		<item>
+			<col name="lat">35.4219823</col>
+			<col name="phoneNumber">055-970-7548</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.8701727</col>
+			<col name="centerName">코로나19 경상남도 산청군 예방접종센터</col>
+			<col name="id">172</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">산청군</col>
+			<col name="zipCode">52215</col>
+			<col name="facilityName">산청군 실내체육관</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+			<col name="address">경남 산청군 금서면 친환경로2631번길 39</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상남도 함양군 예방접종센터</col>
+			<col name="lng">127.7327652</col>
+			<col name="facilityName">한들생태주차창</col>
+			<col name="id">173</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">함양군</col>
+			<col name="zipCode">676-805</col>
+			<col name="address">경상남도 함양군 함양읍 용평리 637-1</col>
+			<col name="createdAt">2021-04-14 08:34:40</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.5200078</col>
+			<col name="phoneNumber">055-960-8051</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경상남도 거창군 예방접종센터</col>
+			<col name="lng">127.9290773</col>
+			<col name="facilityName">거창군 스포츠파크 실내체육관</col>
+			<col name="id">174</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">거창군</col>
+			<col name="zipCode">50126</col>
+			<col name="address">경상남도 거창군 거창읍 양평리 1160</col>
+			<col name="createdAt">2021-04-14 08:34:41</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.6921361</col>
+			<col name="phoneNumber">055-940-8333</col>
+		</item>
+		<item>
+			<col name="lat">35.5615874</col>
+			<col name="phoneNumber">055-930-3693</col>
+			<col name="centerType">지역</col>
+			<col name="lng">128.1534008</col>
+			<col name="centerName">코로나19 경상남도 합천군 예방접종센터</col>
+			<col name="id">175</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">합천군</col>
+			<col name="zipCode">50229</col>
+			<col name="facilityName">합천체육관</col>
+			<col name="createdAt">2021-04-14 08:34:41</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+			<col name="address">경상남도 합천군 합천읍 장수로 1</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 부산광역시 영도구 예방접종센터</col>
+			<col name="lng">129.0791563</col>
+			<col name="sigungu">영도구</col>
+			<col name="zipCode">49111</col>
+			<col name="facilityName">부산국제크루즈터미널</col>
+			<col name="id">176</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="address">부산광역시 영도구 해양로301번길 17(동삼동)</col>
+			<col name="createdAt">2021-04-21 08:39:38</col>
+			<col name="updatedAt">2021-07-16 04:55:39</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0807621</col>
+			<col name="phoneNumber">051-419-6262</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0958093</col>
+			<col name="phoneNumber">051-220-0131</col>
+			<col name="centerName">코로나19 부산광역시 사하구 예방접종센터</col>
+			<col name="lng">128.9613786</col>
+			<col name="facilityName">부산교통공사 신평체육관</col>
+			<col name="id">177</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">사하구</col>
+			<col name="zipCode">49431</col>
+			<col name="address">부산광역시 사하구 하신번영로 175</col>
+			<col name="createdAt">2021-04-21 08:39:38</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.2519041</col>
+			<col name="phoneNumber">051-709-8636</col>
+			<col name="centerName">코로나19 부산광역시 기장군 예방접종센터</col>
+			<col name="lng">129.2240183</col>
+			<col name="zipCode">46077</col>
+			<col name="facilityName">기장체육관 보조경기장</col>
+			<col name="id">178</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">기장군</col>
+			<col name="address">부산광역시 기장군 기장대로 650</col>
+			<col name="createdAt">2021-04-21 08:39:38</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+		</item>
+		<item>
+			<col name="id">179</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">수성구</col>
+			<col name="zipCode">42250</col>
+			<col name="facilityName">대구육상진흥센터</col>
+			<col name="createdAt">2021-04-21 08:39:38</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+			<col name="address">대구광역시 수성구 미술관로 88 (삼덕동)</col>
+			<col name="lat">35.8282552</col>
+			<col name="phoneNumber">053-666-3117</col>
+			<col name="centerType">지역</col>
+			<col name="lng">128.6792297</col>
+			<col name="centerName">코로나19 대구광역시 수성구 예방접종센터</col>
+		</item>
+		<item>
+			<col name="phoneNumber">053-668-3133</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.7992908</col>
+			<col name="centerName">코로나19 대구광역시 달성군 예방접종센터</col>
+			<col name="lng">128.4871823</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">달성군</col>
+			<col name="zipCode">42945</col>
+			<col name="facilityName">농협달성유통센터</col>
+			<col name="id">180</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+			<col name="address">대구광역시 달성군 화원읍 성천로 9</col>
+			<col name="createdAt">2021-04-21 08:39:38</col>
+		</item>
+		<item>
+			<col name="lng">126.7480273</col>
+			<col name="centerName">코로나19 인천광역시 계양구 예방접종센터</col>
+			<col name="id">181</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">계양구</col>
+			<col name="zipCode">21072</col>
+			<col name="facilityName">계양아시아드양궁장</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+			<col name="address">인천광역시 계양구 봉오대로 855</col>
+			<col name="lat">37.5339559</col>
+			<col name="phoneNumber">032-430-7972</col>
+			<col name="centerType">지역</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7271583</col>
+			<col name="phoneNumber">031-579-6763</col>
+			<col name="centerName">코로나19 경기도 남양주시 예방접종센터</col>
+			<col name="lng">127.189713</col>
+			<col name="facilityName">진접체육문화센터</col>
+			<col name="id">182</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">남양주시</col>
+			<col name="zipCode">12009</col>
+			<col name="address">경기도 남양주시 진접읍 금강로 1509-24</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 수원시 권선구 예방접종센터</col>
+			<col name="lng">126.9895474</col>
+			<col name="facilityName">정현 중보들 테니스 센터</col>
+			<col name="id">183</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">수원시 권선구</col>
+			<col name="zipCode">16648</col>
+			<col name="address">경기도 수원시 권선구 오목천로 270</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:40</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2475761</col>
+			<col name="phoneNumber">031-228-3701</col>
+		</item>
+		<item>
+			<col name="address">경기도 연천군 전곡읍 은대성로95</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.0234715</col>
+			<col name="phoneNumber">031-839-4067</col>
+			<col name="centerName">코로나19 경기도 연천군 예방접종센터</col>
+			<col name="lng">127.060977</col>
+			<col name="facilityName">연천군보건의료원 대회의실</col>
+			<col name="id">184</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">연천군</col>
+			<col name="zipCode">11027</col>
+		</item>
+		<item>
+			<col name="address">강원도 양양군 양양읍 양양로 114-5</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.0741886</col>
+			<col name="phoneNumber">033-670-2221</col>
+			<col name="centerName">코로나19 강원도 양양군 예방접종센터</col>
+			<col name="lng">128.616466</col>
+			<col name="facilityName">일출예식장</col>
+			<col name="id">185</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">양양군</col>
+			<col name="zipCode">25024</col>
+		</item>
+		<item>
+			<col name="address">충청북도 영동군 반곡동길 7</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.1684925</col>
+			<col name="phoneNumber">043-740-5590 </col>
+			<col name="centerName">코로나19 충청북도 영동군 예방접종센터</col>
+			<col name="lng">127.7759961</col>
+			<col name="zipCode">29150</col>
+			<col name="facilityName">영동군보건소</col>
+			<col name="id">186</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">영동군</col>
+		</item>
+		<item>
+			<col name="address">충청북도 단양군 단양읍 별곡3로19</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.9874322</col>
+			<col name="phoneNumber">043-420-2872 </col>
+			<col name="centerName">코로나19 충청북도 단양군 예방접종센터</col>
+			<col name="lng">128.3649418</col>
+			<col name="facilityName">다목적체육관</col>
+			<col name="id">187</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">단양군</col>
+			<col name="zipCode">27010</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.2697923</col>
+			<col name="phoneNumber">042-840-3523</col>
+			<col name="centerName">코로나19 충청남도 계룡시 예방접종센터</col>
+			<col name="lng">127.2332687</col>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">계룡시</col>
+			<col name="zipCode">32829</col>
+			<col name="facilityName">계룡시민체육관</col>
+			<col name="id">188</col>
+			<col name="org"/>
+			<col name="address">충청남도 계룡시 엄사면 문화1로51</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+		</item>
+		<item>
+			<col name="lat">36.1015457</col>
+			<col name="phoneNumber">041-750-4332</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.478921</col>
+			<col name="centerName">코로나19 충청남도 금산군 예방접종센터</col>
+			<col name="id">189</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">금산군</col>
+			<col name="zipCode">32745</col>
+			<col name="facilityName">금산종합체육관</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:41</col>
+			<col name="address">충청남도 금산군 금산읍 사직로 20</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 충청남도 청양군 예방접종센터</col>
+			<col name="lng">126.79263</col>
+			<col name="facilityName">청양다목적체육관</col>
+			<col name="id">190</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">청양군</col>
+			<col name="zipCode">33340</col>
+			<col name="address">충청남도 청양군 청양읍 충절로 1199</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.4530793</col>
+			<col name="phoneNumber">041-940-4807</col>
+		</item>
+		<item>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">홍성군</col>
+			<col name="zipCode">32216</col>
+			<col name="facilityName">홍주문화체육센터</col>
+			<col name="id">191</col>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="address">충청남도 홍성군 홍성읍 홍덕서로 78</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="phoneNumber">041-630-9042</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.6081813</col>
+			<col name="centerName">코로나19 충청남도 홍성군 예방접종센터</col>
+			<col name="lng">126.641707</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 전라북도 김제시 예방접종센터</col>
+			<col name="lng">126.9018012</col>
+			<col name="facilityName">김제시체육관</col>
+			<col name="id">192</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">김제시</col>
+			<col name="zipCode">54368</col>
+			<col name="address">전라북도 김제시 도작로 224-98</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.814521</col>
+			<col name="phoneNumber">063-540-1320</col>
+		</item>
+		<item>
+			<col name="address">전라북도 완주군 삼례읍 삼봉로 215</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.9199139</col>
+			<col name="phoneNumber">063-290-3021</col>
+			<col name="centerName">코로나19 전라북도 완주군 예방접종센터</col>
+			<col name="lng">127.0933802</col>
+			<col name="facilityName">문화체육센터</col>
+			<col name="id">193</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">완주군</col>
+			<col name="zipCode">55333</col>
+		</item>
+		<item>
+			<col name="address">전라북도 장수군 장수읍 한누리로 393</col>
+			<col name="createdAt">2021-04-21 08:39:39</col>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.6410784</col>
+			<col name="phoneNumber">063-350-2660</col>
+			<col name="centerName">코로나19 전라북도 장수군 예방접종센터</col>
+			<col name="lng">127.5181926</col>
+			<col name="zipCode">55638</col>
+			<col name="facilityName">한누리전당 산디관</col>
+			<col name="id">194</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">장수군</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:42</col>
+			<col name="address">전라북도 임실군 임실읍 호국로 1703</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="phoneNumber">063-640-3174</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.6149021</col>
+			<col name="centerName">코로나19 전라북도 임실군 예방접종센터</col>
+			<col name="lng">127.2871073</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">임실군</col>
+			<col name="zipCode">55927</col>
+			<col name="facilityName">군민회관</col>
+			<col name="id">195</col>
+		</item>
+		<item>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">순창군</col>
+			<col name="zipCode">56033</col>
+			<col name="facilityName">장애인체육관</col>
+			<col name="id">196</col>
+			<col name="updatedAt">2021-07-16 04:55:43</col>
+			<col name="address">전라북도 순창군 장류로 407-11</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="phoneNumber">063-650-5211</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.3773218</col>
+			<col name="centerName">코로나19 전라북도 순창군 예방접종센터</col>
+			<col name="lng">127.1474764</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.7243663</col>
+			<col name="phoneNumber">063-580-3046</col>
+			<col name="centerName">코로나19 전라북도 부안군 예방접종센터</col>
+			<col name="lng">126.7254977</col>
+			<col name="sigungu">부안군</col>
+			<col name="zipCode">56311</col>
+			<col name="facilityName">예술회관</col>
+			<col name="id">197</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="address">전라북도 부안군 부안읍 예술회관길 11</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:43</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.1449869</col>
+			<col name="phoneNumber">054-421-2715</col>
+			<col name="centerName">코로나19 경상북도 김천시 예방접종센터</col>
+			<col name="lng">128.0886473</col>
+			<col name="facilityName">국민체육센터</col>
+			<col name="id">198</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">김천시</col>
+			<col name="zipCode">39524</col>
+			<col name="address">경상북도 김천시 운동장길 1</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:43</col>
+		</item>
+		<item>
+			<col name="address">경상북도 영주시 가흥로109</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:43</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.806657</col>
+			<col name="phoneNumber">054-639-5776</col>
+			<col name="centerName">코로나19 경상북도 영주시 예방접종센터</col>
+			<col name="lng">128.6066604</col>
+			<col name="zipCode">36140</col>
+			<col name="facilityName">영주국민체육센터</col>
+			<col name="id">199</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">영주시</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.43161</col>
+			<col name="phoneNumber">054-537-6582</col>
+			<col name="centerName">코로나19 경상북도 상주시 예방접종센터</col>
+			<col name="lng">128.162938</col>
+			<col name="zipCode">37159</col>
+			<col name="facilityName">상주시 실내체육관 구관</col>
+			<col name="id">200</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">상주시</col>
+			<col name="address">경상북도 상주시 북상주로 24-7</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:44</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.4178093</col>
+			<col name="phoneNumber">054-730-6853</col>
+			<col name="centerName">코로나19 경상북도 영덕군 예방접종센터</col>
+			<col name="lng">129.365543</col>
+			<col name="facilityName">영덕국민체육센터</col>
+			<col name="id">201</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">영덕군</col>
+			<col name="zipCode">36427</col>
+			<col name="address">경상북도 영덕군 영덕읍 강변길 290</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:44</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.6464943</col>
+			<col name="phoneNumber">054-650-8051</col>
+			<col name="centerName">코로나19 경상북도 예천군 예방접종센터</col>
+			<col name="lng">128.4364739</col>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">예천군</col>
+			<col name="zipCode">36826</col>
+			<col name="facilityName">국민체육센터</col>
+			<col name="id">202</col>
+			<col name="org"/>
+			<col name="address">경상북도 예천군 예천읍 충효로 111 </col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:44</col>
+		</item>
+		<item>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">창원시 진해구</col>
+			<col name="zipCode">51629</col>
+			<col name="facilityName">진해종합사회복지관</col>
+			<col name="id">203</col>
+			<col name="org"/>
+			<col name="address">경상남도 창원시 진해구 진해대로 1101</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:45</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1341853</col>
+			<col name="phoneNumber">055-225-6492</col>
+			<col name="centerName">코로나19 경상남도 창원시 진해구 예방접종센터</col>
+			<col name="lng">128.7106363</col>
+		</item>
+		<item>
+			<col name="facilityName">서귀포의료원((舊)건강증진센터)</col>
+			<col name="id">204</col>
+			<col name="org"/>
+			<col name="sido">제주특별자치도</col>
+			<col name="sigungu">서귀포시</col>
+			<col name="zipCode">63585</col>
+			<col name="address">제주특별자치도 서귀포시 장수로 47</col>
+			<col name="createdAt">2021-04-21 08:39:40</col>
+			<col name="updatedAt">2021-07-16 04:55:45</col>
+			<col name="centerType">지역</col>
+			<col name="lat">33.2555355</col>
+			<col name="phoneNumber">064-760-6085</col>
+			<col name="centerName">코로나19 제주특별자치도 서귀포시 예방접종센터</col>
+			<col name="lng">126.5639216</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 강남구 예방접종센터</col>
+			<col name="lng">127.0270865</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강남구</col>
+			<col name="zipCode">06001</col>
+			<col name="facilityName">강남관광정보센터</col>
+			<col name="id">205</col>
+			<col name="org"/>
+			<col name="address">서울특별시 강남구 압구정로 161</col>
+			<col name="createdAt">2021-04-28 08:13:27</col>
+			<col name="updatedAt">2021-07-16 04:55:45</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5268288</col>
+			<col name="phoneNumber">02-3423-5162</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:46</col>
+			<col name="address">부산광역시 서구 구덕로 127</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="phoneNumber">051-290-5322</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.0963326</col>
+			<col name="centerName">코로나19 부산광역시 서구 예방접종센터</col>
+			<col name="lng">129.0220581</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">서구</col>
+			<col name="zipCode">49252</col>
+			<col name="facilityName">서구가족센터</col>
+			<col name="id">206</col>
+		</item>
+		<item>
+			<col name="id">207</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">해운대구</col>
+			<col name="zipCode">48049</col>
+			<col name="facilityName">해운대구 문화복합센터</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:46</col>
+			<col name="address">부산광역시 해운대구 센텀중앙로 170</col>
+			<col name="lat">35.1821442</col>
+			<col name="phoneNumber">051-749-1657</col>
+			<col name="centerType">지역</col>
+			<col name="lng">129.1214911</col>
+			<col name="centerName">코로나19 부산광역시 해운대구 예방접종센터</col>
+		</item>
+		<item>
+			<col name="address">부산광역시 사상구 백양대로 420(주례동)</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:46</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.153407</col>
+			<col name="phoneNumber">070-8826-0939</col>
+			<col name="centerName">코로나19 부산광역시 사상구 예방접종센터</col>
+			<col name="lng">129.0082</col>
+			<col name="facilityName">보훈병원 체육관</col>
+			<col name="id">208</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">사상구</col>
+			<col name="zipCode">46996</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1043073</col>
+			<col name="phoneNumber">051-600-4102</col>
+			<col name="centerName">코로나19 부산광역시 중구 예방접종센터</col>
+			<col name="lng">129.0285284</col>
+			<col name="facilityName">가톨릭센터</col>
+			<col name="id">209</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">48968</col>
+			<col name="address">부산광역시 중구 중구로 71</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:47</col>
+		</item>
+		<item>
+			<col name="facilityName">부산진역 공터</col>
+			<col name="id">210</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">동구</col>
+			<col name="zipCode">601-030</col>
+			<col name="address">부산광역시 동구 수정동 79-711</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:47</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1285274</col>
+			<col name="phoneNumber">051-440-6460</col>
+			<col name="centerName">코로나19 부산광역시 동구 예방접종센터</col>
+			<col name="lng">129.0490413</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 부산광역시 동래구 예방접종센터</col>
+			<col name="lng">129.0606889</col>
+			<col name="sigungu">동래구</col>
+			<col name="zipCode">47874</col>
+			<col name="facilityName">사직실내체육관</col>
+			<col name="id">211</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="address">부산광역시 동래구 사직로 55-32</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:47</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1920417</col>
+			<col name="phoneNumber">051-550-4981</col>
+		</item>
+		<item>
+			<col name="lng">128.9722029</col>
+			<col name="centerName">코로나19 부산광역시 강서구 예방접종센터</col>
+			<col name="id">212</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">강서구</col>
+			<col name="zipCode">46703</col>
+			<col name="facilityName">강서체육공원</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:47</col>
+			<col name="address">부산광역시 강서구 체육공원로 43</col>
+			<col name="lat">35.2101433</col>
+			<col name="phoneNumber">051-970-2806</col>
+			<col name="centerType">지역</col>
+		</item>
+		<item>
+			<col name="facilityName">연제구 국민체육센터</col>
+			<col name="id">213</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">연제구</col>
+			<col name="zipCode">47579</col>
+			<col name="address">부산광역시 연제구 쌍미천로 132</col>
+			<col name="createdAt">2021-04-28 08:13:28</col>
+			<col name="updatedAt">2021-07-16 04:55:47</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1842151</col>
+			<col name="phoneNumber">051-665-5372</col>
+			<col name="centerName">코로나19 부산광역시 연제구 예방접종센터</col>
+			<col name="lng">129.0874305</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+			<col name="address">부산광역시 수영구 수영로521번길 77</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="phoneNumber">051-610-5603</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1529382</col>
+			<col name="centerName">코로나19 부산광역시 수영구 예방접종센터</col>
+			<col name="lng">129.1074595</col>
+			<col name="org"/>
+			<col name="sido">부산광역시</col>
+			<col name="sigungu">수영구</col>
+			<col name="zipCode">48264</col>
+			<col name="facilityName">수영구 국민체육센터</col>
+			<col name="id">214</col>
+		</item>
+		<item>
+			<col name="zipCode">42501</col>
+			<col name="facilityName">대덕문화전당</col>
+			<col name="id">215</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">남구</col>
+			<col name="address">대구광역시 남구 앞산순환로 478</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8313</col>
+			<col name="phoneNumber">053-664-3497</col>
+			<col name="centerName">코로나19 대구광역시 남구 예방접종센터</col>
+			<col name="lng">128.576875</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.8015536</col>
+			<col name="phoneNumber">053-667-2225</col>
+			<col name="centerName">코로나19 대구광역시 달서구 예방접종센터</col>
+			<col name="lng">128.535892</col>
+			<col name="zipCode">42829</col>
+			<col name="facilityName">월배국민체육센터</col>
+			<col name="id">216</col>
+			<col name="org"/>
+			<col name="sido">대구광역시</col>
+			<col name="sigungu">달서구</col>
+			<col name="address">대구광역시 달서구 갈밭남로 76</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4959954</col>
+			<col name="phoneNumber">032-760-6022</col>
+			<col name="centerName">코로나19 인천광역시 중구 예방접종센터</col>
+			<col name="lng">126.4719929</col>
+			<col name="sigungu">중구</col>
+			<col name="zipCode">22379</col>
+			<col name="facilityName">하늘문화센터</col>
+			<col name="id">217</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="address">인천광역시 중구 영종해안북로 1000-26</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+		</item>
+		<item>
+			<col name="id">218</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">미추홀구</col>
+			<col name="zipCode">22100</col>
+			<col name="facilityName">인천대학교 제물포캠퍼스 예체능관</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+			<col name="address">인천광역시 미추홀구 석정로 165</col>
+			<col name="lat">37.4712917</col>
+			<col name="phoneNumber">032-880-5702</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.65915</col>
+			<col name="centerName">코로나19 인천광역시 미추홀구 예방접종센터</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 인천광역시 남동구 예방접종센터</col>
+			<col name="lng">126.7100036</col>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">남동구</col>
+			<col name="zipCode">21565</col>
+			<col name="facilityName">길병원</col>
+			<col name="id">219</col>
+			<col name="org"/>
+			<col name="address">인천광역시 남동구 독점로29번길 16</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:48</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4526129</col>
+			<col name="phoneNumber">032-453-5658</col>
+		</item>
+		<item>
+			<col name="lng">126.666375</col>
+			<col name="centerName">코로나19 인천광역시 서구 예방접종센터</col>
+			<col name="id">220</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">서구</col>
+			<col name="zipCode">22633</col>
+			<col name="facilityName">검단복지회관</col>
+			<col name="createdAt">2021-04-28 08:13:29</col>
+			<col name="updatedAt">2021-07-16 04:55:49</col>
+			<col name="address">인천광역시 서구 완정로92번길 18</col>
+			<col name="lat">37.600394</col>
+			<col name="phoneNumber">032-560-5053</col>
+			<col name="centerType">지역</col>
+		</item>
+		<item>
+			<col name="phoneNumber">032-899-3130</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2601125</col>
+			<col name="centerName">코로나19 인천광역시 옹진군 예방접종센터</col>
+			<col name="lng">126.4722172</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">옹진군</col>
+			<col name="zipCode">23119</col>
+			<col name="facilityName">옹진국민체육센터</col>
+			<col name="id">221</col>
+			<col name="updatedAt">2021-07-16 04:55:49</col>
+			<col name="address">인천광역시 옹진군 영흥면 영흥로 348번길 175-29</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+		</item>
+		<item>
+			<col name="phoneNumber">031-860-2634</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.9052419</col>
+			<col name="centerName">코로나19 경기도 동두천시 예방접종센터</col>
+			<col name="lng">127.0430468</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">동두천시</col>
+			<col name="zipCode">11340</col>
+			<col name="facilityName">동두천시 시민회관</col>
+			<col name="id">222</col>
+			<col name="updatedAt">2021-07-16 04:55:49</col>
+			<col name="address">경기도 동두천시 어수로4(상패동)</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.1586968</col>
+			<col name="phoneNumber">031-8036-6057</col>
+			<col name="centerName">코로나19 경기도 오산시 예방접종센터</col>
+			<col name="lng">127.0756636</col>
+			<col name="zipCode">18131</col>
+			<col name="facilityName">오산스포츠센터</col>
+			<col name="id">223</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">오산시</col>
+			<col name="address">경기도 오산시 경기동로 33</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+			<col name="updatedAt">2021-07-16 04:55:49</col>
+		</item>
+		<item>
+			<col name="address">경기도 양주시 평화로1215</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7991099</col>
+			<col name="phoneNumber">031-8082-7157</col>
+			<col name="centerName">코로나19 경기도 양주시 예방접종센터</col>
+			<col name="lng">127.0451659</col>
+			<col name="facilityName">경기섬유종합지원센터 </col>
+			<col name="id">224</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">양주시</col>
+			<col name="zipCode">11497</col>
+		</item>
+		<item>
+			<col name="address">경기도 수원시 장안구 경수대로 893</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2974488</col>
+			<col name="phoneNumber">031-228-3737</col>
+			<col name="centerName">코로나19 경기도 수원시 장안구 예방접종센터</col>
+			<col name="lng">127.0094971</col>
+			<col name="facilityName">수원종합운동장 국민체육센터</col>
+			<col name="id">225</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">수원시 장안구</col>
+			<col name="zipCode">16308</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="address">경기도 수원시 팔달구 권광로 293</col>
+			<col name="lat">37.2739402</col>
+			<col name="phoneNumber">031-228-3701</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.0349868</col>
+			<col name="centerName">코로나19 경기도 수원시 팔달구 예방접종센터</col>
+			<col name="id">226</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">수원시 팔달구</col>
+			<col name="zipCode">16486</col>
+			<col name="facilityName">청소년문화센터 꿈의 체육관</col>
+		</item>
+		<item>
+			<col name="address">경기도 화성시 향남읍 향남로 470</col>
+			<col name="createdAt">2021-04-28 08:13:30</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.1373255</col>
+			<col name="phoneNumber">031-5189-6205</col>
+			<col name="centerName">코로나19 경기도 화성시 예방접종센터</col>
+			<col name="lng">126.924674</col>
+			<col name="facilityName">화성종합경기타운</col>
+			<col name="id">227</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">화성시</col>
+			<col name="zipCode">18588</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 성남시 수정구 예방접종센터</col>
+			<col name="lng">127.1359321</col>
+			<col name="facilityName">수정커뮤니티센터</col>
+			<col name="id">228</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">성남시 수정구</col>
+			<col name="zipCode">13327</col>
+			<col name="address">경기도 성남시 수정구 탄리로 59</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.441001</col>
+			<col name="phoneNumber">031-729-3843</col>
+		</item>
+		<item>
+			<col name="address">경기도 성남시 중원구 제일로 60</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4315658</col>
+			<col name="phoneNumber">031-729-3901</col>
+			<col name="centerName">코로나19 경기도 성남시 중원구 예방접종센터</col>
+			<col name="lng">127.1380368</col>
+			<col name="zipCode">13363</col>
+			<col name="facilityName">성남종합스포츠센터 다목적체육관</col>
+			<col name="id">229</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">성남시 중원구</col>
+		</item>
+		<item>
+			<col name="facilityName">감골시민홀체육관</col>
+			<col name="id">230</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">안산시 상록구</col>
+			<col name="zipCode">15620</col>
+			<col name="address">경기도 안산시 상록구 석호로226</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:50</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2933981</col>
+			<col name="phoneNumber">031-369-1734</col>
+			<col name="centerName">코로나19 경기도 안산시 상록구 예방접종센터</col>
+			<col name="lng">126.8553523</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 안성시 예방접종센터</col>
+			<col name="lng">127.2603668</col>
+			<col name="sigungu">안성시</col>
+			<col name="zipCode">17568</col>
+			<col name="facilityName">경기도의료원 안성병원</col>
+			<col name="id">231</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="address">경기도 안성시 남파로 95</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:51</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.0173531</col>
+			<col name="phoneNumber">031-678-5913</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3222422</col>
+			<col name="phoneNumber">031-324-8477</col>
+			<col name="centerName">코로나19 경기도 용인시 수지구 예방접종센터</col>
+			<col name="lng">127.0977799</col>
+			<col name="sigungu">용인시 수지구</col>
+			<col name="zipCode">16835</col>
+			<col name="facilityName">수지구청 대회의실</col>
+			<col name="id">232</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="address">경기도 용인시 수지구 포은대로 435</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:51</col>
+		</item>
+		<item>
+			<col name="address">경기도 용인시 기흥구 언남로 74</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:51</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.2951527</col>
+			<col name="phoneNumber">031-324-6083</col>
+			<col name="centerName">코로나19 경기도 용인시 기흥구 예방접종센터</col>
+			<col name="lng">127.1337666</col>
+			<col name="zipCode">16912</col>
+			<col name="facilityName">(舊)경찰대 실내체육관</col>
+			<col name="id">233</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">용인시 기흥구</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 고양시 일산서구 예방접종센터</col>
+			<col name="lng">126.7417719</col>
+			<col name="facilityName">고양체육관</col>
+			<col name="id">234</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">고양시 일산서구</col>
+			<col name="zipCode">10223</col>
+			<col name="address">경기도 고양시 일산서구 중앙로 1601</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="updatedAt">2021-07-16 04:55:51</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.674541</col>
+			<col name="phoneNumber">031-8075-9441</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 시흥시 예방접종센터</col>
+			<col name="lng">126.7848191</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">시흥시</col>
+			<col name="zipCode">14902</col>
+			<col name="facilityName">시흥시체육관</col>
+			<col name="id">235</col>
+			<col name="updatedAt">2021-07-16 04:55:51</col>
+			<col name="address">경기도 시흥시 서해안로 1589</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="phoneNumber">031-310-5851</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4477283</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 김포시 예방접종센터</col>
+			<col name="lng">126.6447177</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">김포시</col>
+			<col name="zipCode">10068</col>
+			<col name="facilityName">김포생활체육관</col>
+			<col name="id">236</col>
+			<col name="updatedAt">2021-07-16 04:55:52</col>
+			<col name="address">경기도 김포시 김포한강8로 198-3</col>
+			<col name="createdAt">2021-04-28 08:13:31</col>
+			<col name="phoneNumber">031-5186-8300</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6404091</col>
+		</item>
+		<item>
+			<col name="phoneNumber">031-8024-4336</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.9883736</col>
+			<col name="centerName">코로나19 경기도 평택시 예방접종센터</col>
+			<col name="lng">127.1093198</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">평택시</col>
+			<col name="zipCode">17903</col>
+			<col name="facilityName">평택시청소년문화센터 실내체육관</col>
+			<col name="id">237</col>
+			<col name="updatedAt">2021-07-16 04:55:52</col>
+			<col name="address">경기도 평택시 평남로 616</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 과천시 예방접종센터</col>
+			<col name="lng">127.000878</col>
+			<col name="facilityName">청소년수련관 실내체육관</col>
+			<col name="id">238</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">과천시</col>
+			<col name="zipCode">13828</col>
+			<col name="address">경기도 과천시 참마을로9</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:52</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4264782</col>
+			<col name="phoneNumber">02-2150-3155</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:52</col>
+			<col name="address">경기도 가평군 가평읍 문화로 131</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="phoneNumber">031-580-4371</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.8236992</col>
+			<col name="centerName">코로나19 경기도 가평군 예방접종센터</col>
+			<col name="lng">127.506962</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">가평군</col>
+			<col name="zipCode">12416</col>
+			<col name="facilityName">가평체육관</col>
+			<col name="id">239</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7066843</col>
+			<col name="phoneNumber">033-430-4028</col>
+			<col name="centerName">코로나19 강원도 홍천군 예방접종센터</col>
+			<col name="lng">127.9070191</col>
+			<col name="zipCode">25126</col>
+			<col name="facilityName">홍천군민스포츠센터</col>
+			<col name="id">240</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">홍천군</col>
+			<col name="address">강원도 홍천군 홍천읍 태학리 310-3</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:52</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4960871</col>
+			<col name="phoneNumber">033-340-5648</col>
+			<col name="centerName">코로나19 강원도 횡성군 예방접종센터</col>
+			<col name="lng">127.9891498</col>
+			<col name="facilityName">횡성농민문화체육센터</col>
+			<col name="id">241</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">횡성군</col>
+			<col name="zipCode">25216</col>
+			<col name="address">강원도 횡성군  문화체육로 57</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+		</item>
+		<item>
+			<col name="address">강원도 철원군 갈말읍 갈말로53-1</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.1601262</col>
+			<col name="phoneNumber">033-450-4115</col>
+			<col name="centerName">코로나19 강원도 철원군 예방접종센터</col>
+			<col name="lng">127.303393</col>
+			<col name="sigungu">철원군</col>
+			<col name="zipCode">24032</col>
+			<col name="facilityName">갈말게이트볼장</col>
+			<col name="id">242</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+			<col name="address">강원도 화천군 하남면 춘화로 3351</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="phoneNumber">033-440-2813</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.09847</col>
+			<col name="centerName">코로나19 강원도 화천군 예방접종센터</col>
+			<col name="lng">127.706018</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">화천군</col>
+			<col name="zipCode">24140</col>
+			<col name="facilityName">화천체육관</col>
+			<col name="id">243</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 강원도 양구군 예방접종센터</col>
+			<col name="lng">127.9838505</col>
+			<col name="facilityName">양구문예회관</col>
+			<col name="id">244</col>
+			<col name="org"/>
+			<col name="sido">강원도</col>
+			<col name="sigungu">양구군</col>
+			<col name="zipCode">24521</col>
+			<col name="address">강원도 양구군 양구읍 비봉로73번길 52-1</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+			<col name="centerType">지역</col>
+			<col name="lat">38.1094228</col>
+			<col name="phoneNumber">033-480-2806</col>
+		</item>
+		<item>
+			<col name="sigungu">청주시 청원구</col>
+			<col name="zipCode">28353</col>
+			<col name="facilityName">청주시장애인스포츠센터</col>
+			<col name="id">245</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="address">충청북도 청주시 청원구 사천로18번길81</col>
+			<col name="createdAt">2021-04-28 08:13:32</col>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.6787376</col>
+			<col name="phoneNumber">043-201-0937</col>
+			<col name="centerName">코로나19 충청북도 청주시 청원구 예방접종센터</col>
+			<col name="lng">127.4780619</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 충청북도 보은군 예방접종센터</col>
+			<col name="lng">127.7161667</col>
+			<col name="facilityName">보은군보건소</col>
+			<col name="id">246</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">보은군</col>
+			<col name="zipCode">28943</col>
+			<col name="address">충청북도 보은군 보은읍 동광길 50</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:53</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.486794</col>
+			<col name="phoneNumber">043-540-5726</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 충청북도 증평군 예방접종센터</col>
+			<col name="lng">127.5847079</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">증평군</col>
+			<col name="zipCode">27948</col>
+			<col name="facilityName">증평청소년수련관</col>
+			<col name="id">247</col>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+			<col name="address">충청북도 증평군 증평읍 보건복지로 64-2</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="phoneNumber">043-835-4225</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.7737834</col>
+		</item>
+		<item>
+			<col name="lat">36.8493237</col>
+			<col name="phoneNumber">043-539-7328</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.4400875</col>
+			<col name="centerName">코로나19 충청북도 진천군 예방접종센터</col>
+			<col name="id">248</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+			<col name="sigungu">진천군</col>
+			<col name="zipCode">27841</col>
+			<col name="facilityName">진천화랑관</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+			<col name="address">충청북도 진천군 진천읍 문화로 69-4</col>
+		</item>
+		<item>
+			<col name="address">충청북도 괴산군 임꺽정로 99-9</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.8138185</col>
+			<col name="phoneNumber">043-830-2307</col>
+			<col name="centerName">코로나19 충청북도 괴산군 예방접종센터</col>
+			<col name="lng">127.7860918</col>
+			<col name="sigungu">괴산군</col>
+			<col name="zipCode">28026</col>
+			<col name="facilityName">괴산문화체육센터</col>
+			<col name="id">249</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.0022942</col>
+			<col name="phoneNumber">063-320-8103</col>
+			<col name="centerName">코로나19 전라북도 무주군 예방접종센터</col>
+			<col name="lng">127.6625497</col>
+			<col name="sigungu">무주군</col>
+			<col name="zipCode">55514</col>
+			<col name="facilityName">무주예체문화관</col>
+			<col name="id">250</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="address">전라북도 무주군 무주읍 한풍루로 326-17</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+		</item>
+		<item>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+			<col name="address">경상북도 구미시 산책길 63</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="phoneNumber">054-480-4043</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.1234321</col>
+			<col name="centerName">코로나19 경상북도 구미시 예방접종센터</col>
+			<col name="lng">128.3293625</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">구미시</col>
+			<col name="zipCode">39305</col>
+			<col name="facilityName">금오산 올림핌기념 국민생활관</col>
+			<col name="id">251</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.2371596</col>
+			<col name="phoneNumber">054-380-7440</col>
+			<col name="centerName">코로나19 경상북도 군위군 예방접종센터</col>
+			<col name="lng">128.5739375</col>
+			<col name="facilityName">군위국민체육센터 </col>
+			<col name="id">252</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">군위군</col>
+			<col name="zipCode">39013</col>
+			<col name="address">경상북도 군위군 군위읍 군청로 158</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:54</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.6597572</col>
+			<col name="phoneNumber">054-680-5123</col>
+			<col name="centerName">코로나19 경상북도 영양군 예방접종센터</col>
+			<col name="lng">129.1169625</col>
+			<col name="facilityName">영양군민회관</col>
+			<col name="id">253</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">영양군</col>
+			<col name="zipCode">36540</col>
+			<col name="address">경상북도 영양군 영양읍 군민회관길 46</col>
+			<col name="createdAt">2021-04-28 08:13:33</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.6485275</col>
+			<col name="phoneNumber">054-370-2646</col>
+			<col name="centerName">코로나19 경상북도 청도군 예방접종센터</col>
+			<col name="lng">128.7174331</col>
+			<col name="facilityName">청도국민체육센터</col>
+			<col name="id">254</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">청도군</col>
+			<col name="zipCode">38333</col>
+			<col name="address">경상북도 청도군 화양읍 청려로 1846</col>
+			<col name="createdAt">2021-04-28 08:13:34</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">35.918242</col>
+			<col name="phoneNumber">054-930-8273</col>
+			<col name="centerName">코로나19 경상북도 성주군 예방접종센터</col>
+			<col name="lng">128.2901752</col>
+			<col name="sigungu">성주군</col>
+			<col name="zipCode">40030</col>
+			<col name="facilityName">성주체육관</col>
+			<col name="id">255</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="address">경상북도 성주군 성주읍 성주로 3257</col>
+			<col name="createdAt">2021-04-28 08:13:34</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">36.9946096</col>
+			<col name="phoneNumber">054-789-5032</col>
+			<col name="centerName">코로나19 경상북도 울진군 예방접종센터</col>
+			<col name="lng">129.4066048</col>
+			<col name="facilityName">울진군민체육관</col>
+			<col name="id">256</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">울진군</col>
+			<col name="zipCode">36324</col>
+			<col name="address">경상북도 울진군 울진읍 연호로 47</col>
+			<col name="createdAt">2021-04-28 08:13:34</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+		</item>
+		<item>
+			<col name="facilityName">울릉군보건의료원</col>
+			<col name="id">257</col>
+			<col name="org"/>
+			<col name="sido">경상북도</col>
+			<col name="sigungu">울릉군</col>
+			<col name="zipCode">40217</col>
+			<col name="address">경상북도 울릉군 울릉읍 울릉순환로 396-18</col>
+			<col name="createdAt">2021-04-28 08:13:34</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4858676</col>
+			<col name="phoneNumber">054-790-6832</col>
+			<col name="centerName">코로나19 경상북도 울릉군 예방접종센터</col>
+			<col name="lng">130.8995244</col>
+		</item>
+		<item>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">은평구</col>
+			<col name="zipCode">03311</col>
+			<col name="facilityName">은평다목적체육관</col>
+			<col name="id">258</col>
+			<col name="org"/>
+			<col name="address">서울특별시 은평구 진관1로 40</col>
+			<col name="createdAt">2021-05-06 01:56:17</col>
+			<col name="updatedAt">2021-07-16 04:55:55</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6312156</col>
+			<col name="phoneNumber">02-351-6187</col>
+			<col name="centerName">코로나19 서울특별시 은평구 예방접종센터</col>
+			<col name="lng">126.9252476</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 강서구 예방접종센터</col>
+			<col name="lng">126.8649297</col>
+			<col name="facilityName">(舊)염강초등학교 체육관</col>
+			<col name="id">259</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강서구</col>
+			<col name="zipCode">07531</col>
+			<col name="address">서울특별시 강서구 허준로 221-22(가양동)</col>
+			<col name="createdAt">2021-05-06 01:56:17</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.56097</col>
+			<col name="phoneNumber">02-2600-6119</col>
+		</item>
+		<item>
+			<col name="phoneNumber">02-2116-3084</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6266706</col>
+			<col name="centerName">코로나19 서울특별시 노원구 예방접종센터</col>
+			<col name="lng">127.0547125</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">노원구</col>
+			<col name="zipCode">01884</col>
+			<col name="facilityName">월계문화체육센터</col>
+			<col name="id">260</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+			<col name="address">서울특별시 노원구 월계로 298</col>
+			<col name="createdAt">2021-05-06 01:56:17</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">34.8059052</col>
+			<col name="phoneNumber">061-450-5112</col>
+			<col name="centerName">코로나19 전라남도 무안군 예방접종센터</col>
+			<col name="lng">126.475479</col>
+			<col name="facilityName">남악주민다목적생활체육관</col>
+			<col name="id">261</col>
+			<col name="org"/>
+			<col name="sido">전라남도</col>
+			<col name="sigungu">무안군</col>
+			<col name="zipCode">58578</col>
+			<col name="address">전라남도 무안군 삼향읍 남악로 327</col>
+			<col name="createdAt">2021-05-06 01:56:17</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+		</item>
+		<item>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">부천시</col>
+			<col name="zipCode">14726</col>
+			<col name="facilityName">송내사회체육관</col>
+			<col name="id">262</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+			<col name="address">경기도 부천시 경인로 120번길, 45</col>
+			<col name="createdAt">2021-05-12 05:32:05</col>
+			<col name="phoneNumber">032-625-4269</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4820476</col>
+			<col name="centerName">코로나19 경기도 부천시 예방접종센터</col>
+			<col name="lng">126.7689255</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 울산광역시 울주군 예방접종센터</col>
+			<col name="lng">129.2907</col>
+			<col name="facilityName">남부통합보건지소</col>
+			<col name="id">263</col>
+			<col name="org"/>
+			<col name="sido">울산광역시</col>
+			<col name="sigungu">울주군</col>
+			<col name="zipCode">44969</col>
+			<col name="address">울산광역시 울주군 온양읍 터실1길 13</col>
+			<col name="createdAt">2021-05-12 05:32:05</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.4553083</col>
+			<col name="phoneNumber">052-204-2821</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 영등포구 신풍로 1</col>
+			<col name="createdAt">2021-05-26 07:16:34</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.500466</col>
+			<col name="phoneNumber">02-2670-3314</col>
+			<col name="centerName">코로나19 서울특별시 영등포구 예방접종센터</col>
+			<col name="lng">126.9063045</col>
+			<col name="sigungu">영등포구</col>
+			<col name="zipCode">07398</col>
+			<col name="facilityName">영등포제1스포츠센터</col>
+			<col name="id">264</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+		</item>
+		<item>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4954502</col>
+			<col name="phoneNumber">02-860-3304</col>
+			<col name="centerName">코로나19 서울특별시 구로구 예방접종센터</col>
+			<col name="lng">126.8460411</col>
+			<col name="facilityName">오류문화센터</col>
+			<col name="id">265</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">구로구</col>
+			<col name="zipCode">08272</col>
+			<col name="address">서울특별시 구로구 경인로20가길 38</col>
+			<col name="createdAt">2021-05-26 07:16:34</col>
+			<col name="updatedAt">2021-07-16 04:55:56</col>
+		</item>
+		<item>
+			<col name="facilityName">송파구민회관</col>
+			<col name="id">266</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">송파구</col>
+			<col name="zipCode">05584</col>
+			<col name="address">서울특별시 송파구 백제고분로 242</col>
+			<col name="createdAt">2021-06-02 07:32:46</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5021377</col>
+			<col name="phoneNumber">02-2147-2131</col>
+			<col name="centerName">코로나19 서울특별시 송파구 예방접종센터</col>
+			<col name="lng">127.0932121</col>
+		</item>
+		<item>
+			<col name="address">인천광역시 남동구 소래로 540</col>
+			<col name="createdAt">2021-06-02 07:32:47</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.43718</col>
+			<col name="phoneNumber">032-453-5128</col>
+			<col name="centerName">코로나19 인천광역시 남동구 예방접종센터</col>
+			<col name="lng">126.7359446</col>
+			<col name="facilityName">남동다목적실내체육관</col>
+			<col name="id">267</col>
+			<col name="org"/>
+			<col name="sido">인천광역시</col>
+			<col name="sigungu">남동구</col>
+			<col name="zipCode">21599</col>
+		</item>
+		<item>
+			<col name="facilityName">율하체육관</col>
+			<col name="id">268</col>
+			<col name="org"/>
+			<col name="sido">경상남도</col>
+			<col name="sigungu">김해시</col>
+			<col name="zipCode">51016</col>
+			<col name="address">경상남도 김해시 율하2로 258</col>
+			<col name="createdAt">2021-06-02 07:32:47</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="centerType">지역</col>
+			<col name="lat">35.1786639</col>
+			<col name="phoneNumber">055-350-0486</col>
+			<col name="centerName">코로나19 경상남도 김해시 예방접종센터</col>
+			<col name="lng">128.8214532</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-06-11 08:43:09</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="address">전라북도 전주시 덕진구 우아1길 20</col>
+			<col name="lat">35.8484765</col>
+			<col name="phoneNumber">063-247-8969</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.1550561</col>
+			<col name="centerName">코로나19 전라북도 전주시 예방접종센터</col>
+			<col name="id">269</col>
+			<col name="org"/>
+			<col name="sido">전라북도</col>
+			<col name="sigungu">전주시 덕진구</col>
+			<col name="zipCode">54909</col>
+			<col name="facilityName">덕진보건소</col>
+		</item>
+		<item>
+			<col name="zipCode">04904</col>
+			<col name="facilityName">중곡문화체육센터</col>
+			<col name="id">270</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">광진구</col>
+			<col name="address">서울특별시 광진구 능동로 433</col>
+			<col name="createdAt">2021-07-02 01:27:32</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5678583</col>
+			<col name="phoneNumber">02-450-7102</col>
+			<col name="centerName">코로나19 서울특별시 광진구 예방접종센터</col>
+			<col name="lng">127.0849125</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 서울특별시 중랑구 예방접종센터</col>
+			<col name="lng">127.0925842</col>
+			<col name="zipCode">02043</col>
+			<col name="facilityName">중랑구청</col>
+			<col name="id">271</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">중랑구</col>
+			<col name="address">서울특별시 중랑구 봉화산로 179</col>
+			<col name="createdAt">2021-07-02 01:27:32</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6063242</col>
+			<col name="phoneNumber">02-2094-2943</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-07-02 01:27:32</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="address">서울특별시 성북구 화랑로 6</col>
+			<col name="lat">37.6031426</col>
+			<col name="phoneNumber">02-2241-2623</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.0325161</col>
+			<col name="centerName">코로나19 서울특별시 성북구 예방접종센터</col>
+			<col name="id">272</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">성북구</col>
+			<col name="zipCode">136-864</col>
+			<col name="facilityName">종암박스파크</col>
+		</item>
+		<item>
+			<col name="lat">37.668768</col>
+			<col name="phoneNumber">02-2091-2102</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.047163</col>
+			<col name="centerName">코로나19 서울특별시 도봉구 예방접종센터</col>
+			<col name="id">273</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">도봉구</col>
+			<col name="zipCode">01331</col>
+			<col name="facilityName">도봉구청</col>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:57</col>
+			<col name="address">서울특별시 도봉구 마들로 656</col>
+		</item>
+		<item>
+			<col name="address">서울특별시 서대문구 연희로 248</col>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:58</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.579225</col>
+			<col name="phoneNumber">02-330-1065</col>
+			<col name="centerName">코로나19 서울특별시 서대문구 예방접종센터</col>
+			<col name="lng">126.9368</col>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">서대문구</col>
+			<col name="zipCode">03718</col>
+			<col name="facilityName">서대문구청 6층 대강당</col>
+			<col name="id">274</col>
+			<col name="org"/>
+		</item>
+		<item>
+			<col name="address"> 서울특별시 마포구 대흥로20길 28</col>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:58</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5498966</col>
+			<col name="phoneNumber">02-3153-6332</col>
+			<col name="centerName">코로나19 서울특별시 마포구 예방접종센터</col>
+			<col name="lng">126.9455362</col>
+			<col name="zipCode">04136</col>
+			<col name="facilityName">마포아트센터(2층 체육관)</col>
+			<col name="id">275</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">마포구</col>
+		</item>
+		<item>
+			<col name="facilityName">건강힐링문화관</col>
+			<col name="id">276</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">양천구</col>
+			<col name="zipCode">08069</col>
+			<col name="address">서울특별시 양천구 남부순환로83길 54</col>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:58</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.5177402</col>
+			<col name="phoneNumber">02-2620-3058</col>
+			<col name="centerName">코로나19 서울특별시 양천구 예방접종센터</col>
+			<col name="lng">126.8458552</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:58</col>
+			<col name="address">서울특별시 여의대방로16길 53</col>
+			<col name="lat">37.4947346</col>
+			<col name="phoneNumber">02-820-1965</col>
+			<col name="centerType">지역</col>
+			<col name="lng">126.916825</col>
+			<col name="centerName">코로나19 서울특별시 동작구 예방접종센터</col>
+			<col name="id">277</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">동작구</col>
+			<col name="zipCode">07062</col>
+			<col name="facilityName">동작구민체육센터</col>
+		</item>
+		<item>
+			<col name="sigungu">관악구</col>
+			<col name="zipCode">08866</col>
+			<col name="facilityName">관악구민방위교육장</col>
+			<col name="id">278</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="address">서울특별시 관악구 문성로16다길 135</col>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:58</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.4692972</col>
+			<col name="phoneNumber">02-879-5154</col>
+			<col name="centerName">코로나19 서울특별시 관악구 예방접종센터</col>
+			<col name="lng">126.9112682</col>
+		</item>
+		<item>
+			<col name="createdAt">2021-07-02 01:27:33</col>
+			<col name="updatedAt">2021-07-16 04:55:59</col>
+			<col name="address">서울특별시 강동구 고덕로 285</col>
+			<col name="lat">37.5567379</col>
+			<col name="phoneNumber">02-3425-5093</col>
+			<col name="centerType">지역</col>
+			<col name="lng">127.1574722</col>
+			<col name="centerName">코로나19 서울특별시 강동구 예방접종센터</col>
+			<col name="id">279</col>
+			<col name="org"/>
+			<col name="sido">서울특별시</col>
+			<col name="sigungu">강동구</col>
+			<col name="zipCode">05225</col>
+			<col name="facilityName">온조대왕 문화체육관</col>
+		</item>
+		<item>
+			<col name="address">충청북도 청주시 흥덕구 대농로 88</col>
+			<col name="createdAt">2021-07-02 01:27:34</col>
+			<col name="updatedAt">2021-07-16 04:55:59</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.6414648</col>
+			<col name="phoneNumber">043-201-0999 </col>
+			<col name="centerName">코로나19 충청북도 청주시 흥덕구 예방접종센터</col>
+			<col name="lng">127.431531</col>
+			<col name="sigungu">청주시 흥덕구</col>
+			<col name="zipCode">28426</col>
+			<col name="facilityName">(舊)흥덕구청</col>
+			<col name="id">280</col>
+			<col name="org"/>
+			<col name="sido">충청북도</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 파주시 예방접종센터</col>
+			<col name="lng">126.7513156</col>
+			<col name="facilityName">운정행복센터</col>
+			<col name="id">281</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">파주시</col>
+			<col name="zipCode">10894</col>
+			<col name="address">경기도 파주시 와석순환로 415</col>
+			<col name="createdAt">2021-07-15 00:25:54</col>
+			<col name="updatedAt">2021-07-16 04:55:59</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.7242066</col>
+			<col name="phoneNumber">031-940-5597</col>
+		</item>
+		<item>
+			<col name="address">경기도 남양주시 화도읍 수레로 1259</col>
+			<col name="createdAt">2021-07-16 04:55:59</col>
+			<col name="updatedAt">2021-07-16 04:55:59</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.6498487</col>
+			<col name="phoneNumber">031-590-2598</col>
+			<col name="centerName">코로나19 경기도 남양주시 예방접종센터</col>
+			<col name="lng">127.301275</col>
+			<col name="facilityName">화도체육문화센터</col>
+			<col name="id">282</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">남양주시</col>
+			<col name="zipCode">12178</col>
+		</item>
+		<item>
+			<col name="centerName">코로나19 경기도 시흥시 예방접종센터</col>
+			<col name="lng">126.8053548</col>
+			<col name="facilityName">시흥국민체육센터</col>
+			<col name="id">283</col>
+			<col name="org"/>
+			<col name="sido">경기도</col>
+			<col name="sigungu">시흥시</col>
+			<col name="zipCode">14976</col>
+			<col name="address">경기도 시흥시 하중로 226</col>
+			<col name="createdAt">2021-07-16 04:55:59</col>
+			<col name="updatedAt">2021-07-16 04:55:59</col>
+			<col name="centerType">지역</col>
+			<col name="lat">37.3916531</col>
+			<col name="phoneNumber">031-310-6822</col>
+		</item>
+		<item>
+			<col name="phoneNumber">041-360-6138</col>
+			<col name="centerType">지역</col>
+			<col name="lat">36.8936392</col>
+			<col name="centerName">코로나19 충청남도 당진시 예방접종센터</col>
+			<col name="lng">126.6443718</col>
+			<col name="org"/>
+			<col name="sido">충청남도</col>
+			<col name="sigungu">당진시</col>
+			<col name="zipCode">31772</col>
+			<col name="facilityName">국민체육센터</col>
+			<col name="id">284</col>
+			<col name="updatedAt">2021-07-16 04:56:00</col>
+			<col name="address">충청남도 당진시 시청1로 30</col>
+			<col name="createdAt">2021-07-16 04:56:00</col>
+		</item>
+	</data>
+	<matchCount>284</matchCount>
+	<page>1</page>
+	<perPage>1000</perPage>
+	<totalCount>284</totalCount>
+</results>
+
+
+Process finished with exit code 0

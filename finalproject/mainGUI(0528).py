@@ -19,6 +19,18 @@ def VaccinationCenter():
     InfoListBox.delete(0, InfoListBox.size())
     for item in Ctrlst:
         if item.get('name') == "facilityName":
+
+            hosptext = "[" + str(num) + "]" + hosps[5].firstChild.nodeValue
+            hosptelno = "전화번호: " + hosps[4].firstChild.nodeValue
+            InfoListBox.insert(name, hosptext)
+            InfoListBox.insert(telno, hosptelno)
+            name += 2
+            telno += 2
+            num += 1
+            ####################################
+
+            centertext = ''
+
             print(item.text)
 
 
@@ -67,7 +79,6 @@ def SymptomHandleTextChange():
     else:
         SymptomText["text"] = "증상(오미크론): "+"\n"+"1. 심한 인후통"+"\n"+"2. 열이 있다면 미열"+"\n"+"3. 몸에 기운이 없고 힘이 빠짐"+"\n"+"4. 콧물"
         SymptomFlag = 0
-
 
 
 def InitScreen():
@@ -165,6 +176,7 @@ def InitScreen():
     SymptomText.grid(row=0, column=1)
     SymptomFlag = 0  # 0 = 증상, 1 = 대처
     ##########################################################################
+
 
 InitScreen()
 window.mainloop()
