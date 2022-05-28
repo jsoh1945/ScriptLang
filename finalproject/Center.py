@@ -25,6 +25,13 @@ Ctrresults = CenterDoc.getroot()
 Ctrlst = Ctrresults.findall('data/item/col')  # 3976개의 정보
 #lst = results.findall('data/item')     # 284개의 센터정보
 
+# cnt = 0
+# for item in Ctrlst:
+#
+#     if item.get('name') == "facilityName":
+#         print(str(cnt) + item.text)
+#         cnt += 1
+
 
 #  분석하기 편하게 프리티로 확인
 #print(CenterDoc.toprettyxml(newl='\n'))
