@@ -1,3 +1,5 @@
+# 예방접종 센터 찾기 XML
+
 from pprint import pprint
 from xml.dom.minidom import parse
 import xml.etree.ElementTree as ET
@@ -31,16 +33,10 @@ def freeDom():
 
 #CenterDoc = LoadXMLFromFile()
 CenterDoc = ET.parse('centers.xml')
-
-results = CenterDoc.getroot()
-lst = results.findall('data/item/col')  # 3976개의 정보
+Ctrresults = CenterDoc.getroot()
+Ctrlst = Ctrresults.findall('data/item/col')  # 3976개의 정보
 #lst = results.findall('data/item')     # 284개의 센터정보
 
-
-for item in lst:
-    #item.get('name')
-    if item.get('name') == "facilityName":
-        print(item.text)
 
 
 #  분석하기 편하게 프리티로 확인
