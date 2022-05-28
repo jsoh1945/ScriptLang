@@ -1,4 +1,4 @@
-
+from pprint import pprint
 from xml.dom.minidom import parse
 from xml.etree import ElementTree
 
@@ -28,7 +28,5 @@ def freeDom():
         print('free HospDoc complete')
 
 
-
-
 HospDoc = LoadXMLFromFile()
-
+#print(HospDoc.toprettyxml(newl='\n'))
