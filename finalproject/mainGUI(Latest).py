@@ -30,8 +30,11 @@ def VaccinationCenter():
             InfoListBox.insert(name, temp)
             name += 2
             num += 1
+
+    for item in Ctrlst:
         if item.get('name') == "phoneNumber":
-            InfoListBox.insert(telno, item.text)
+            temp = 'Tel: ' + str(item.text)
+            InfoListBox.insert(telno, temp)
             telno += 2
 
 
