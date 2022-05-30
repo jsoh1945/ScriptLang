@@ -14,6 +14,12 @@ window.geometry('600x900+450+100')
 InfoListBox = Listbox()
 emailImage = None
 
+SymptomFlag = 0
+SymptomText = Label()
+
+sidovalues = set()
+sigunguvalues = set()
+
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
 
@@ -37,6 +43,24 @@ def VaccinationCenter():
             InfoListBox.insert(telno, temp)
             telno += 2
 
+def SelectSido():
+    global sidovalues
+    global Ctrlst
+
+    for item in Ctrlst:
+        if item.get('name') == "sido":
+            sidovalues.add(item.text)
+    return list(sidovalues)
+
+def SelectSigungu():
+    global sigunguvalues
+    global Ctrlst
+
+    for item in Ctrlst:
+        if item.get('name') == "sigungu":
+            if item.text != None:
+                sigunguvalues.add(item.text)
+    return list(sigunguvalues)
 
 #CenterInfoButton에 들어갈 command함수, GUI의 "코로나검사 실시 기관" 버튼을 누르면 실행되는 함수
 def showHospInfo():
@@ -83,7 +107,9 @@ def SymptomHandleTextChange():
 def InitScreen():
     global InfoListBox
     global emailImage
-
+    global SymptomFlag
+    global SymptomText
+    global sidovalues
     # 사용할 폰트
     ##########################################################################
     fontTitle = font.Font(window, size=18, weight='bold')
@@ -112,17 +138,17 @@ def InitScreen():
     ProvinceCitySelectFrame = Frame(window, width=600, height=50, background='#0000FF')
     ProvinceCitySelectFrame.pack(side='top', fill='x')
 
-    ProvinceText = Label(ProvinceCitySelectFrame, text='        도 선택: ', font=fontNormal)
+    ProvinceText = Label(ProvinceCitySelectFrame, text='      시/도 선택: ', font=fontNormal)
     ProvinceText.grid(row=0, column=0)
 
-    values = [str(i) + "번" for i in range(1, 101)]
-    ProvinceSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=values)
+    #values = [str(i) + "번" for i in range(1, 284 + 1)]
+    ProvinceSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=SelectSido())
     ProvinceSelect.grid(row=0, column=1)
 
-    CityText = Label(ProvinceCitySelectFrame, text='     시 선택: ', font=fontNormal)
+    CityText = Label(ProvinceCitySelectFrame, text='시/군/구선택: ', font=fontNormal)
     CityText.grid(row=0, column=2)
 
-    CitySelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=values)
+    CitySelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=SelectSigungu())
     CitySelect.grid(row=0, column=3)
     ##########################################################################
 
