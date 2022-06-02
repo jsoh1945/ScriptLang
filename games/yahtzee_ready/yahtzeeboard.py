@@ -1,3 +1,9 @@
+#6/2 1. 초기 주사위 세팅 제외 2번 돌려서 남은 Roll횟수가 없을 때 주사위 숫자박스가 다 회색으로 변하게끔 구현,
+#    2. 주사위 값이 세팅되어있지 않다면 카테고리박스를 선택하지 못하도록 수정
+#    3. 메세지 박스 구현해서 2번에서 메세지 팝업박스띄우기
+#    4. 게임이 끝나면 메세지 박스를 팝업시켜 누가 이겼는지 알려주고 확인 버튼을 누르면 게임 재시작
+#    5. roll =0일때 category box를 클릭하면 팝업메세지로 주사위를 굴리라고 알려줌
+#    6. roll =0일때 주사위버튼을 클릭해서 회색박스로 만들지 못하게 해야함 TODO
 from tkinter import *
 from tkinter import font
 from player import *
@@ -117,24 +123,32 @@ class YahtzeeBoard:
             self.bottomLabel.configure(text="보관할 주사위 선택 후 Roll Again")
         elif (self.roll==2):
             for i in range(5):
+                
                 if self.diceButtons[i]['state'] == 'normal':
                     self.dice[i].rollDie()
                     self.diceButtons[i]["text"] = self.dice[i].getRoll()   
                 else:
                     pass
+                self.diceButtons[i]['state'] = 'disabled'
+                self.diceButtons[i]['bg'] = 'light gray'
             self.bottomLabel.configure(text="카테고리를 선택하세요")
             self.rollDice['state'] = 'disabled'
             self.rollDice['bg'] = 'light gray'
-            self.roll = 0
 
     # 각 주사위에 해당되는 버튼 클릭 : disable 시키고 배경색을 어둡게 바꿔 표현해 주기.
     def diceListener(self, row):
+        if self.roll == 0:
+            messagebox.showerror("경고", "먼저 주사위를 굴리고 고정해주세요")
+            return
         self.diceButtons[row]['state'] = 'disabled'
         self.diceButtons[row]['bg'] = 'light gray'
 
     # 카레고리 버튼 눌렀을 때의 처리.
     #   row: 0~5, 8~14
     def categoryListener(self, row):
+        if self.roll == 0:
+            messagebox.showerror("경고", "Roll Dice 버튼을 눌러 주사위를 먼저 굴려주세요")
+            return
         score = Configuration.score(row, self.dice)      #점수 계산
         # index : 0~12
         index = row
@@ -212,9 +226,19 @@ class YahtzeeBoard:
         # -> 이긴 사람을 알리고 새 게임 시작.
         # TODO: 구현
         if self.round == 13:
+            #메세지박스 띄워야하니까 함수 하나 따로 구현
             self.players = sorted(self.players)
-            print(self.players[self.numPlayers-1].toString()+' wins')
+            messagebox.showinfo("게임 종료", "승자는"+self.players[self.numPlayers-1].toString())
             self.round = 0
+            self.window.destroy()
+            self.dice = []
+            self.diceButtons= []
+            self.fields = []
+            self.players= []
+            self.numPlayers = 0
+            self.roll = 0
+            self.InitGame()
+
 
 
         # 다시 Roll Dice 버튼과 diceButtons 버튼들을 활성화.
