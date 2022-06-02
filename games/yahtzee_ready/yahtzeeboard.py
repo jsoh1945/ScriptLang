@@ -155,7 +155,7 @@ class YahtzeeBoard:
         if (row>7):
             index = row-2
         cur_player = self.players[self.player]
-
+        cur_player.setScore(score,index)
         # (1) cur_player에 setScore(), setAtUsed() 호출하여 점수와 사용상태 반영.
         # TODO: 구현        
         if cur_player.setAtUsed(index) == True:
@@ -252,7 +252,7 @@ class YahtzeeBoard:
             self.diceButtons[i]['bg'] = self.color_btn_bg
 
         # bottomLabel 초기화.
-        self.bottomLabel.configure(text=cur_player.toString()+
+        self.bottomLabel.configure(text=self.players[self.player].toString()+
             "차례: Roll Dice 버튼을 누르세요")
 
 if __name__ == '__main__':
