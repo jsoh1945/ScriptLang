@@ -23,34 +23,44 @@ sigunguvalues = set()
 ProvinceSelect = ttk.Combobox()
 CitySelect = ttk.Combobox()
 
+
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
 
 def VaccinationCenter():
     global Ccolslst
     global Citemlst
+
     InfoListBox.delete(0, InfoListBox.size())
 
     lstidx = ProvinceSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
-    sido = sidovalues[lstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
+    curentsido = sidovalues[lstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
 
-    print(sido)
+    print("현재 선택한 시/도:", curentsido)    # 아무 시/도도 선택하지 않았을때엔 랜덤으로 가리킴
+    fitmlst = FindSidoCtr(curentsido)       #현재 선택한 시/도에 해당하는 item을 저장한 list
 
-    name = 0
-    telno = 1
-    num = 1
-    for col in Ccolslst:
-        if col.get('name') == "facilityName":
-            temp = "["+ str(num) + "]" + col.text
-            InfoListBox.insert(name, temp)
-            name += 2
-            num += 1
+    for fitem in fitmlst:
+        for cols in fitem.findall('col'):
+            if cols.get("name") == "facilityName":
+                print(cols.text)
+    print("======================================")
+    ###################################################################
+    # name = 0
+    # telno = 1
+    # num = 1
+    # for col in Ccolslst:
+    #     if col.get('name') == "facilityName":
+    #         temp = "["+ str(num) + "]" + col.text
+    #         InfoListBox.insert(name, temp)
+    #         name += 2
+    #         num += 1
+    #
+    # for col in Ccolslst:
+    #     if col.get('name') == "phoneNumber":
+    #         temp = 'Tel: ' + str(col.text)
+    #         InfoListBox.insert(telno, temp)
+    #         telno += 2
 
-    for col in Ccolslst:
-        if col.get('name') == "phoneNumber":
-            temp = 'Tel: ' + str(col.text)
-            InfoListBox.insert(telno, temp)
-            telno += 2
 
 def SelectSido():
     global sidovalues
@@ -60,7 +70,9 @@ def SelectSido():
         if item.get('name') == "sido":
             sidovalues.add(item.text)
     sidovalues = list(sidovalues)
+
     return sidovalues
+
 
 def SelectSigungu():
     global sigunguvalues
