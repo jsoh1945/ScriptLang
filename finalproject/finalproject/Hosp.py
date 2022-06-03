@@ -34,6 +34,14 @@ def FindSidoHosp(findsido):
             temp.append(item)
     return temp
 
+def FindNameHosp(findname):
+    temp = []
+    for item in Hitemlst:
+        if item.find('yadmNm').text == findname:
+            return item
+
+
+
 # fitmlst = FindSidoHosp('서울')
 # for fitem in fitmlst:
 #     print(fitem.find('yadmNm').text)

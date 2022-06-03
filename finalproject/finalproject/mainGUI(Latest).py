@@ -57,8 +57,6 @@ def VaccinationCenter():
     print("선택한 시/도: ", curentsido)
     print("======================================")
 
-
-
 def SelectSido():
     global sidovalues
     global Ccolslst
@@ -144,6 +142,52 @@ def ViewMap():
             #print(marker_1.position, marker_1.text)  # get position and text
             marker_1.set_text(findplace)  # set new text
 
+def ViewDetail():
+    global InfoListBox
+    global MapBox
+
+    lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
+
+    if lstidx == ():
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
+    else:
+        findplace = InfoListBox.get(lstidx[0])
+        fitem = FindCtrOnlyOne(findplace)
+        for cols in fitem.findall('col'):
+            if cols.get("name") == "address":
+                addr = cols.text
+            if cols.get("name") =="phoneNumber":
+                tel = cols.text
+            if cols.get("name") =="centerName":
+                ctrname = cols.text
+
+        print("예방접종센터명: ", findplace)
+        print("공식센터명: ", ctrname)
+        print("전화번호: ", tel)
+        print("주소: ", addr)
+
+def HViewDetail():
+    global InfoListBox
+    global MapBox
+
+    lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
+
+    if lstidx == ():
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
+    else:
+        findplace = InfoListBox.get(lstidx[0])
+        print(findplace)
+
+        fitem = FindNameHosp(findplace)
+        #name = fitem.find('yadmNm').text
+        tel = fitem.find('telno').text
+        sido = fitem.find('sidoNm').text
+        sgg = fitem.find('sgguNm').text
+
+        print("코로나 검사기관명: ", findplace)
+        print("전화번호: ", tel)
+        print("주소: ", sido, sgg)
+
 def InitScreen():
     global InfoListBox
     global MapBox
@@ -193,11 +237,17 @@ def InitScreen():
     ProvinceText = Label(ProvinceCitySelectFrame, text='      시/도 선택: ', font=fontNormal)
     ProvinceText.grid(row=0, column=0)
 
-    SidoSelect = ttk.Combobox(ProvinceCitySelectFrame, width=50, height=10, values=SelectSido())
+    SidoSelect = ttk.Combobox(ProvinceCitySelectFrame, width=27, height=10, values=SelectSido())
     SidoSelect.grid(row=0, column=1)
 
     ViewMapSelect = Button(ProvinceCitySelectFrame, text='맵보기', padx=5, command=ViewMap)
     ViewMapSelect.grid(row=0, column=2)
+
+    ViewDetailSelect = Button(ProvinceCitySelectFrame, text='접종센터정보', padx=4, command=ViewDetail)
+    ViewDetailSelect.grid(row=0, column=3)
+
+    ViewDetailSelect = Button(ProvinceCitySelectFrame, text='검사기관정보', padx=4, command=HViewDetail)
+    ViewDetailSelect.grid(row=0, column=4)
 
     ##########################################################################
 
