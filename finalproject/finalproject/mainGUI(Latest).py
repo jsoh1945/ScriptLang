@@ -36,15 +36,24 @@ def VaccinationCenter():
     lstidx = ProvinceSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
     curentsido = sidovalues[lstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
 
-    print("현재 선택한 시/도:", curentsido)    # 아무 시/도도 선택하지 않았을때엔 랜덤으로 가리킴
-    fitmlst = FindSidoCtr(curentsido)       #현재 선택한 시/도에 해당하는 item을 저장한 list
+    print("현재 선택한 시/도:", curentsido)    # 아무 시/도 도 선택하지 않았을때엔 랜덤으로 가리킴
+    fitmlst = FindSidoCtr(curentsido)       # 현재 선택한 시/도에 해당하는 item을 저장한 list
+
+    name = 0
+    telno = 1
+    num = 1
 
     for fitem in fitmlst:
         for cols in fitem.findall('col'):
             if cols.get("name") == "facilityName":
-                print(cols.text)
+                #print(cols.text)
+                temp = "[" + str(num) + "]" + cols.text
+                InfoListBox.insert(name, temp)
+                name += 1
+                num += 1
     print("======================================")
-    ###################################################################
+
+    #################################################################
     # name = 0
     # telno = 1
     # num = 1
@@ -71,6 +80,10 @@ def SelectSido():
             sidovalues.add(item.text)
     sidovalues = list(sidovalues)
 
+    # #테스트용
+    # for i in sidovalues:
+    #     print(i)
+
     return sidovalues
 
 
@@ -89,33 +102,28 @@ def SelectSigungu():
 
 #CenterInfoButton에 들어갈 command함수, GUI의 "코로나검사 실시 기관" 버튼을 누르면 실행되는 함수
 def showHospInfo():
-    global HospDoc
-    global InfoListBox
+    global Hitemlst
+
     InfoListBox.delete(0,InfoListBox.size())
 
-    HospList = HospDoc.childNodes
-    response = HospList[0].childNodes
-    Body = response[1].childNodes
-    items = Body[0].childNodes
+    lstidx = ProvinceSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
+    curentsido = sidovalues[lstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
 
-#[0] = adtFrDd (아마 등록된 날짜인듯)
-#[1] = 시군구
-#[2] = 시도
-#[3] = 분류번호(전부97)
-#[4] = 전화번호
-#[5] = 병원 이름
-    name = 0 #
+    print("현재 선택한 시/도:", curentsido)    # 아무 시/도 도 선택하지 않았을때엔 랜덤으로 가리킴
+    fitmlst = FindSidoHosp(curentsido)       # 현재 선택한 시/도에 해당하는 item을 저장한 list
+
+    name = 0
     telno = 1
     num = 1
-    for item in items:
-        hosps = item.childNodes
-        hosptext = "["+str(num)+"]"+hosps[5].firstChild.nodeValue
-        hosptelno = "전화번호: "+hosps[4].firstChild.nodeValue
-        InfoListBox.insert(name,hosptext)
-        InfoListBox.insert(telno,hosptelno)
-        name += 2
-        telno += 2
+
+    for fitem in fitmlst:
+        #print(fitem.find('yadmNm').text)
+        temp = "[" + str(num) + "]" + fitem.find('yadmNm').text
+        InfoListBox.insert(name, temp)
+        name += 1
         num += 1
+    print("======================================")
+
 
 #5월24일 증상/대처 버튼 클릭 시 텍스트 바뀌게하는 함수
 def SymptomHandleTextChange():

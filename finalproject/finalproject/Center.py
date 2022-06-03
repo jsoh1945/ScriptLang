@@ -29,10 +29,8 @@ Ccolslst = Ctrresults.findall('data/item/col')  # 3976개의 정보
 Citemlst = Ctrresults.findall('data/item')
 #lst = results.findall('data/item')     # 284개의 센터정보
 
-cnt = 0
 
 def FindSidoCtr(findsido):
-    global cnt
     temp = []
     for item in Citemlst:
         for col in item:
