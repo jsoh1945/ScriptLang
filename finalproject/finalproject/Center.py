@@ -30,7 +30,7 @@ Citemlst = Ctrresults.findall('data/item')
 #lst = results.findall('data/item')     # 284개의 센터정보
 
 
-def FindSidoCtr(findsido):
+def FindCtr(findsido):
     temp = []
     for item in Citemlst:
         for col in item:
@@ -40,6 +40,15 @@ def FindSidoCtr(findsido):
                 temp.append(item)   #해당 아이템 찾으면 리스트에 추가
     return temp
 
+def FindCtrOnlyOne(findsido):
+    temp = []
+    for item in Citemlst:
+        for col in item:
+            if col.text == findsido:
+                #cnt += 1
+                #return item        #해당 아이템 찾자마자 꺼내는 코드(테스트용)
+                #temp.append(item)
+                return item
 
 # fitmlst = FindSidoCtr('서울특별시')
 # for fitem in fitmlst:

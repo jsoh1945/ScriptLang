@@ -47,14 +47,14 @@ ProvinceText = Label(ProvinceCitySelectFrame,text='        도 선택: ',font=fo
 ProvinceText.grid(row=0,column=0)
 
 sidovalues=[str(i) + "번" for i in range(1, 101)]
-ProvinceSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=sidovalues)
-ProvinceSelect.grid(row=0,column=1)
+SidoSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=sidovalues)
+SidoSelect.grid(row=0, column=1)
 
 CityText = Label(ProvinceCitySelectFrame,text='     시 선택: ',font=fontNormal)
 CityText.grid(row=0,column=2)
 
-CitySelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=sidovalues)
-CitySelect.grid(row=0,column=3)
+SigunguSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=sidovalues)
+SigunguSelect.grid(row=0, column=3)
 ##########################################################################
 
 
