@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import font
 from tkinter import ttk
 from urllib.request import urlopen
-
+from tkinter import messagebox
 from tkinter import *
 import tkintermapview
 
@@ -116,15 +116,15 @@ def ViewMap():
 
     lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
     if lstidx == ():
-        print("먼저 기관을 선택해주세요")
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
     else:
-        findplace = InfoListBox.get(lstidx[0])
-        print(findplace)
-
         #초기값 임의지정
         addr = "경기도 시흥시 산기대학로 237"
-        lng = 48.860381  # 경도
-        lat = 2.338594  # 위도
+        lng = 0  # 경도
+        lat = 0  # 위도
+
+        findplace = InfoListBox.get(lstidx[0])
+        print(findplace)
 
         fitem = FindCtrOnlyOne(findplace)
         for cols in fitem.findall('col'):
@@ -136,12 +136,13 @@ def ViewMap():
                 addr = cols.text
 
         MapBox.set_position(lat, lng)  # 위도,경도 위치지정
-        # 주소 위치지정
         marker_1 = MapBox.set_address(addr, marker=True)
-        print(marker_1.position, marker_1.text)  # get position and text
-        marker_1.set_text(findplace)  # set new text
         MapBox.set_zoom(15)  # 0~19 (19 is the highest zoom level)
 
+        # 주소 위치지정 (마크 표시되는 기관만 표시함(한글주소여서 오류발생하는 기관존재))
+        if marker_1:
+            #print(marker_1.position, marker_1.text)  # get position and text
+            marker_1.set_text(findplace)  # set new text
 
 def InitScreen():
     global InfoListBox
