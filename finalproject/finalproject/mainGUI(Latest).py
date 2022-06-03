@@ -20,47 +20,60 @@ SymptomText = Label()
 sidovalues = set()
 sigunguvalues = set()
 
+ProvinceSelect = ttk.Combobox()
+CitySelect = ttk.Combobox()
+
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
 
 def VaccinationCenter():
-    global Ctrlst
+    global Ccolslst
+    global Citemlst
     InfoListBox.delete(0, InfoListBox.size())
+
+    lstidx = ProvinceSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
+    sido = sidovalues[lstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
+
+    print(sido)
 
     name = 0
     telno = 1
     num = 1
-    for item in Ctrlst:
-        if item.get('name') == "facilityName":
-            temp =  "["+ str(num) + "]" + item.text
+    for col in Ccolslst:
+        if col.get('name') == "facilityName":
+            temp = "["+ str(num) + "]" + col.text
             InfoListBox.insert(name, temp)
             name += 2
             num += 1
 
-    for item in Ctrlst:
-        if item.get('name') == "phoneNumber":
-            temp = 'Tel: ' + str(item.text)
+    for col in Ccolslst:
+        if col.get('name') == "phoneNumber":
+            temp = 'Tel: ' + str(col.text)
             InfoListBox.insert(telno, temp)
             telno += 2
 
 def SelectSido():
     global sidovalues
-    global Ctrlst
+    global Ccolslst
 
-    for item in Ctrlst:
+    for item in Ccolslst:
         if item.get('name') == "sido":
             sidovalues.add(item.text)
-    return list(sidovalues)
+    sidovalues = list(sidovalues)
+    return sidovalues
 
 def SelectSigungu():
     global sigunguvalues
-    global Ctrlst
+    global Ccolslst
 
-    for item in Ctrlst:
+    for item in Ccolslst:
         if item.get('name') == "sigungu":
             if item.text != None:
                 sigunguvalues.add(item.text)
-    return list(sigunguvalues)
+
+    sigunguvalues = list(sigunguvalues)
+    return sigunguvalues
+
 
 #CenterInfoButton에 들어갈 command함수, GUI의 "코로나검사 실시 기관" 버튼을 누르면 실행되는 함수
 def showHospInfo():
@@ -110,6 +123,10 @@ def InitScreen():
     global SymptomFlag
     global SymptomText
     global sidovalues
+
+    global ProvinceSelect
+    global CitySelect
+
     # 사용할 폰트
     ##########################################################################
     fontTitle = font.Font(window, size=18, weight='bold')

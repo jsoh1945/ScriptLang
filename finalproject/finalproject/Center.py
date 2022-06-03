@@ -20,15 +20,18 @@ def freeDom():
         print('free CenterDoc complete')
 
 
+#  분석하기 편하게 프리티로 확인
+#print(CenterDoc.toprettyxml(newl='\n'))
+
 CenterDoc = ET.parse('centers.xml')
 Ctrresults = CenterDoc.getroot()
-Ctrlst = Ctrresults.findall('data/item/col')  # 3976개의 정보
+Ccolslst = Ctrresults.findall('data/item/col')  # 3976개의 정보
 Citemlst = Ctrresults.findall('data/item')
 #lst = results.findall('data/item')     # 284개의 센터정보
 
 cnt = 0
 
-def test(findsido):
+def FindSidoCtr(findsido):
     global cnt
     temp = []
     for item in Citemlst:
@@ -40,17 +43,16 @@ def test(findsido):
     return temp
 
 
-fitmlst = test('서울특별시')
-for fitem in fitmlst:
-    for cols in fitem.findall('col'):
-        if cols.get("name")=="facilityName":
-            print(cols.text)
+# fitmlst = FindSidoCtr('서울특별시')
+# for fitem in fitmlst:
+#     for cols in fitem.findall('col'):
+#         if cols.get("name")=="facilityName":
+#             print(cols.text)
 
-# #해당 item 꺼내와서 출력
+
+# #해당 item 꺼내와서 출력 테스트 코드
 # tempcol = tempitem.findall('col')
 # for col in tempcol:
 #     print(col.text)
 
 
-#  분석하기 편하게 프리티로 확인
-#print(CenterDoc.toprettyxml(newl='\n'))
