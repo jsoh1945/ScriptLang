@@ -1,3 +1,4 @@
+from email import message
 from tkinter import *
 from tkinter import font
 from tkinter import ttk
@@ -28,7 +29,11 @@ SidoSelect = ttk.Combobox()
 curentsido = ''
 fitmlst = []
 
+#예방접종 기관 버튼 클릭flag, 코로나검사 실시기관 버튼 클릭flag
 #
+VaccinationClicked = False
+HospClicked = False
+
 
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
@@ -38,7 +43,12 @@ def VaccinationCenter():
     global Citemlst
     global curentsido
     global fitmlst
+    global HospClicked
+    global VaccinationClicked
 
+    VaccinationClicked = True
+    if HospClicked:
+        HospClicked = False
     InfoListBox.delete(0, InfoListBox.size())
 
     sidolstidx = SidoSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
@@ -78,6 +88,12 @@ def SelectSido():
 def showHospInfo():
     global Hitemlst
     global curentsido
+    global HospClicked
+    global VaccinationClicked
+
+    HospClicked = True
+    if VaccinationClicked:
+        VaccinationClicked = False
     InfoListBox.delete(0,InfoListBox.size())
 
     lstidx = SidoSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
@@ -112,7 +128,11 @@ def SymptomHandleTextChange():
 def ViewMap():
     global InfoListBox
     global MapBox
+    global HospClicked
 
+    if HospClicked:
+        messagebox.showerror("경고","코로나검사 실시 기관은 지도를 지원하지 않습니다")
+        return
     lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
     if lstidx == ():
         messagebox.showerror("경고", "먼저 기관을 선택해주세요")
@@ -146,6 +166,12 @@ def ViewMap():
 def ViewDetail():
     global InfoListBox
     global MapBox
+    global VaccinationClicked
+    global HospClicked
+    
+    if HospClicked:
+        messagebox.showerror("경고","예방접종 센터 정보 버튼을 클릭한 상태가 아닙니다")
+        return
 
     lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
 
@@ -174,16 +200,19 @@ def ViewDetail():
 def HViewDetail():
     global InfoListBox
     global MapBox
-
+    global VaccinationClicked
+    global HospClicked
+    
+    if VaccinationClicked:
+        messagebox.showerror("경고","코로나검사 실시 센터 버튼을 클릭하지 않았습니다")
+        return
     lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
-
     if lstidx == ():
         messagebox.showerror("경고", "먼저 기관을 선택해주세요")
     else:
         findplace = InfoListBox.get(lstidx[0])
         print(findplace)
-
-        fitem = FindNameHosp(findplace)
+        fitem = FindNameHosp(findplace) 
         #name = fitem.find('yadmNm').text
         tel = fitem.find('telno').text
         sido = fitem.find('sidoNm').text
@@ -195,7 +224,8 @@ def HViewDetail():
         messagebox.showinfo("기관정보",msgboxstr)
         print("코로나 검사기관명: ", findplace)
         print("전화번호: ", tel)
-        print("주소: ", sido, sgg)
+        print("주소: ", sido, sgg)        
+        
 
 def InitScreen():
     global InfoListBox
@@ -210,7 +240,6 @@ def InitScreen():
     global sidovalues
 
     global SidoSelect
-    global SigunguSelect
 
     # 사용할 폰트
     ##########################################################################
