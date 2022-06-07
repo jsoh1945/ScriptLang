@@ -1,8 +1,12 @@
-from msilib.schema import ListBox
+from email import message
 from tkinter import *
 from tkinter import font
 from tkinter import ttk
 from urllib.request import urlopen
+from tkinter import messagebox
+from tkinter import *
+import tkintermapview
+
 import webbrowser #URL 리다이렉션을 위한 import
 from Hosp import *
 from Center import *
@@ -12,19 +16,24 @@ window.title("코비디피아")  # Set title
 window.geometry('600x900+450+100')
 
 InfoListBox = Listbox()
+MapBox = tkintermapview.TkinterMapView()
 emailImage = None
+titleImage = None
+redirecImage = None
 
 SymptomFlag = 0
 SymptomText = Label()
 
 sidovalues = set()
-sigunguvalues = set()
-
 SidoSelect = ttk.Combobox()
-SigunguSelect = ttk.Combobox()
 curentsido = ''
-curentsgg = ''
 fitmlst = []
+
+#예방접종 기관 버튼 클릭flag, 코로나검사 실시기관 버튼 클릭flag
+#
+VaccinationClicked = False
+HospClicked = False
+
 
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
@@ -33,22 +42,18 @@ def VaccinationCenter():
     global Ccolslst
     global Citemlst
     global curentsido
-    global curentsgg
     global fitmlst
+    global HospClicked
+    global VaccinationClicked
 
+    VaccinationClicked = True
+    if HospClicked:
+        HospClicked = False
     InfoListBox.delete(0, InfoListBox.size())
 
-    #   시군구 선택 안 돼있으면
-    if SigunguSelect.current() == -1:
-        sidolstidx = SidoSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
-        curentsido = sidovalues[sidolstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
-        fitmlst = FindCtr(curentsido)       # 현재 선택한 시/도에 해당하는 item을 저장한 list
-
-    #   시군구 선택 돼있으면
-    else:
-        sgglstidx = SigunguSelect.current()
-        curentsgg = sigunguvalues[sgglstidx]
-        fitmlst = FindCtr(curentsgg)
+    sidolstidx = SidoSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
+    curentsido = sidovalues[sidolstidx]  # 인덱스 값으로 접근하여 텍스트 현재 시/도 얻어옴
+    fitmlst = FindCtr(curentsido)       # 현재 선택한 시/도에 해당하는 item을 저장한 list
 
     name = 0
     num = 1
@@ -56,32 +61,12 @@ def VaccinationCenter():
         for cols in fitem.findall('col'):
             if cols.get("name") == "facilityName":
                 #print(cols.text)
-                temp = "[" + str(num) + "]" + cols.text
+                temp = cols.text
                 InfoListBox.insert(name, temp)
                 name += 1
                 num += 1
+    print("선택한 시/도: ", curentsido)
     print("======================================")
-
-    print(SigunguSelect.current())
-    print(SidoSelect.current())
-
-    #################################################################
-    # name = 0
-    # telno = 1
-    # num = 1
-    # for col in Ccolslst:
-    #     if col.get('name') == "facilityName":
-    #         temp = "["+ str(num) + "]" + col.text
-    #         InfoListBox.insert(name, temp)
-    #         name += 2
-    #         num += 1
-    #
-    # for col in Ccolslst:
-    #     if col.get('name') == "phoneNumber":
-    #         temp = 'Tel: ' + str(col.text)
-    #         InfoListBox.insert(telno, temp)
-    #         telno += 2
-
 
 def SelectSido():
     global sidovalues
@@ -99,31 +84,16 @@ def SelectSido():
     return sidovalues
 
 
-def SelectSigungu():
-    global sigunguvalues
-    global Ccolslst
-    global fitmlst
-
-    if SidoSelect.current() == -1:
-        for item in Ccolslst:
-            if item.get('name') == "sigungu":
-                sigunguvalues.add(item.text)
-
-    else:
-        SigunguSelect.delete(0, SigunguSelect.size())
-        for fitem in fitmlst:
-            for cols in fitem.findall('col'):
-                if cols.get("name") == "sigungu":
-                    sigunguvalues.add(cols.text)
-
-    sigunguvalues = list(sigunguvalues)
-    return sigunguvalues
-
-
 #CenterInfoButton에 들어갈 command함수, GUI의 "코로나검사 실시 기관" 버튼을 누르면 실행되는 함수
 def showHospInfo():
     global Hitemlst
     global curentsido
+    global HospClicked
+    global VaccinationClicked
+
+    HospClicked = True
+    if VaccinationClicked:
+        VaccinationClicked = False
     InfoListBox.delete(0,InfoListBox.size())
 
     lstidx = SidoSelect.current()  # 시/도 콤보박스에서 현재 선택한 인덱스
@@ -137,13 +107,11 @@ def showHospInfo():
     num = 1
 
     for fitem in fitmlst:
-        #print(fitem.find('yadmNm').text)
-        temp = "[" + str(num) + "]" + fitem.find('yadmNm').text
+        temp = fitem.find('yadmNm').text
         InfoListBox.insert(name, temp)
         name += 1
         num += 1
     print("======================================")
-
 
 #5월24일 증상/대처 버튼 클릭 시 텍스트 바뀌게하는 함수
 def SymptomHandleTextChange():
@@ -157,83 +125,192 @@ def SymptomHandleTextChange():
         SymptomFlag = 0
 
 
+def ViewMap():
+    global InfoListBox
+    global MapBox
+    global HospClicked
+
+    if HospClicked:
+        messagebox.showerror("경고","코로나검사 실시 기관은 지도를 지원하지 않습니다")
+        return
+    lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
+    if lstidx == ():
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
+    else:
+        #초기값 임의지정
+        addr = "경기도 시흥시 산기대학로 237"
+        lng = 0  # 경도
+        lat = 0  # 위도
+
+        findplace = InfoListBox.get(lstidx[0])
+        print(findplace)
+
+        fitem = FindCtrOnlyOne(findplace)
+        for cols in fitem.findall('col'):
+            if cols.get("name") == "lat":
+                lat = float(cols.text)
+            if cols.get("name") == "lng":
+                lng = float(cols.text)
+            if cols.get("name") == "address":
+                addr = cols.text
+
+        MapBox.set_position(lat, lng)  # 위도,경도 위치지정
+        marker_1 = MapBox.set_address(addr, marker=True)
+        MapBox.set_zoom(15)  # 0~19 (19 is the highest zoom level)
+
+        # 주소 위치지정 (마크 표시되는 기관만 표시함(한글주소여서 오류발생하는 기관존재))
+        if marker_1:
+            #print(marker_1.position, marker_1.text)  # get position and text
+            marker_1.set_text(findplace)  # set new text
+
+def ViewDetail():
+    global InfoListBox
+    global MapBox
+    global VaccinationClicked
+    global HospClicked
+    
+    if HospClicked:
+        messagebox.showerror("경고","예방접종 센터 정보 버튼을 클릭한 상태가 아닙니다")
+        return
+
+    lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
+
+    if lstidx == ():
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
+    else:
+        findplace = InfoListBox.get(lstidx[0])
+        fitem = FindCtrOnlyOne(findplace)
+        for cols in fitem.findall('col'):
+            if cols.get("name") == "address":
+                addr = cols.text
+            if cols.get("name") =="phoneNumber":
+                tel = cols.text
+            if cols.get("name") =="centerName":
+                ctrname = cols.text
+        msgboxstr = "예방접종센터명: "+findplace+"\n"\
+                   +"공식센터명: "+ctrname+"\n"\
+                   +"전화번호: "+tel+"\n"\
+                   +"주소: "+addr
+        messagebox.showinfo("예방접종센터 정보",msgboxstr)
+        print("예방접종센터명: ", findplace)
+        print("공식센터명: ", ctrname)
+        print("전화번호: ", tel)
+        print("주소: ", addr)
+
+def HViewDetail():
+    global InfoListBox
+    global MapBox
+    global VaccinationClicked
+    global HospClicked
+    
+    if VaccinationClicked:
+        messagebox.showerror("경고","코로나검사 실시 센터 버튼을 클릭하지 않았습니다")
+        return
+    lstidx = InfoListBox.curselection() # 현재 선택한 인덱스(튜플형태로 반환됨. 첫번째 원소가 인덱스값)
+    if lstidx == ():
+        messagebox.showerror("경고", "먼저 기관을 선택해주세요")
+    else:
+        findplace = InfoListBox.get(lstidx[0])
+        print(findplace)
+        fitem = FindNameHosp(findplace) 
+        #name = fitem.find('yadmNm').text
+        tel = fitem.find('telno').text
+        sido = fitem.find('sidoNm').text
+        sgg = fitem.find('sgguNm').text
+
+        msgboxstr = "코로나 검사기관명: "+findplace+"\n"\
+                    +"전화번호: "+tel+"\n"\
+                    +"주소: "+sido+sgg
+        messagebox.showinfo("기관정보",msgboxstr)
+        print("코로나 검사기관명: ", findplace)
+        print("전화번호: ", tel)
+        print("주소: ", sido, sgg)        
+        
+
 def InitScreen():
     global InfoListBox
+    global MapBox
+
     global emailImage
+    global titleImage
+    global redirecImage
+
     global SymptomFlag
     global SymptomText
     global sidovalues
 
     global SidoSelect
-    global SigunguSelect
 
     # 사용할 폰트
     ##########################################################################
     fontTitle = font.Font(window, size=18, weight='bold')
     fontNormal = font.Font(window, size=15, weight='bold')
+    fontInfo = font.Font(window, size=12, weight='bold')
     ##########################################################################
 
     # 1번째 - 로고, 이메일, 리다이렉션 버튼
     ##########################################################################
-    TopFrame = Frame(window, width=600, height=50, background='#00FF00')
+    TopFrame = Frame(window, width=600, height=50, background='#005BAF')
     TopFrame.pack(side='top', fill='x')
 
-    titleText = Label(TopFrame, text='코비디피아', font=fontTitle, width=20, height=3, borderwidth=12, relief='ridge')
+    titleImage = PhotoImage(file='logo.png')
+    titleText = Label(TopFrame, image=titleImage, font=fontTitle, relief='ridge')
     titleText.grid(row=0, column=0)
 
     emailImage = PhotoImage(file="email.png")  # 이메일 이미지 추가
     emailButton = Button(TopFrame, image=emailImage, padx=5, pady=5)  # 이메일 버튼에 이미지 심어놓음
     emailButton.grid(row=0, column=1)
 
-    redirectButton = Button(TopFrame, text='리다이렉션', width=17, height=6, anchor='center', padx=5, pady=5,
+    redirecImage = PhotoImage(file='redirec.png')
+    redirectButton = Button(TopFrame, image= redirecImage,anchor='center', padx=5, pady=5,
                             command=urlOpen)
     redirectButton.grid(row=0, column=2)
     ##########################################################################
 
     # 2번째 시,도 선택
     ##########################################################################
-    ProvinceCitySelectFrame = Frame(window, width=600, height=50, background='#0000FF')
+    ProvinceCitySelectFrame = Frame(window, width=600, height=50, background='#005BAF')
     ProvinceCitySelectFrame.pack(side='top', fill='x')
 
     ProvinceText = Label(ProvinceCitySelectFrame, text='      시/도 선택: ', font=fontNormal)
     ProvinceText.grid(row=0, column=0)
 
-    #values = [str(i) + "번" for i in range(1, 284 + 1)]
-    SidoSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=SelectSido())
+    SidoSelect = ttk.Combobox(ProvinceCitySelectFrame, width=27, height=10, values=SelectSido())
     SidoSelect.grid(row=0, column=1)
 
-    CityText = Label(ProvinceCitySelectFrame, text='시/군/구선택: ', font=fontNormal)
-    CityText.grid(row=0, column=2)
+    ViewMapSelect = Button(ProvinceCitySelectFrame, text='맵보기', padx=5, command=ViewMap)
+    ViewMapSelect.grid(row=0, column=2)
 
-    SigunguSelect = ttk.Combobox(ProvinceCitySelectFrame, height=10, values=SelectSigungu())
-    SigunguSelect.grid(row=0, column=3)
+    ViewDetailSelect = Button(ProvinceCitySelectFrame, text='접종센터정보', padx=4, command=ViewDetail)
+    ViewDetailSelect.grid(row=0, column=3)
+
+    HViewDetailSelect = Button(ProvinceCitySelectFrame, text='검사기관정보', padx=4, command=HViewDetail)
+    HViewDetailSelect.grid(row=0, column=4)
+
     ##########################################################################
 
     # 3번째 발생현황, 병원정보, 예방접종센터 선택 버튼
     ##########################################################################
-    SelectButtonFrame = Frame(window, width=600, height=100, background='#FF0000')
+    SelectButtonFrame = Frame(window, width=600, height=100, background='#005BAF')
     SelectButtonFrame.pack(side='top', fill='x')
 
     CovidNowButton = Button(SelectButtonFrame, text='발생 현황', height=5, width=20)
     CovidNowButton.grid(row=0, column=0, padx=24)
 
-    HosInfoButton = Button(SelectButtonFrame, text='예방접종 센터 정보', height=5, width=20, command=VaccinationCenter)
-    HosInfoButton.grid(row=0, column=1, padx=25)
+    CenterInfoButton = Button(SelectButtonFrame, text='예방접종 센터 정보', height=5, width=20, command=VaccinationCenter)
+    CenterInfoButton.grid(row=0, column=1, padx=25)
 
-    CenterInfoButton = Button(SelectButtonFrame, text='코로나 검사 실시 센터', height=5, width=20, command=showHospInfo)
-    CenterInfoButton.grid(row=0, column=2, padx=24)
+    HosInfoButton = Button(SelectButtonFrame, text='코로나 검사 실시 센터', height=5, width=20, command=showHospInfo)
+    HosInfoButton.grid(row=0, column=2, padx=24)
     ##########################################################################
 
     # 4번째 지도 표시 & 리스트
     ##########################################################################
-    MapAndListFrame = Frame(window, width=600, height=570, background='#FFFF00')
-    MapAndListFrame.pack(side='top', fill='x')
+    MapAndListFrame = Frame(window, width=300, height=570, background='#005BAF')
+    MapAndListFrame.pack()
 
-    # 맵구현하면 넣을예정
-    MapScrollbar = Scrollbar(MapAndListFrame)
-    MapBox = Listbox(MapAndListFrame, selectmode='extended', \
-                     font=fontNormal, width=25, height=19, \
-                     borderwidth=12, relief='ridge', yscrollcommand=MapScrollbar.set)
+    # 맵
+    MapBox = tkintermapview.TkinterMapView(MapAndListFrame, width=300, height=500, corner_radius=0)
     MapBox.grid(row=0, column=0)
 
     Infocrollbar = Scrollbar(MapAndListFrame)
@@ -241,11 +318,12 @@ def InitScreen():
                           font=fontNormal, width=25, height=19, \
                           borderwidth=12, relief='ridge', yscrollcommand=Infocrollbar.set)
     InfoListBox.grid(row=0, column=1)
+
     ##########################################################################
 
     # 5번째 증상 및 대처
     ##########################################################################
-    symptomAndhandleFrame = Frame(window, width=600, height=157, background='#FF00FF')
+    symptomAndhandleFrame = Frame(window, width=600, height=157, background='#005BAF')
     symptomAndhandleFrame.pack(side='top', fill='x')
 
     SymptomHandleButton = Button(symptomAndhandleFrame, text='증상/대처법', height=5, width=20,
@@ -261,7 +339,4 @@ def InitScreen():
 
 
 InitScreen()
-
-print("현재시도",curentsido)
-print("현재시군구",curentsgg)
 window.mainloop()

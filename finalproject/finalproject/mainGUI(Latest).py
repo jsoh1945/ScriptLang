@@ -1,4 +1,3 @@
-from email import message
 from tkinter import *
 from tkinter import font
 from tkinter import ttk
@@ -6,11 +5,12 @@ from urllib.request import urlopen
 from tkinter import messagebox
 from tkinter import *
 import tkintermapview
-from LiveCoronaInfoJson import *
 
 import webbrowser #URL 리다이렉션을 위한 import
 from Hosp import *
 from Center import *
+from LiveCoronaInfoJson import *
+from gmail_Send import *
 
 window = Tk() #Create a window
 window.title("코비디피아")  # Set title
@@ -29,6 +29,12 @@ sidovalues = set()
 SidoSelect = ttk.Combobox()
 curentsido = ''
 fitmlst = []
+
+EmailTk = ''
+EmailPopUp = ''
+inputEmail = ' '
+receiverEmailAddr = ''
+EmailOkBtn = ''
 
 graphWindow = " " #그래프를 그리는 윈도우
 
@@ -276,7 +282,7 @@ def LiveInfo():
             dataName.append('사망자')
         elif k == 'rate_hospitalizations':
             data.append(float(LiveCoronaInfo[k]))
-            dataName.append('신규 입원자')                  
+            dataName.append('입원자')                  
         elif k == 'rate_severe_symptoms':
             data.append(float(LiveCoronaInfo[k]))
             dataName.append('재원 위중증 발생자')     
@@ -324,6 +330,42 @@ def drawGraph(canvas, data, dataName, cWidth,cHeight):
         canvas.create_text((left+right)//2,top-10,text=str(data[i])+'명')
         canvas.create_text((left+right)//2,bottom+10,text=dataName[i])
     
+def onEmailOkClick():
+    global receiverEmailAddr
+    global inputEmail
+    global LiveClicked, HospClicked, VaccinationClicked
+
+    receiverEmailAddr = inputEmail.get()
+    print(receiverEmailAddr)
+    msg = tuple()
+    if LiveClicked:
+        msg += ('----------발생현황----------',' ')
+    elif HospClicked:
+        msg += ('----------코로나검사 실시 기관----------',' ')
+    elif VaccinationClicked:
+        msg += ('----------예방접종 센터 정보----------',' ')
+    msg += InfoListBox.get(0,InfoListBox.size())
+    
+
+    sendEmail('manutd1st@gmail.com',receiverEmailAddr,msg)
+    EmailPopUp.destroy()
+
+def onEmailPopup():
+    global window, receiverEmailAddr, EmailPopUp,EmailOkBtn,inputEmail
+    global LiveClicked, HospClicked, VaccinationClicked
+    if not LiveClicked and not HospClicked and not VaccinationClicked:
+        messagebox.showerror('경고','발생현황, 예방접종 센터, 코로나검사 실시기관 중 하나를 클릭하세요')
+        return
+    EmailPopUp = Toplevel(window)
+    EmailPopUp.geometry("300x150+200+100")
+    EmailPopUp.title('받을 이메일주소 입력')
+
+    inputEmail = Entry(EmailPopUp,width=200)
+    inputEmail.pack(fill='x',padx=10,expand=True)
+
+    EmailOkBtn = Button(EmailPopUp,text='확인',command=onEmailOkClick)
+    EmailOkBtn.pack(anchor='s',padx=10,pady=10)
+
 def InitScreen():
     global InfoListBox
     global MapBox
@@ -354,7 +396,7 @@ def InitScreen():
     titleText.grid(row=0, column=0)
 
     emailImage = PhotoImage(file="email.png")  # 이메일 이미지 추가
-    emailButton = Button(TopFrame, image=emailImage, padx=5, pady=5)  # 이메일 버튼에 이미지 심어놓음
+    emailButton = Button(TopFrame, image=emailImage, padx=5, pady=5,command=onEmailPopup)  # 이메일 버튼에 이미지 심어놓음
     emailButton.grid(row=0, column=1)
 
     redirecImage = PhotoImage(file='redirec.png')
