@@ -6,7 +6,6 @@ import telepot
 from pprint import pprint # 데이터를 읽기 쉽게 출력
 import traceback
 
-
 from LiveCoronaInfoJson import *
 
 # 봇정보 : 코로나실시간정보봇 , @covid_live_info_bot

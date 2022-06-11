@@ -10,7 +10,7 @@ from datetime import date, datetime
 
 import noti
 
-# date_param: 날짜, user: 사용자ID, loc_param:지역코드
+# 코로나 실시간 현황 정보 불러오기
 def replyAptData(data_param, user):
     print(user)
     res_list = noti.getLiveInfo(data_param)
@@ -50,7 +50,6 @@ def check( user ):
         noti.sendMessage( user, row )
 
 
-
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
     if content_type != 'text':
@@ -65,7 +64,14 @@ def handle(msg):
         replyAptData(data_param, chat_id)
 
     else:
-        noti.sendMessage(chat_id, '''모르는 명령어입니다.''')
+        noti.sendMessage(chat_id, '''모르는 명령어입니다. \n 다음과 같은 명령어를 입력해주세요! \n
+        코로나 정보 : 코로나 정보와 관련한 통합적인 내용을 출력 \n
+        일일 확진자 : 현재 일자 기준 일일 확진자 수 출력 \n
+        일일 신규입원자 : 현재 일자 기준 신규 입원자 수 출력 \n
+        일일 재원 위중증 발생자 : 일일 재원 위중증 발생자 수 출력 \n
+        일일 사망자 : 현재 일자 기준 일일 사망자 수 출력 \n
+        인구 10만명당 사망률 : 현재 인구 10만명당 사망률 출력 \n
+        재원 위중증 발생률 : 재원 환자 중 위중증 발생률 출력 \n ''')
 
 
 today = date.today()

@@ -42,10 +42,11 @@ HospClicked = False
 LiveClicked = False
 graphShowed = False
 
-
+# 사이트 리다이렉션
 def urlOpen():
     webbrowser.open("http://ncov.mohw.go.kr/")
 
+# 예방접종 센터 함수
 def VaccinationCenter():
     global Ccolslst
     global Citemlst
@@ -78,6 +79,8 @@ def VaccinationCenter():
     print("선택한 시/도: ", curentsido)
     print("======================================")
 
+
+# 시/도 리스트 출력 함수
 def SelectSido():
     global sidovalues
     global Ccolslst
@@ -135,7 +138,7 @@ def SymptomHandleTextChange():
         SymptomText["text"] = "증상(오미크론): "+"\n"+"1. 심한 인후통"+"\n"+"2. 열이 있다면 미열"+"\n"+"3. 몸에 기운이 없고 힘이 빠짐"+"\n"+"4. 콧물"
         SymptomFlag = 0
 
-
+# 지도 출력 함수
 def ViewMap():
     global InfoListBox
     global MapBox
@@ -175,6 +178,7 @@ def ViewMap():
             #print(marker_1.position, marker_1.text)  # get position and text
             marker_1.set_text(findplace)  # set new text
 
+# 세부 정보 출력 함수 - 예방접종센터
 def ViewDetail():
     global InfoListBox
     global MapBox
@@ -210,6 +214,7 @@ def ViewDetail():
         print("전화번호: ", tel)
         print("주소: ", addr)
 
+# 세부 정보 출력 함수 - 코로나 검사 실시 센터
 def HViewDetail():
     global InfoListBox
     global MapBox
@@ -239,7 +244,8 @@ def HViewDetail():
         print("코로나 검사기관명: ", findplace)
         print("전화번호: ", tel)
         print("주소: ", sido, sgg)        
-    
+
+# 실시간 코로나 발생현황
 def LiveInfo():
     global HospClicked
     global VaccinationClicked
@@ -287,14 +293,15 @@ def LiveInfo():
     canvas = Canvas(graphWindow,width=300,height=300)
     canvas.place(relx=.5,rely=.5,anchor=CENTER)
     drawGraph(canvas,data,dataName,300,300)
-    
+
+# 그래프 그리기 준비
 def on_closing_graphWindow():
     global graphShowed
     global graphWindow
     graphShowed = False
     graphWindow.destroy()
     
-
+# 그래프 그리기
 def drawGraph(canvas, data, dataName, cWidth,cHeight):
     if not len(data):
         canvas.create_text(cWidth/2,cHeight/2,text="no data")
@@ -323,7 +330,8 @@ def drawGraph(canvas, data, dataName, cWidth,cHeight):
         canvas.create_rectangle(left,top,right,bottom,fill=color,activefill='yellow')
         canvas.create_text((left+right)//2,top-10,text=str(data[i])+'명')
         canvas.create_text((left+right)//2,bottom+10,text=dataName[i])
-    
+
+# man GUI 초기화
 def InitScreen():
     global InfoListBox
     global MapBox

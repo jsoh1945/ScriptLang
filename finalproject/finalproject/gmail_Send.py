@@ -1,3 +1,5 @@
+# 메일 보내기 기능 모듈
+
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 

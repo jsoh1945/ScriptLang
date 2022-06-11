@@ -1,4 +1,4 @@
-# 예방접종 센터 찾기 XML
+# 예방접종 센터 찾기 XML 가공 모듈
 
 from pprint import pprint
 from xml.dom.minidom import parse
@@ -61,5 +61,4 @@ def FindCtrOnlyOne(findsido):
 # tempcol = tempitem.findall('col')
 # for col in tempcol:
 #     print(col.text)
-
 

@@ -1,3 +1,5 @@
+# 실시간 코로나 발생 현황
+
 import requests
 
 url = 'http://apis.data.go.kr/1790387/covid19CurrentStatusKorea/covid19CurrentStatusKoreaJason'
