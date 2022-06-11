@@ -26,7 +26,7 @@ Hospres = HospDoc.getroot()  #response
 Hitemlst = Hospres.findall('body/items/item')   # 총 102개의 검사실시기관
 Hitemslst = Hospres.findall('body/items')
 
-
+# 시/도별 기관 찾기
 def FindSidoHosp(findsido):
     temp = []
     for item in Hitemlst:
@@ -34,6 +34,7 @@ def FindSidoHosp(findsido):
             temp.append(item)
     return temp
 
+# 기관 이름으로 찾기
 def FindNameHosp(findname):
     temp = []
     for item in Hitemlst:

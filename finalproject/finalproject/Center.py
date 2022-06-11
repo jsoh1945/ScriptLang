@@ -29,7 +29,7 @@ Ccolslst = Ctrresults.findall('data/item/col')  # 3976개의 정보
 Citemlst = Ctrresults.findall('data/item')
 #lst = results.findall('data/item')     # 284개의 센터정보
 
-
+# 원하는 요소(꼭 시/도 아니여도 됨. 이름, 위도,경도 다 가능) 포함하는 아이템들 리스트로 출력하는 함수
 def FindCtr(findsido):
     temp = []
     for item in Citemlst:
@@ -40,6 +40,8 @@ def FindCtr(findsido):
                 temp.append(item)   #해당 아이템 찾으면 리스트에 추가
     return temp
 
+
+# 찾는 요소 중 최초로 일치하는 아이템 하나만 리턴하는 함수
 def FindCtrOnlyOne(findsido):
     temp = []
     for item in Citemlst:
