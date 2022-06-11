@@ -21,6 +21,8 @@ MapBox = tkintermapview.TkinterMapView()
 emailImage = None
 titleImage = None
 redirecImage = None
+symptomImage = None
+copImage = None
 
 SymptomFlag = 0
 SymptomText = Label()
@@ -134,11 +136,12 @@ def showHospInfo():
 def SymptomHandleTextChange():
     global SymptomText
     global SymptomFlag
+
     if SymptomFlag == 0:
-        SymptomText["text"] = "대처법(오미크론): "+"\n"+"1. 물 하루에 2L 이상 마시기"+"\n"+"2. 주변 생활 환경이 건조하지 않도록 습도조절"+"\n"+"3. 식사 거르지 않고 영양분 충분히 챙기기"+"\n"+"4. 잠을 충분히 자기"
+        SymptomText["image"] = copImage
         SymptomFlag = 1
     else:
-        SymptomText["text"] = "증상(오미크론): "+"\n"+"1. 심한 인후통"+"\n"+"2. 열이 있다면 미열"+"\n"+"3. 몸에 기운이 없고 힘이 빠짐"+"\n"+"4. 콧물"
+        SymptomText["image"] = symptomImage
         SymptomFlag = 0
 
 
@@ -373,6 +376,8 @@ def InitScreen():
     global emailImage
     global titleImage
     global redirecImage
+    global symptomImage
+    global copImage
 
     global SymptomFlag
     global SymptomText
@@ -462,6 +467,9 @@ def InitScreen():
 
     # 5번째 증상 및 대처
     ##########################################################################
+    symptomImage = PhotoImage(file='symptom.png') # 증상 이미지 추가
+    copImage = PhotoImage(file='cope.png') # 대처 이미지
+
     symptomAndhandleFrame = Frame(window, width=600, height=157, background='#005BAF')
     symptomAndhandleFrame.pack(side='top', fill='x')
 
@@ -469,9 +477,7 @@ def InitScreen():
                                  command=SymptomHandleTextChange)
     SymptomHandleButton.grid(row=0, column=0)
 
-    SymptomText = Label(symptomAndhandleFrame,
-                        text="증상: " + "\n" + "1. 심한 인후통" + "\n" + "2. 열이 있다면 미열" + "\n" + "3. 몸에 기운이 없고 힘이 빠짐" + "\n" + "4. 콧물",
-                        font=fontTitle, width=28, height=5, borderwidth=12, relief='ridge')
+    SymptomText = Label(symptomAndhandleFrame, image=symptomImage)
     SymptomText.grid(row=0, column=1)
     SymptomFlag = 0  # 0 = 증상, 1 = 대처
     ##########################################################################
