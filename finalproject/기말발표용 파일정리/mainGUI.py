@@ -338,6 +338,11 @@ def onEmailOkClick():
     global inputEmail
     global LiveClicked, HospClicked, VaccinationClicked
 
+    if not inputEmail.get():
+        messagebox.showerror('경고', '이메일을 입력해야 하세요')
+        EmailPopUp.destroy()
+        return
+
     receiverEmailAddr = inputEmail.get()
     print(receiverEmailAddr)
     msg = tuple()
@@ -349,8 +354,12 @@ def onEmailOkClick():
         msg += ('----------예방접종 센터 정보----------',' ')
     msg += InfoListBox.get(0,InfoListBox.size())
     
-
-    sendEmail('manutd1st@gmail.com',receiverEmailAddr,msg)
+    try:
+        sendEmail('manutd1st@gmail.com',receiverEmailAddr,msg)
+    except:
+        messagebox.showerror('경고','올바르지 않은 이메일입니다')
+        EmailPopUp.destroy()
+        return
     EmailPopUp.destroy()
 
 def onEmailPopup():

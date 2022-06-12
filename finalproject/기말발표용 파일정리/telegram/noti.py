@@ -27,9 +27,9 @@ def getLiveInfo(data_param):
         datenewinmate = "일일 신규입원자: " + LiveCoronaInfo['cnt_hospitalizations'] + "명"
         datcritical = "일일 재원 위중증 발생자: " + LiveCoronaInfo['cnt_severe_symptoms'] + "명"
         datdeath = "일일 사망자: " + LiveCoronaInfo['cnt_deaths'] + "명"
-        dat10death = "인구10만명당 사망률: " + LiveCoronaInfo['rate_deaths'] + "%"
-        dat10newinmate = '인구 10만명당 신규입원률: ' + LiveCoronaInfo['rate_hospitalizations'] + "%"
-        datcriticalrat = '재원 위중증 발생률: ' + LiveCoronaInfo['rate_severe_symptoms'] + "%"
+        dat10death = "인구10만명당 사망: " + LiveCoronaInfo['rate_deaths'] + "명"
+        dat10newinmate = '인구 10만명당 신규입원: ' + LiveCoronaInfo['rate_hospitalizations'] + "명"
+        datcriticalrat = '인구 10만명당 재원 위중증 발생: ' + LiveCoronaInfo['rate_severe_symptoms'] + "명"
         row = basedate + '\n' + '\n' + datconfrim + '\n' + datenewinmate + '\n' + datcritical + '\n' + datdeath + '\n' + dat10death + '\n' + dat10newinmate + '\n' + datcriticalrat
 
     elif data_param == '일일 확진자':
@@ -48,16 +48,16 @@ def getLiveInfo(data_param):
         datdeath = "일일 사망자: " + LiveCoronaInfo['cnt_deaths'] + "명"
         row = basedate + '\n' + '\n' + datdeath + '\n'
 
-    elif data_param == '인구 10만명당 사망률':
-        dat10deathrat = "인구 10만명당 사망률: " + LiveCoronaInfo['rate_deaths'] + "%"
+    elif data_param == '인구 10만명당 사망':
+        dat10deathrat = "인구 10만명당 사망: " + LiveCoronaInfo['rate_deaths'] + "명"
         row = basedate + '\n' + '\n' + dat10deathrat + '\n'
 
-    elif data_param == '인구 10만명당 신규입원률':
-        dat10newinmate = '인구 10만명당 신규입원률: ' + LiveCoronaInfo['rate_hospitalizations'] + "%"
+    elif data_param == '인구 10만명당 신규입원':
+        dat10newinmate = '인구 10만명당 신규입원: ' + LiveCoronaInfo['rate_hospitalizations'] + "명"
         row = basedate + '\n' + '\n' + dat10newinmate + '\n'
 
-    elif data_param == '재원 위중증 발생률':
-        datcriticalrat = '재원 위중증 발생률: ' + LiveCoronaInfo['rate_severe_symptoms'] + "%"
+    elif data_param == '인구 10만명당 재원 위중증 발생':
+        datcriticalrat = '인구 10만명당 재원 위중증 발생: ' + LiveCoronaInfo['rate_severe_symptoms'] + "명"
         row = basedate + '\n' + '\n' + datcriticalrat + '\n'
 
     res_list.append(row)

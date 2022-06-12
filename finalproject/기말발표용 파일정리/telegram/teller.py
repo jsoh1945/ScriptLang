@@ -60,7 +60,7 @@ def handle(msg):
     args = text.split(' ')
 
     if data_param == '코로나 정보' or data_param == '일일 확진자' or data_param == '일일 신규입원자' or data_param == '일일 재원 위중증 발생자' or \
-            data_param == '일일 사망자' or data_param == '인구 10만명당 사망률' or data_param == '재원 위중증 발생률':
+            data_param == '일일 사망자' or data_param == '인구 10만명당 사망' or data_param == '인구 10만명당 재원 위중증 발생':
         replyAptData(data_param, chat_id)
 
     else:
@@ -70,8 +70,8 @@ def handle(msg):
         일일 신규입원자 : 현재 일자 기준 신규 입원자 수 출력 \n
         일일 재원 위중증 발생자 : 일일 재원 위중증 발생자 수 출력 \n
         일일 사망자 : 현재 일자 기준 일일 사망자 수 출력 \n
-        인구 10만명당 사망률 : 현재 인구 10만명당 사망률 출력 \n
-        재원 위중증 발생률 : 재원 환자 중 위중증 발생률 출력 \n ''')
+        인구 10만명당 사망 : 현재 인구 10만명당 사망 인구 출력 \n
+        인구 10만명당 재원 위중증 발생 : 재원 환자 중 위중증 발생 인구 출력 \n ''')
 
 
 today = date.today()
